@@ -1,0 +1,111 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a783a33186a4ea6bf9dbf025ab5c04e, type: 3}
+  m_Name: AdStatesPatternBase
+  m_EditorClassIdentifier: 
+  patterns:
+  - name: Success
+    states:
+    - delayBefore: 0
+      delayAfter: 0
+      adState: 1
+      finishedWithReward: 0
+      failReason: 
+    - delayBefore: 0
+      delayAfter: 1
+      adState: 2
+      finishedWithReward: 0
+      failReason: 
+    - delayBefore: 0
+      delayAfter: 0
+      adState: 3
+      finishedWithReward: 0
+      failReason: 
+    - delayBefore: 1
+      delayAfter: 0
+      adState: 4
+      finishedWithReward: 0
+      failReason: 
+    - delayBefore: 0
+      delayAfter: 0
+      adState: 6
+      finishedWithReward: 0
+      failReason: 
+    - delayBefore: 0
+      delayAfter: 0
+      adState: 7
+      finishedWithReward: 1
+      failReason: 
+    - delayBefore: 0
+      delayAfter: 0
+      adState: 8
+      finishedWithReward: 0
+      failReason: 
+  - name: Success without reward
+    states:
+    - delayBefore: 0
+      delayAfter: 0
+      adState: 1
+      finishedWithReward: 0
+      failReason: 
+    - delayBefore: 0
+      delayAfter: 1
+      adState: 2
+      finishedWithReward: 0
+      failReason: 
+    - delayBefore: 0
+      delayAfter: 0
+      adState: 3
+      finishedWithReward: 0
+      failReason: 
+    - delayBefore: 1
+      delayAfter: 0
+      adState: 4
+      finishedWithReward: 0
+      failReason: 
+    - delayBefore: 0
+      delayAfter: 0
+      adState: 6
+      finishedWithReward: 0
+      failReason: 
+    - delayBefore: 0
+      delayAfter: 0
+      adState: 7
+      finishedWithReward: 0
+      failReason: 
+    - delayBefore: 0
+      delayAfter: 0
+      adState: 8
+      finishedWithReward: 0
+      failReason: 
+  - name: Fail load
+    states:
+    - delayBefore: 0
+      delayAfter: 0
+      adState: 1
+      finishedWithReward: 0
+      failReason: 
+    - delayBefore: 0
+      delayAfter: 1
+      adState: 2
+      finishedWithReward: 0
+      failReason: 
+    - delayBefore: 0
+      delayAfter: 1
+      adState: 13
+      finishedWithReward: 0
+      failReason: 
+    - delayBefore: 0
+      delayAfter: 1
+      adState: 8
+      finishedWithReward: 0
+      failReason: 

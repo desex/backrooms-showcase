@@ -1,0 +1,341 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b0e642e2dfe4310a94f2002852332dd, type: 3}
+  m_Name: ReactionObstacleEffectBase
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: -4612368521778642040, guid: 2457571d923187c4f8b0885501b7dee7, type: 3}
+    - {fileID: 7922148114208658749, guid: f4091e5f0ae140f43a36eb2eebca51d2, type: 3}
+    - {fileID: 4579129979063295125, guid: 1299f629dad00174da23caebf912b64a, type: 3}
+    - {fileID: 5377461826414488533, guid: 9c7980720615da1418da9b7d2c0d3bf0, type: 3}
+    - {fileID: -8245431122429982040, guid: 54468f074f0c5c64b9955c30d5f5139d, type: 3}
+    - {fileID: 5214172714259406762, guid: 7737c187dd63c9048ab78895332fa79e, type: 3}
+    - {fileID: 7050395468482410295, guid: fab9210d26a365b40b674afbcd4c0724, type: 3}
+    - {fileID: -91825289891904597, guid: c45ed8026215fed46a6fd672e681616e, type: 3}
+    - {fileID: 7050395468482410295, guid: 40dc9efd2062215408feff9c0b7e4247, type: 3}
+    - {fileID: 7050395468482410295, guid: aaff4846995957442b89b3252b2e3caf, type: 3}
+    - {fileID: 7050395468482410295, guid: 3cbddab6d4479cb489f056a2cc884c40, type: 3}
+    - {fileID: 7050395468482410295, guid: c4dca48e2b14aaa4092d505e5c291b9b, type: 3}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: _effectList
+      Entry: 7
+      Data: 0|System.Collections.Generic.Dictionary`2[[Game.Utils.Obstacles.EObstacleEffectType,
+        Assembly-CSharp],[Db.Obstacles.DestructableEffectParameters, Assembly-CSharp]],
+        mscorlib
+    - Name: comparer
+      Entry: 7
+      Data: 1|System.Collections.Generic.EnumEqualityComparer`1[[Game.Utils.Obstacles.EObstacleEffectType,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 12
+      Data: 13
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 1
+    - Name: $v
+      Entry: 7
+      Data: Db.Obstacles.DestructableEffectParameters, Assembly-CSharp
+    - Name: DestructableEffect
+      Entry: 10
+      Data: 0
+    - Name: Duration
+      Entry: 4
+      Data: 3
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 2
+    - Name: $v
+      Entry: 7
+      Data: Db.Obstacles.DestructableEffectParameters, Assembly-CSharp
+    - Name: DestructableEffect
+      Entry: 10
+      Data: 0
+    - Name: Duration
+      Entry: 4
+      Data: 3
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 4
+    - Name: $v
+      Entry: 7
+      Data: Db.Obstacles.DestructableEffectParameters, Assembly-CSharp
+    - Name: DestructableEffect
+      Entry: 10
+      Data: 1
+    - Name: Duration
+      Entry: 4
+      Data: 3
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 5
+    - Name: $v
+      Entry: 7
+      Data: Db.Obstacles.DestructableEffectParameters, Assembly-CSharp
+    - Name: DestructableEffect
+      Entry: 10
+      Data: 2
+    - Name: Duration
+      Entry: 4
+      Data: 3
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 6
+    - Name: $v
+      Entry: 7
+      Data: Db.Obstacles.DestructableEffectParameters, Assembly-CSharp
+    - Name: DestructableEffect
+      Entry: 10
+      Data: 3
+    - Name: Duration
+      Entry: 4
+      Data: 3
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 7
+    - Name: $v
+      Entry: 7
+      Data: Db.Obstacles.DestructableEffectParameters, Assembly-CSharp
+    - Name: DestructableEffect
+      Entry: 10
+      Data: 4
+    - Name: Duration
+      Entry: 4
+      Data: 3
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 8
+    - Name: $v
+      Entry: 7
+      Data: Db.Obstacles.DestructableEffectParameters, Assembly-CSharp
+    - Name: DestructableEffect
+      Entry: 10
+      Data: 5
+    - Name: Duration
+      Entry: 4
+      Data: 3
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 9
+    - Name: $v
+      Entry: 7
+      Data: Db.Obstacles.DestructableEffectParameters, Assembly-CSharp
+    - Name: DestructableEffect
+      Entry: 10
+      Data: 6
+    - Name: Duration
+      Entry: 4
+      Data: 3
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 10
+    - Name: $v
+      Entry: 7
+      Data: Db.Obstacles.DestructableEffectParameters, Assembly-CSharp
+    - Name: DestructableEffect
+      Entry: 10
+      Data: 7
+    - Name: Duration
+      Entry: 4
+      Data: 3
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 11
+    - Name: $v
+      Entry: 7
+      Data: Db.Obstacles.DestructableEffectParameters, Assembly-CSharp
+    - Name: DestructableEffect
+      Entry: 10
+      Data: 8
+    - Name: Duration
+      Entry: 4
+      Data: 3
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 12
+    - Name: $v
+      Entry: 7
+      Data: Db.Obstacles.DestructableEffectParameters, Assembly-CSharp
+    - Name: DestructableEffect
+      Entry: 10
+      Data: 9
+    - Name: Duration
+      Entry: 4
+      Data: 3
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 13
+    - Name: $v
+      Entry: 7
+      Data: Db.Obstacles.DestructableEffectParameters, Assembly-CSharp
+    - Name: DestructableEffect
+      Entry: 10
+      Data: 10
+    - Name: Duration
+      Entry: 4
+      Data: 3
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 14
+    - Name: $v
+      Entry: 7
+      Data: Db.Obstacles.DestructableEffectParameters, Assembly-CSharp
+    - Name: DestructableEffect
+      Entry: 10
+      Data: 11
+    - Name: Duration
+      Entry: 4
+      Data: 3
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  <OffsetY>k__BackingField: 0.5
+  <MultiplierZ>k__BackingField: 2
+  <MultiplierZForDashMin>k__BackingField: 0.5
+  <MultiplierZForDashMax>k__BackingField: 10
+  <PossibleCapPlayerSpeed>k__BackingField: 80
+  <IncreaseMultiplierDashMax>k__BackingField: 2

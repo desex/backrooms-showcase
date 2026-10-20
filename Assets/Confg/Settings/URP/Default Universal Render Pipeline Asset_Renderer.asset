@@ -1,0 +1,260 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-7428982485561867041
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8faf1b3ee71145b3892137f97a2696bf, type: 3}
+  m_Name: SpeedRendererFeature
+  m_EditorClassIdentifier: 
+  m_Active: 0
+  Settings:
+    Speed: 0.60093397
+    MaskSize: 0.89906603
+    MaskContrast: 0.83477515
+    Smoothness: 4.9766517
+    Color: {r: 1, g: 1, b: 1, a: 1}
+    Tiling: {x: 28.65, y: 37.18}
+    EffectSide: 6
+    Power: 0.0007798342
+  _shader: {fileID: -6465566751694194690, guid: fc3e7051deb44284cbc9d795fda15f58, type: 3}
+  _useBlit: 0
+--- !u!114 &-4935689023026854224
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2fbcaec427b488486c74bc9c47f55b8, type: 3}
+  m_Name: WhiteNoiseRendererFeature
+  m_EditorClassIdentifier: 
+  m_Active: 1
+  Settings:
+    ShaderStrength: 1
+    NoiseType: 1
+    BlendType: 1
+    WhiteNoiseScale: 2000
+    WhiteNoiseDissolve: 1
+    Color: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  _shader: {fileID: 4800000, guid: 65645207d8ce58e478bad1dcc122075f, type: 3}
+  _useBlit: 1
+--- !u!114 &-3912567292423385478
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47b3980972f24ea6b8b674d242deed53, type: 3}
+  m_Name: TvLinesRendererFeature
+  m_EditorClassIdentifier: 
+  m_Active: 0
+  Settings:
+    ShaderStrength: 0
+    LinesCount: 100
+    LinesSpeed: 0.01
+    LinesColor: {r: 0, g: 0, b: 0, a: 0.54901963}
+    LinesColorPower: 1
+    _linesSizeBorders: {x: 0.2, y: 0.4}
+    DistortionSpeed: 0.3
+    DistortionStrength: 0.002
+    DistortionNoiseScale: 11
+  _shader: {fileID: -6465566751694194690, guid: a226a5afd1979ac49a397110df15393e, type: 3}
+  _useBlit: 1
+  _renderOnEvent: 600
+--- !u!114 &-2336967722783123079
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cf716a1be50b448e7b1d1968ab734946, type: 3}
+  m_Name: ShinySSRR
+  m_EditorClassIdentifier: 
+  m_Active: 1
+  renderPassEvent: 500
+  useDeferred: 0
+  enableScreenSpaceNormalsPass: 0
+  customSmoothnessMetallicPass: 0
+  ignorePostProcessingOption: 0
+  cameraLayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  ignoreReflectionProbes: 1
+--- !u!114 &-221058354026135166
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2086e3e143e14a2abcd3b0dbc77a10ac, type: 3}
+  m_Name: 'Stylized Water 2: Stylized Water 2'
+  m_EditorClassIdentifier: 
+  m_Active: 1
+  screenSpaceReflectionSettings:
+    enable: 1
+  directionalCaustics: 0
+  displacementPrePassSettings:
+    enable: 0
+    range: 500
+    cellSize: 0.25
+--- !u!114 &-125961523763957803
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aaa01f5aff004fc890a510da1f0470f0, type: 3}
+  m_Name: GlitchRendererFeature
+  m_EditorClassIdentifier: 
+  m_Active: 0
+  Settings:
+    UsePeriod: 1
+    ShaderStrength: 1
+    SquareGlitchingStrength: 0.3
+    SquareGlitchingNoiseAmount: 12.5
+    SquareGlitchingFlickeringStrength: 0.3
+    SquareGlitchingOnOffBorder: -0.65
+    SquareGlitchingPeriodSettings:
+      FrequencyModifier: 3
+      LengthModifier: 0.4
+    WaveGlitchingStrength: 0.031
+    WaveGlitchingNoiseAmount: 100
+    WaveGlitchingNoiseStrength: 0.11
+    WaveGlitchingFlickeringStrength: 0.3
+    WaveGlitchingPeriodSettings:
+      FrequencyModifier: 3
+      LengthModifier: 0.4
+    AberrationsStrength: 0.007
+    AberrationCenter: {x: 0.5, y: 0}
+    AberrationOpacity: 0.8
+    AberrationPeriodSettings:
+      FrequencyModifier: 3
+      LengthModifier: 0.25
+    UseWhiteNoise: 1
+    WhiteNoiseScale: 2000
+    WhiteNoiseDissolve: 20
+  _shader: {fileID: 4800000, guid: a2be900807121fa4abedf2f415db6fd2, type: 3}
+  _useBlit: 1
+  _renderOnEvent: 600
+  _renderTextureFormat: 7
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de640fe3d0db1804a85f9fc8f5cadab6, type: 3}
+  m_Name: Default Universal Render Pipeline Asset_Renderer
+  m_EditorClassIdentifier: 
+  debugShaders:
+    debugReplacementPS: {fileID: 4800000, guid: cf852408f2e174538bcd9b7fda1c5ae7, type: 3}
+    hdrDebugViewPS: {fileID: 4800000, guid: 573620ae32aec764abd4d728906d2587, type: 3}
+  m_RendererFeatures:
+  - {fileID: 1277293169077642440}
+  - {fileID: -3912567292423385478}
+  - {fileID: -125961523763957803}
+  - {fileID: -4935689023026854224}
+  - {fileID: -7428982485561867041}
+  - {fileID: 3319633346310622951}
+  - {fileID: -221058354026135166}
+  - {fileID: -2336967722783123079}
+  m_RendererFeatureMap: c8e4e7b05edbb9117ace4af7c6c4b3c9d5afae58a97e40feb086b0e4fbe880bbdf847c31caf3e6987959f5e73c6c91df
+  m_UseNativeRenderPass: 1
+  postProcessData: {fileID: 11400000, guid: 41439944d30ece34e96484bdb6645b55, type: 2}
+  xrSystemData: {fileID: 11400000, guid: 60e1133243b97e347b653163a8c01b64, type: 2}
+  shaders:
+    blitPS: {fileID: 4800000, guid: c17132b1f77d20942aa75f8429c0f8bc, type: 3}
+    copyDepthPS: {fileID: 4800000, guid: d6dae50ee9e1bfa4db75f19f99355220, type: 3}
+    screenSpaceShadowPS: {fileID: 0}
+    samplingPS: {fileID: 4800000, guid: 04c410c9937594faa893a11dceb85f7e, type: 3}
+    stencilDeferredPS: {fileID: 4800000, guid: e9155b26e1bc55942a41e518703fe304, type: 3}
+    fallbackErrorPS: {fileID: 4800000, guid: e6e9a19c3678ded42a3bc431ebef7dbd, type: 3}
+    fallbackLoadingPS: {fileID: 4800000, guid: 7f888aff2ac86494babad1c2c5daeee2, type: 3}
+    materialErrorPS: {fileID: 4800000, guid: 5fd9a8feb75a4b5894c241777f519d4e, type: 3}
+    coreBlitPS: {fileID: 4800000, guid: 93446b5c5339d4f00b85c159e1159b7c, type: 3}
+    coreBlitColorAndDepthPS: {fileID: 4800000, guid: d104b2fc1ca6445babb8e90b0758136b, type: 3}
+    blitHDROverlay: {fileID: 4800000, guid: a89bee29cffa951418fc1e2da94d1959, type: 3}
+    cameraMotionVector: {fileID: 4800000, guid: c56b7e0d4c7cb484e959caeeedae9bbf, type: 3}
+    objectMotionVector: {fileID: 4800000, guid: 7b3ede40266cd49a395def176e1bc486, type: 3}
+    dataDrivenLensFlare: {fileID: 4800000, guid: 6cda457ac28612740adb23da5d39ea92, type: 3}
+    terrainDetailLitPS: {fileID: 4800000, guid: f6783ab646d374f94b199774402a5144, type: 3}
+    terrainDetailGrassPS: {fileID: 4800000, guid: e507fdfead5ca47e8b9a768b51c291a1, type: 3}
+    terrainDetailGrassBillboardPS: {fileID: 4800000, guid: 29868e73b638e48ca99a19ea58c48d90, type: 3}
+  m_AssetVersion: 2
+  m_OpaqueLayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_TransparentLayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_DefaultStencilState:
+    overrideStencilState: 0
+    stencilReference: 0
+    stencilCompareFunction: 8
+    passOperation: 2
+    failOperation: 0
+    zFailOperation: 0
+  m_ShadowTransparentReceive: 1
+  m_RenderingMode: 0
+  m_DepthPrimingMode: 0
+  m_CopyDepthMode: 0
+  m_AccurateGbufferNormals: 0
+  m_IntermediateTextureMode: 0
+--- !u!114 &1277293169077642440
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7c2c2c3c19808149a4d3454e1019255, type: 3}
+  m_Name: HBAO
+  m_EditorClassIdentifier: 
+  m_Active: 1
+  shader: {fileID: 4800000, guid: bf610497676b34e4dbe0f14fe3fe311c, type: 3}
+--- !u!114 &3319633346310622951
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 952211dd0b8f432ca3e01150850775e5, type: 3}
+  m_Name: StylizedWater2.UnderwaterRendering.UnderwaterRenderFeature
+  m_EditorClassIdentifier: 
+  m_Active: 1
+  resources: {fileID: 11400000, guid: 4eff212383c9f5945ae947b357c76582, type: 2}
+  settings:
+    allowBlur: 0
+    allowDistortion: 0
+    distortionMode: 0
+    directionalCaustics: 0
+    accurateDirectionalCaustics: 0
+    waterlineRefraction: 0

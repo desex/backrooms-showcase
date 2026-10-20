@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 36d01bf212a54e85837d326ae3cbcf1c, type: 3}
+  m_Name: PlayerWallRunParametersBase
+  m_EditorClassIdentifier: 
+  <Speed>k__BackingField: 12
+  <RunAcceleration>k__BackingField: 12
+  <DurationPerUnit>k__BackingField: 0.12
+  <VelocityCurve>k__BackingField:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 2.1336484
+      outSlope: 2.1336484
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.10169489
+    - serializedVersion: 3
+      time: 1
+      value: -2
+      inSlope: -2.414002
+      outSlope: -2.414002
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.16825359
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  <VelocityModifier>k__BackingField: 0.06
+  <JumpForce>k__BackingField: 85
+  <JumpHeight>k__BackingField: 0.025
+  <DelayAfterJump>k__BackingField: 0.5

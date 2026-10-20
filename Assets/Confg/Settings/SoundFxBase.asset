@@ -1,0 +1,708 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 16f81aaa24644e6aa2b41f3d522245d5, type: 3}
+  m_Name: SoundFxBase
+  m_EditorClassIdentifier: 
+  _soundFxVos:
+  - SoundFxName: 1
+    SoundType: 2
+    EventReference:
+      Guid:
+        Data1: 1468433926
+        Data2: 1252004472
+        Data3: -1945945463
+        Data4: -1080421326
+      Path: event:/Run
+  - SoundFxName: 2
+    SoundType: 1
+    EventReference:
+      Guid:
+        Data1: -491215777
+        Data2: 1220795822
+        Data3: 566015401
+        Data4: -402953846
+      Path: event:/Lamp
+  - SoundFxName: 3
+    SoundType: 1
+    EventReference:
+      Guid:
+        Data1: 625343721
+        Data2: 1196603165
+        Data3: 1733615744
+        Data4: 1558495422
+      Path: event:/BackgroundAmbient
+  - SoundFxName: 4
+    SoundType: 1
+    EventReference:
+      Guid:
+        Data1: 1097575364
+        Data2: 1267075684
+        Data3: 866165685
+        Data4: -824407562
+      Path: event:/HitWall
+  - SoundFxName: 5
+    SoundType: 1
+    EventReference:
+      Guid:
+        Data1: 1372028765
+        Data2: 1330900058
+        Data3: 965429422
+        Data4: 254933621
+      Path: event:/HitWithWoodSurface
+  - SoundFxName: 6
+    SoundType: 1
+    EventReference:
+      Guid:
+        Data1: -179227653
+        Data2: 1247398045
+        Data3: 2021671583
+        Data4: 46532932
+      Path: event:/HitWithMetalSurface
+  - SoundFxName: 7
+    SoundType: 1
+    EventReference:
+      Guid:
+        Data1: 522268913
+        Data2: 1201133105
+        Data3: 756598185
+        Data4: 316876701
+      Path: event:/FallDown
+  - SoundFxName: 8
+    SoundType: 1
+    EventReference:
+      Guid:
+        Data1: -1442957137
+        Data2: 1106628348
+        Data3: 1272033159
+        Data4: -1159274079
+      Path: event:/ObstacleCollisionGroan
+  - SoundFxName: 9
+    SoundType: 1
+    EventReference:
+      Guid:
+        Data1: 181211995
+        Data2: 1303594381
+        Data3: -1014130022
+        Data4: -654270832
+      Path: event:/DeathGroan
+  - SoundFxName: 10
+    SoundType: 2
+    EventReference:
+      Guid:
+        Data1: -339250179
+        Data2: 1229537884
+        Data3: 2018969227
+        Data4: -758566811
+      Path: event:/Slide
+  - SoundFxName: 11
+    SoundType: 3
+    EventReference:
+      Guid:
+        Data1: 1987058031
+        Data2: 1278691914
+        Data3: -368181083
+        Data4: -294159339
+      Path: event:/Dyspnea
+  - SoundFxName: 12
+    SoundType: 2
+    EventReference:
+      Guid:
+        Data1: 49056120
+        Data2: 1136930142
+        Data3: -807502936
+        Data4: -1598253421
+      Path: event:/RegularJump
+  - SoundFxName: 13
+    SoundType: 1
+    EventReference:
+      Guid:
+        Data1: 2003505281
+        Data2: 1308017116
+        Data3: 918933138
+        Data4: -900099646
+      Path: event:/Landing
+  - SoundFxName: 14
+    SoundType: 2
+    EventReference:
+      Guid:
+        Data1: -590866279
+        Data2: 1192501289
+        Data3: -2140803953
+        Data4: 1118684152
+      Path: event:/RunOnWoodSurface
+  - SoundFxName: 15
+    SoundType: 1
+    EventReference:
+      Guid:
+        Data1: 2028226923
+        Data2: 1189246432
+        Data3: -1510131280
+        Data4: -1990072774
+      Path: event:/RunOnMetalSurface
+  - SoundFxName: 17
+    SoundType: 2
+    EventReference:
+      Guid:
+        Data1: -1514534200
+        Data2: 1211237499
+        Data3: 50498445
+        Data4: -2029898853
+      Path: event:/Somersault
+  - SoundFxName: 18
+    SoundType: 1
+    EventReference:
+      Guid:
+        Data1: 425594923
+        Data2: 1198132505
+        Data3: 714593970
+        Data4: -1729683269
+      Path: event:/Working TV
+  - SoundFxName: 19
+    SoundType: 1
+    EventReference:
+      Guid:
+        Data1: -1437860748
+        Data2: 1147049349
+        Data3: 2130804128
+        Data4: -1658584060
+      Path: "event:/\u0421assette"
+  - SoundFxName: 20
+    SoundType: 1
+    EventReference:
+      Guid:
+        Data1: 1436647161
+        Data2: 1214251715
+        Data3: -913774682
+        Data4: -2097331311
+      Path: event:/Locked buttons
+  - SoundFxName: 21
+    SoundType: 4
+    EventReference:
+      Guid:
+        Data1: 221662855
+        Data2: 1321374213
+        Data3: -1941831772
+        Data4: -277967150
+      Path: event:/Setting Sound Button
+  - SoundFxName: 23
+    SoundType: 1
+    EventReference:
+      Guid:
+        Data1: -2143919229
+        Data2: 1306142556
+        Data3: 874845849
+        Data4: 196106108
+      Path: event:/Scoring
+  - SoundFxName: 16
+    SoundType: 1
+    EventReference:
+      Guid:
+        Data1: 535155512
+        Data2: 1236131013
+        Data3: -1561061729
+        Data4: 409804705
+      Path: event:/Button sound
+  - SoundFxName: 22
+    SoundType: 4
+    EventReference:
+      Guid:
+        Data1: 1867740678
+        Data2: 1318135407
+        Data3: -1640084555
+        Data4: 46374038
+      Path: event:/Setting Vibration Button
+  - SoundFxName: 26
+    SoundType: 5
+    EventReference:
+      Guid:
+        Data1: -334713446
+        Data2: 1081399438
+        Data3: -1761251683
+        Data4: -1620684166
+      Path: event:/Whispers
+  - SoundFxName: 25
+    SoundType: 1
+    EventReference:
+      Guid:
+        Data1: 401868988
+        Data2: 1202537555
+        Data3: -1640903806
+        Data4: -1835004274
+      Path: event:/Metro Train Arrival
+  - SoundFxName: 24
+    SoundType: 1
+    EventReference:
+      Guid:
+        Data1: -1354090589
+        Data2: 1219854545
+        Data3: -1277343574
+        Data4: -676672409
+      Path: event:/Train Doors Open
+  - SoundFxName: 28
+    SoundType: 4
+    EventReference:
+      Guid:
+        Data1: -566009295
+        Data2: 1274611306
+        Data3: 1658753164
+        Data4: 1952324681
+      Path: event:/CeilingFall
+  - SoundFxName: 27
+    SoundType: 1
+    EventReference:
+      Guid:
+        Data1: -856247227
+        Data2: 1331970998
+        Data3: -1934881899
+        Data4: -1490817480
+      Path: event:/DeathFromHand
+  - SoundFxName: 29
+    SoundType: 1
+    EventReference:
+      Guid:
+        Data1: -1018384272
+        Data2: 1164956060
+        Data3: -451859534
+        Data4: -1074851446
+      Path: event:/MonsterHand
+  - SoundFxName: 30
+    SoundType: 4
+    EventReference:
+      Guid:
+        Data1: 1000508750
+        Data2: 1207407606
+        Data3: -695050323
+        Data4: -1983984938
+      Path: event:/Niche Hand
+  - SoundFxName: 31
+    SoundType: 1
+    EventReference:
+      Guid:
+        Data1: -2137472053
+        Data2: 1328622746
+        Data3: -1974060626
+        Data4: -917651595
+      Path: event:/Body Dragging
+  - SoundFxName: 32
+    SoundType: 1
+    EventReference:
+      Guid:
+        Data1: -1279273027
+        Data2: 1191527641
+        Data3: -938568309
+        Data4: -700553787
+      Path: "event:/\u0421omplete Blackout"
+  - SoundFxName: 33
+    SoundType: 1
+    EventReference:
+      Guid:
+        Data1: -2006199156
+        Data2: 1260356570
+        Data3: -479731575
+        Data4: -556572450
+      Path: event:/Blinking_light
+  - SoundFxName: 34
+    SoundType: 1
+    EventReference:
+      Guid:
+        Data1: -2137810001
+        Data2: 1145937279
+        Data3: 743182217
+        Data4: 971393130
+      Path: event:/Wooden_box_collapse
+  - SoundFxName: 35
+    SoundType: 1
+    EventReference:
+      Guid:
+        Data1: 1288061881
+        Data2: 1096861643
+        Data3: 1983431302
+        Data4: -941191096
+      Path: event:/Background ambient menu
+  - SoundFxName: 36
+    SoundType: 1
+    EventReference:
+      Guid:
+        Data1: -1251170520
+        Data2: 1305707044
+        Data3: 1814762659
+        Data4: -563664068
+      Path: event:/Breathing when overcoming an obstacle
+  - SoundFxName: 37
+    SoundType: 3
+    EventReference:
+      Guid:
+        Data1: 392235001
+        Data2: 1169008276
+        Data3: -1087651699
+        Data4: 85235491
+      Path: event:/Breathing while running
+  - SoundFxName: 38
+    SoundType: 1
+    EventReference:
+      Guid:
+        Data1: 1570417344
+        Data2: 1303144480
+        Data3: -823630717
+        Data4: 702334247
+      Path: event:/Running in the hallway
+  - SoundFxName: 39
+    SoundType: 0
+    EventReference:
+      Guid:
+        Data1: 426644793
+        Data2: 1166924268
+        Data3: 1945348489
+        Data4: 461076636
+      Path: event:/Running on a hillside surface
+  - SoundFxName: 40
+    SoundType: 2
+    EventReference:
+      Guid:
+        Data1: -751501993
+        Data2: 1293681916
+        Data3: 16417464
+        Data4: -454038248
+      Path: event:/Running on armstrong
+  - SoundFxName: 41
+    SoundType: 1
+    EventReference:
+      Guid:
+        Data1: -1605913881
+        Data2: 1169544915
+        Data3: 1288464273
+        Data4: -1920163283
+      Path: event:/Sound of flying into the screen
+  - SoundFxName: 42
+    SoundType: 1
+    EventReference:
+      Guid:
+        Data1: -1607455681
+        Data2: 1286383537
+        Data3: 2028372619
+        Data4: 100356979
+      Path: event:/The sound of friction of a latex suit
+  - SoundFxName: 43
+    SoundType: 1
+    EventReference:
+      Guid:
+        Data1: 406467808
+        Data2: 1296555235
+        Data3: -503130725
+        Data4: -1143687856
+      Path: event:/Whoosh when running between pillars
+  - SoundFxName: 44
+    SoundType: 1
+    EventReference:
+      Guid:
+        Data1: -749897147
+        Data2: 1297273138
+        Data3: -609457789
+        Data4: 1853589075
+      Path: event:/Walking during recovery
+  - SoundFxName: 45
+    SoundType: 1
+    EventReference:
+      Guid:
+        Data1: 1885593880
+        Data2: 1258149452
+        Data3: 1433303714
+        Data4: 1061607121
+      Path: event:/Wall Run
+  - SoundFxName: 46
+    SoundType: 1
+    EventReference:
+      Guid:
+        Data1: 250557958
+        Data2: 1202900970
+        Data3: -1076611933
+        Data4: 738569091
+      Path: event:/BreakingGlass
+  - SoundFxName: 37
+    SoundType: 1
+    EventReference:
+      Guid:
+        Data1: -170751906
+        Data2: 1288686327
+        Data3: -663481967
+        Data4: 650032874
+      Path: event:/MonsterBehindHerBack
+  - SoundFxName: 47
+    SoundType: 1
+    EventReference:
+      Guid:
+        Data1: 274322622
+        Data2: 1265727995
+        Data3: -733698371
+        Data4: 324454949
+      Path: event:/DeathByMonster
+  - SoundFxName: 48
+    SoundType: 1
+    EventReference:
+      Guid:
+        Data1: -170751906
+        Data2: 1288686327
+        Data3: -663481967
+        Data4: 650032874
+      Path: event:/MonsterBehindHerBack
+  - SoundFxName: 49
+    SoundType: 1
+    EventReference:
+      Guid:
+        Data1: 1274445888
+        Data2: 1254967565
+        Data3: 1682564787
+        Data4: 807639589
+      Path: event:/BreakingWood
+  - SoundFxName: 50
+    SoundType: 1
+    EventReference:
+      Guid:
+        Data1: -1251349191
+        Data2: 1184405641
+        Data3: 1056300694
+        Data4: 1637197373
+      Path: event:/PlasticDestroyed
+  - SoundFxName: 51
+    SoundType: 4
+    EventReference:
+      Guid:
+        Data1: -1121307325
+        Data2: 1255907322
+        Data3: -495819095
+        Data4: 1942174657
+      Path: event:/Obstacle Reaction To Berserk Mod
+  - SoundFxName: 52
+    SoundType: 4
+    EventReference:
+      Guid:
+        Data1: -355196512
+        Data2: 1286500065
+        Data3: -1694737746
+        Data4: 1679148823
+      Path: event:/Collectables Feedback
+  - SoundFxName: 53
+    SoundType: 1
+    EventReference:
+      Guid:
+        Data1: 854690211
+        Data2: 1277128086
+        Data3: -572206201
+        Data4: -956249836
+      Path: event:/MovableWalls
+  - SoundFxName: 67
+    SoundType: 1
+    EventReference:
+      Guid:
+        Data1: -1496409102
+        Data2: 1302313621
+        Data3: 676241069
+        Data4: -997891858
+      Path: event:/MonsterSound
+  - SoundFxName: 68
+    SoundType: 1
+    EventReference:
+      Guid:
+        Data1: -178380748
+        Data2: 1288322693
+        Data3: -351292010
+        Data4: -471088143
+      Path: event:/Rumble
+  - SoundFxName: 69
+    SoundType: 1
+    EventReference:
+      Guid:
+        Data1: 147154878
+        Data2: 1307745889
+        Data3: -1812490590
+        Data4: 1972144429
+      Path: event:/MonsterMovementSound
+  - SoundFxName: 70
+    SoundType: 1
+    EventReference:
+      Guid:
+        Data1: -47187656
+        Data2: 1291759987
+        Data3: 2131354792
+        Data4: -1823651815
+      Path: event:/MonsterRoar
+  - SoundFxName: 71
+    SoundType: 2
+    EventReference:
+      Guid:
+        Data1: -1068914152
+        Data2: 1114442843
+        Data3: -1313092213
+        Data4: 39345517
+      Path: event:/Ghost/GhostRun
+  - SoundFxName: 72
+    SoundType: 3
+    EventReference:
+      Guid:
+        Data1: 1613961287
+        Data2: 1215885854
+        Data3: 1133923731
+        Data4: 2052020081
+      Path: event:/Ghost/Ghost Sound of friction of a latex suit
+  - SoundFxName: 73
+    SoundType: 3
+    EventReference:
+      Guid:
+        Data1: -2090293452
+        Data2: 1210925379
+        Data3: -1636964959
+        Data4: -1678684269
+      Path: event:/Ghost/Ghost Breathing while running
+  - SoundFxName: 74
+    SoundType: 2
+    EventReference:
+      Guid:
+        Data1: 1618105086
+        Data2: 1276291708
+        Data3: -1914813762
+        Data4: -734859633
+      Path: event:/Ghost/Ghost Running on Armstrong
+  - SoundFxName: 75
+    SoundType: 2
+    EventReference:
+      Guid:
+        Data1: -589715245
+        Data2: 1216998051
+        Data3: -781286994
+        Data4: 315420210
+      Path: event:/Ghost/Ghost Somersault
+  - SoundFxName: 76
+    SoundType: 2
+    EventReference:
+      Guid:
+        Data1: 1340239777
+        Data2: 1130702343
+        Data3: -1142316644
+        Data4: 45188524
+      Path: event:/Ghost/Ghost Regular Jump
+  - SoundFxName: 77
+    SoundType: 2
+    EventReference:
+      Guid:
+        Data1: 773480985
+        Data2: 1134117976
+        Data3: 232475791
+        Data4: 661425314
+      Path: event:/Ghost/Ghost Slide
+  - SoundFxName: 79
+    SoundType: 1
+    EventReference:
+      Guid:
+        Data1: 1231649957
+        Data2: 1241272907
+        Data3: 175826563
+        Data4: -33300825
+      Path: event:/Ghost/Ghost Death
+  - SoundFxName: 80
+    SoundType: 1
+    EventReference:
+      Guid:
+        Data1: -1028889744
+        Data2: 1240219214
+        Data3: -829020243
+        Data4: 252803233
+      Path: event:/Checkpoint/RunningTV
+  - SoundFxName: 81
+    SoundType: 1
+    EventReference:
+      Guid:
+        Data1: 378659393
+        Data2: 1151402518
+        Data3: 280338622
+        Data4: 1704539679
+      Path: event:/Checkpoint/TVInterference
+  - SoundFxName: 82
+    SoundType: 1
+    EventReference:
+      Guid:
+        Data1: 812160752
+        Data2: 1337257573
+        Data3: -1121833281
+        Data4: -330334142
+      Path: event:/Checkpoint/NewRecord
+  - SoundFxName: 58
+    SoundType: 1
+    EventReference:
+      Guid:
+        Data1: 1070516769
+        Data2: 1256302115
+        Data3: -1296984385
+        Data4: -165597396
+      Path: event:/PlayerMovement/Dash
+  - SoundFxName: 59
+    SoundType: 1
+    EventReference:
+      Guid:
+        Data1: 1630251866
+        Data2: 1082699356
+        Data3: -1953976417
+        Data4: -1762672909
+      Path: event:/PlayerMovement/Berserk/BerserkStart
+  - SoundFxName: 60
+    SoundType: 1
+    EventReference:
+      Guid:
+        Data1: -287709025
+        Data2: 1195103238
+        Data3: 1190795424
+        Data4: 203378087
+      Path: event:/PlayerMovement/Berserk/BerserkFinish
+  - SoundFxName: 84
+    SoundType: 1
+    EventReference:
+      Guid:
+        Data1: -524275570
+        Data2: 1327084931
+        Data3: -457049966
+        Data4: -1918137386
+      Path: event:/Chaser/ChaserSteps
+  - SoundFxName: 85
+    SoundType: 1
+    EventReference:
+      Guid:
+        Data1: -835266365
+        Data2: 1327830340
+        Data3: 1982804124
+        Data4: 1257993498
+      Path: event:/Chaser/ChaserRoarFirst
+  - SoundFxName: 86
+    SoundType: 1
+    EventReference:
+      Guid:
+        Data1: -976356972
+        Data2: 1277053663
+        Data3: 1447262854
+        Data4: -2093776600
+      Path: event:/Chaser/ChaserRoarSecond
+  - SoundFxName: 87
+    SoundType: 1
+    EventReference:
+      Guid:
+        Data1: 1128175134
+        Data2: 1191249860
+        Data3: -1159667282
+        Data4: -1546849955
+      Path: event:/Chaser/ChaserRoarThird
+  - SoundFxName: 88
+    SoundType: 1
+    EventReference:
+      Guid:
+        Data1: -1225757425
+        Data2: 1315615270
+        Data3: 359765656
+        Data4: -363613448
+      Path: event:/Chaser/ChaserGreatRoar

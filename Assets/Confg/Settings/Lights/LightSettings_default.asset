@@ -1,0 +1,873 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9aa1edc020dc4641add6c5e366102356, type: 3}
+  m_Name: LightSettings_default
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: _lightEventActions
+      Entry: 7
+      Data: 0|System.Collections.Generic.Dictionary`2[[Game.Utils.Lights.ELightEvent,
+        Assembly-CSharp],[Game.Utils.Lights.LightActionsContainer, Assembly-CSharp]],
+        mscorlib
+    - Name: comparer
+      Entry: 7
+      Data: 1|System.Collections.Generic.EnumEqualityComparer`1[[Game.Utils.Lights.ELightEvent,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 12
+      Data: 5
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 1
+    - Name: $v
+      Entry: 7
+      Data: 2|Game.Utils.Lights.LightActionsContainer, Assembly-CSharp
+    - Name: NeedResetInEnd
+      Entry: 5
+      Data: true
+    - Name: Commands
+      Entry: 7
+      Data: 3|System.Collections.Generic.List`1[[Game.Utils.Lights.Actions.ILightActionData,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 4|Game.Utils.Lights.Actions.Impl.ChangeColorLightActionData, Assembly-CSharp
+    - Name: IsChangeEnvironmentColor
+      Entry: 5
+      Data: true
+    - Name: EnvironmentColor
+      Entry: 7
+      Data: UnityEngine.Color, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0.4811321
+    - Name: 
+      Entry: 4
+      Data: 0.4811321
+    - Name: 
+      Entry: 4
+      Data: 0.4811321
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: IsChangeLampsColor
+      Entry: 5
+      Data: true
+    - Name: LampsColor
+      Entry: 7
+      Data: UnityEngine.Color, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0.2924528
+    - Name: 
+      Entry: 4
+      Data: 0.285555333
+    - Name: 
+      Entry: 4
+      Data: 0.285555333
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: IsRandomDuration
+      Entry: 5
+      Data: false
+    - Name: Duration
+      Entry: 4
+      Data: 0
+    - Name: DurationRange
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Ease
+      Entry: 3
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 5|Game.Utils.Lights.Actions.Impl.DelayLightActionData, Assembly-CSharp
+    - Name: Delay
+      Entry: 4
+      Data: 6
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 2
+    - Name: $v
+      Entry: 7
+      Data: 6|Game.Utils.Lights.LightActionsContainer, Assembly-CSharp
+    - Name: NeedResetInEnd
+      Entry: 5
+      Data: true
+    - Name: Commands
+      Entry: 7
+      Data: 7|System.Collections.Generic.List`1[[Game.Utils.Lights.Actions.ILightActionData,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 9
+    - Name: 
+      Entry: 7
+      Data: 8|Game.Utils.Lights.Actions.Impl.ChangeColorLightActionData, Assembly-CSharp
+    - Name: IsChangeEnvironmentColor
+      Entry: 5
+      Data: true
+    - Name: EnvironmentColor
+      Entry: 7
+      Data: UnityEngine.Color, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0.482352942
+    - Name: 
+      Entry: 4
+      Data: 0.482352942
+    - Name: 
+      Entry: 4
+      Data: 0.482352942
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: IsChangeLampsColor
+      Entry: 5
+      Data: true
+    - Name: LampsColor
+      Entry: 7
+      Data: UnityEngine.Color, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0.294117659
+    - Name: 
+      Entry: 4
+      Data: 0.286274523
+    - Name: 
+      Entry: 4
+      Data: 0.286274523
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: IsRandomDuration
+      Entry: 5
+      Data: false
+    - Name: Duration
+      Entry: 4
+      Data: 0
+    - Name: DurationRange
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Ease
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 9|Game.Utils.Lights.Actions.Impl.DelayLightActionData, Assembly-CSharp
+    - Name: Delay
+      Entry: 4
+      Data: 0.1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 10|Game.Utils.Lights.Actions.Impl.ChangeColorLightActionData, Assembly-CSharp
+    - Name: IsChangeEnvironmentColor
+      Entry: 5
+      Data: true
+    - Name: EnvironmentColor
+      Entry: 7
+      Data: UnityEngine.Color, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: IsChangeLampsColor
+      Entry: 5
+      Data: true
+    - Name: LampsColor
+      Entry: 7
+      Data: UnityEngine.Color, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: IsRandomDuration
+      Entry: 5
+      Data: false
+    - Name: Duration
+      Entry: 4
+      Data: 0
+    - Name: DurationRange
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Ease
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 11|Game.Utils.Lights.Actions.Impl.DelayLightActionData, Assembly-CSharp
+    - Name: Delay
+      Entry: 4
+      Data: 0.1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 12|Game.Utils.Lights.Actions.Impl.ChangeColorLightActionData, Assembly-CSharp
+    - Name: IsChangeEnvironmentColor
+      Entry: 5
+      Data: true
+    - Name: EnvironmentColor
+      Entry: 7
+      Data: UnityEngine.Color, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0.482352942
+    - Name: 
+      Entry: 4
+      Data: 0.482352942
+    - Name: 
+      Entry: 4
+      Data: 0.482352942
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: IsChangeLampsColor
+      Entry: 5
+      Data: true
+    - Name: LampsColor
+      Entry: 7
+      Data: UnityEngine.Color, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0.294117659
+    - Name: 
+      Entry: 4
+      Data: 0.286274523
+    - Name: 
+      Entry: 4
+      Data: 0.286274523
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: IsRandomDuration
+      Entry: 5
+      Data: false
+    - Name: Duration
+      Entry: 4
+      Data: 0
+    - Name: DurationRange
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Ease
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 13|Game.Utils.Lights.Actions.Impl.DelayLightActionData, Assembly-CSharp
+    - Name: Delay
+      Entry: 4
+      Data: 0.3
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 14|Game.Utils.Lights.Actions.Impl.ChangeColorLightActionData, Assembly-CSharp
+    - Name: IsChangeEnvironmentColor
+      Entry: 5
+      Data: true
+    - Name: EnvironmentColor
+      Entry: 7
+      Data: UnityEngine.Color, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: IsChangeLampsColor
+      Entry: 5
+      Data: true
+    - Name: LampsColor
+      Entry: 7
+      Data: UnityEngine.Color, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: IsRandomDuration
+      Entry: 5
+      Data: false
+    - Name: Duration
+      Entry: 4
+      Data: 0
+    - Name: DurationRange
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Ease
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 15|Game.Utils.Lights.Actions.Impl.DelayLightActionData, Assembly-CSharp
+    - Name: Delay
+      Entry: 4
+      Data: 0.1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 16|Game.Utils.Lights.Actions.Impl.ChangeColorLightActionData, Assembly-CSharp
+    - Name: IsChangeEnvironmentColor
+      Entry: 5
+      Data: true
+    - Name: EnvironmentColor
+      Entry: 7
+      Data: UnityEngine.Color, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0.482352972
+    - Name: 
+      Entry: 4
+      Data: 0.482352972
+    - Name: 
+      Entry: 4
+      Data: 0.482352972
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: IsChangeLampsColor
+      Entry: 5
+      Data: true
+    - Name: LampsColor
+      Entry: 7
+      Data: UnityEngine.Color, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0.294117659
+    - Name: 
+      Entry: 4
+      Data: 0.286274523
+    - Name: 
+      Entry: 4
+      Data: 0.286274523
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: IsRandomDuration
+      Entry: 5
+      Data: false
+    - Name: Duration
+      Entry: 4
+      Data: 0
+    - Name: DurationRange
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Ease
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 3
+    - Name: $v
+      Entry: 7
+      Data: 17|Game.Utils.Lights.LightActionsContainer, Assembly-CSharp
+    - Name: NeedResetInEnd
+      Entry: 5
+      Data: false
+    - Name: Commands
+      Entry: 7
+      Data: 18|System.Collections.Generic.List`1[[Game.Utils.Lights.Actions.ILightActionData,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 19|Game.Utils.Lights.Actions.Impl.ChangeColorLightActionData, Assembly-CSharp
+    - Name: IsChangeEnvironmentColor
+      Entry: 5
+      Data: true
+    - Name: EnvironmentColor
+      Entry: 7
+      Data: UnityEngine.Color, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: IsChangeLampsColor
+      Entry: 5
+      Data: true
+    - Name: LampsColor
+      Entry: 7
+      Data: UnityEngine.Color, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: IsRandomDuration
+      Entry: 5
+      Data: false
+    - Name: Duration
+      Entry: 4
+      Data: 0
+    - Name: DurationRange
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Ease
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 4
+    - Name: $v
+      Entry: 7
+      Data: 20|Game.Utils.Lights.LightActionsContainer, Assembly-CSharp
+    - Name: NeedResetInEnd
+      Entry: 5
+      Data: false
+    - Name: Commands
+      Entry: 7
+      Data: 21|System.Collections.Generic.List`1[[Game.Utils.Lights.Actions.ILightActionData,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 22|Game.Utils.Lights.Actions.Impl.ChangeColorLightActionData, Assembly-CSharp
+    - Name: IsChangeEnvironmentColor
+      Entry: 5
+      Data: true
+    - Name: EnvironmentColor
+      Entry: 7
+      Data: UnityEngine.Color, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: IsChangeLampsColor
+      Entry: 5
+      Data: true
+    - Name: LampsColor
+      Entry: 7
+      Data: UnityEngine.Color, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: IsRandomDuration
+      Entry: 5
+      Data: false
+    - Name: Duration
+      Entry: 4
+      Data: 0.1
+    - Name: DurationRange
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Ease
+      Entry: 3
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 5
+    - Name: $v
+      Entry: 7
+      Data: 23|Game.Utils.Lights.LightActionsContainer, Assembly-CSharp
+    - Name: NeedResetInEnd
+      Entry: 5
+      Data: false
+    - Name: Commands
+      Entry: 7
+      Data: 24|System.Collections.Generic.List`1[[Game.Utils.Lights.Actions.ILightActionData,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 25|Game.Utils.Lights.Actions.Impl.ChangeColorLightActionData, Assembly-CSharp
+    - Name: IsChangeEnvironmentColor
+      Entry: 5
+      Data: true
+    - Name: EnvironmentColor
+      Entry: 7
+      Data: UnityEngine.Color, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: IsChangeLampsColor
+      Entry: 5
+      Data: false
+    - Name: LampsColor
+      Entry: 7
+      Data: UnityEngine.Color, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: IsRandomDuration
+      Entry: 5
+      Data: false
+    - Name: Duration
+      Entry: 4
+      Data: 0.75
+    - Name: DurationRange
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Ease
+      Entry: 3
+      Data: 9
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  <PlayingRandomChance>k__BackingField: 10
+  <LampMaterial>k__BackingField: {fileID: 2100000, guid: 249393bfccfa8e04690e6eb9d9380729, type: 2}

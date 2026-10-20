@@ -1,0 +1,1217 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a88bd91eb844a0083c2a6de0b1583e5, type: 3}
+  m_Name: CheckpointsParameters
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 2800000, guid: f5d98a6e3e7ffe44eabf757dfd404953, type: 3}
+    - {fileID: 2800000, guid: 148236c9fce02ec4ebaa877abfd563e8, type: 3}
+    - {fileID: 2800000, guid: fffbfe715a3b88d43808eafafdc15085, type: 3}
+    - {fileID: 2800000, guid: b55e2032d29b60348b8e4dce686a5cd5, type: 3}
+    - {fileID: 2800000, guid: 40250bb432916a2489c02f3702d95134, type: 3}
+    - {fileID: 2800000, guid: 6272277acb962ed4ea0034a72df6189c, type: 3}
+    - {fileID: 2800000, guid: d22a9fa5d1b6b4c41a1d8c47f500dd08, type: 3}
+    - {fileID: 2800000, guid: f8682429ceadfaf4aae1e4adeec9ec5a, type: 3}
+    - {fileID: 2800000, guid: 21fb57c4dae4c2d4ca2ca6a50aa29c4e, type: 3}
+    - {fileID: 2800000, guid: dcf74689643bc88428e2a4f4f6d85f50, type: 3}
+    - {fileID: 2800000, guid: e369606edec00f549bb614cecad1aa91, type: 3}
+    - {fileID: 2800000, guid: a4ccc80a65102f145b27a68f10fbaf46, type: 3}
+    - {fileID: 2800000, guid: e6bfe40d020a14041a51f3da2b56ef00, type: 3}
+    - {fileID: 2800000, guid: 7d5c69d90c10fbb4aa84f64c9e43f154, type: 3}
+    - {fileID: 2800000, guid: 7f1de9026df047a409dfb494b7616b83, type: 3}
+    - {fileID: 2800000, guid: 5f6a43442216dd24bba1c870d09a2435, type: 3}
+    - {fileID: 2800000, guid: a0d4efefef2e40347bc58fbca7fdaf4f, type: 3}
+    - {fileID: 2800000, guid: c6fab94ae2eae904c92f15730f6269cf, type: 3}
+    - {fileID: 2800000, guid: 818c3012d83486047806ef7b011a03ca, type: 3}
+    - {fileID: 2800000, guid: 2f62b411242dad4439d0e811f1880486, type: 3}
+    - {fileID: 2800000, guid: 64f8157490288264f9e8bd358da30ad0, type: 3}
+    - {fileID: 2800000, guid: 33f4b4c070b40ad4abbd4e0a615bc5da, type: 3}
+    - {fileID: 2800000, guid: 5980b3bc93c7a44449dfc95f3befd7c9, type: 3}
+    - {fileID: 2800000, guid: fc2a34d25431509409dbaa7b17fc1a33, type: 3}
+    - {fileID: 2800000, guid: 583d21f3972c2f34f808e0bfe4ded42d, type: 3}
+    - {fileID: 2800000, guid: 8962d05c5750d4342b2a816931756c88, type: 3}
+    - {fileID: 2800000, guid: ae824206b85a1a545a0285ae8f933b8a, type: 3}
+    - {fileID: 2800000, guid: 281335738381f114687124140e2798a5, type: 3}
+    - {fileID: 2800000, guid: 2332f06f80941f848957c8dd40c00bdc, type: 3}
+    - {fileID: 2800000, guid: 72e04a82c097e9c44ac9de600ffc5cb3, type: 3}
+    - {fileID: 2800000, guid: 989f6bd0ec8ea4541a59b49a5f69b899, type: 3}
+    - {fileID: 2800000, guid: 4e9ecf32c62206b41b9c1dbb05d4650c, type: 3}
+    - {fileID: 2800000, guid: 63294355c81767241b8c3a444c7b88d1, type: 3}
+    - {fileID: 2800000, guid: 5fffc1d7212efb54d96a0c0010e03869, type: 3}
+    - {fileID: 2800000, guid: d071ca742ebc9da4c9417c2cd45005c4, type: 3}
+    - {fileID: 2800000, guid: e5541bb183893d74f9c432542f7e7ee9, type: 3}
+    - {fileID: 2800000, guid: c3970810a68828444bd56ed7a157d0bc, type: 3}
+    - {fileID: 2800000, guid: 2a09cce34cd09054ba68a2564bb08479, type: 3}
+    - {fileID: 2800000, guid: bfab52354add52c43a55817a4dae5d21, type: 3}
+    - {fileID: 2800000, guid: a12f42db794bd1941a1c1195180bc63d, type: 3}
+    - {fileID: 2800000, guid: 7dc49b8ea072f2943b71646a47af69de, type: 3}
+    - {fileID: 2800000, guid: 84f6956fdb24b634881b84c3819d3677, type: 3}
+    - {fileID: 2800000, guid: 5edc7b95f0106f34296e24979f80d661, type: 3}
+    - {fileID: 2800000, guid: 69b7077b197292345a58ce2477297fca, type: 3}
+    - {fileID: 2800000, guid: c7c3e869c96aaf5409e072eaf7aa1fe2, type: 3}
+    - {fileID: 2800000, guid: bf2939aed1e44a84d84c3dbc4f6eb68c, type: 3}
+    - {fileID: 2800000, guid: 38b67b79779acd64785e2fa0dcf871ce, type: 3}
+    - {fileID: 2800000, guid: 12f84029c3b255a41ad4d3769ccd69be, type: 3}
+    - {fileID: 2800000, guid: 55846bf3f8d6ed94c913cd793cb93a3d, type: 3}
+    - {fileID: 2800000, guid: 94a63117069db9b449f330113a4e5f29, type: 3}
+    - {fileID: 2800000, guid: 6e121cb5ebee8c949b0c657ee5818193, type: 3}
+    - {fileID: 2800000, guid: 8835438c5f7d8ff48839a1004fb287b1, type: 3}
+    - {fileID: 2800000, guid: 9c336d33c48dc2647bc9caf6a5a06ee5, type: 3}
+    - {fileID: 2800000, guid: ae09a64ab4bfb804eb39448b12ae2538, type: 3}
+    - {fileID: 2800000, guid: a05bfa45614e0754b90b9b04c2fc0662, type: 3}
+    - {fileID: 2800000, guid: 7c79b44f4d2640548bc1e6aaa69c8b3a, type: 3}
+    - {fileID: 2800000, guid: 17bba2b792f1b9145a7a054906d9b550, type: 3}
+    - {fileID: 2800000, guid: 1c17b2c52dac56349a2f50c9b054889a, type: 3}
+    - {fileID: 2800000, guid: 413d4ea74b04d8a47b2c579178521b92, type: 3}
+    - {fileID: 2800000, guid: 8c0f09e395dec034f9172c21b1c399b6, type: 3}
+    - {fileID: 2800000, guid: d9b83945201e3c048ae6bac578cef899, type: 3}
+    - {fileID: 2800000, guid: 03247fad0007d074b9e41473207272a7, type: 3}
+    - {fileID: 2800000, guid: ecfd44b47df6c784499d1059f2959d7f, type: 3}
+    - {fileID: 2800000, guid: 817d5364e4721f14794b095db48d2ddb, type: 3}
+    - {fileID: 2800000, guid: 6fbbc504892d9c548981a78b872d9e78, type: 3}
+    - {fileID: 2800000, guid: fe7004cb0faedca4abaf01b0c767499c, type: 3}
+    - {fileID: 2800000, guid: 8982d6a9a12913b429aae9c71e223d96, type: 3}
+    - {fileID: 2800000, guid: 60cf4901a2d4b524c8721a910078740f, type: 3}
+    - {fileID: 2800000, guid: 831ae98061950f348943f2386246ef99, type: 3}
+    - {fileID: 2800000, guid: 5d5ec695112fbbe43ac151362aaf0815, type: 3}
+    - {fileID: 2800000, guid: 842fc3b98b360be4f8546560a2c7a2bd, type: 3}
+    - {fileID: 2800000, guid: bdbb55935264aa74b80821b4373f2a2a, type: 3}
+    - {fileID: 2800000, guid: 64ceec9e1088bad4695af3bd335d5856, type: 3}
+    - {fileID: 2800000, guid: 5250dd1529067d24fbb97ec5fcc64ec4, type: 3}
+    - {fileID: 2800000, guid: 2bbab62e5747e944ea3730f17a5a0481, type: 3}
+    - {fileID: 2800000, guid: 6b41bc9061ef85049ba39c32b5ec0fc5, type: 3}
+    - {fileID: 2800000, guid: e180b38bbd41148459555f079577270f, type: 3}
+    - {fileID: 2800000, guid: 7bc73a7f3076ed3408866eaca3288a90, type: 3}
+    - {fileID: 2800000, guid: 8cf560cb2b463d244a05dd6450219712, type: 3}
+    - {fileID: 2800000, guid: 0c6c50f39df02c54ca6e8fa679ca547d, type: 3}
+    - {fileID: 2800000, guid: 53974556ec5e18541a78e00c4bae9ec2, type: 3}
+    - {fileID: 2800000, guid: ba59b82b46bbb8045a1f935a63f742d3, type: 3}
+    - {fileID: 2800000, guid: 1d8927b163e30d7468519f6785302fad, type: 3}
+    - {fileID: 2800000, guid: 077f343aa0db0684ba7bc77945da5591, type: 3}
+    - {fileID: 2800000, guid: a90bf27e9013b4548bead668a940c410, type: 3}
+    - {fileID: 2800000, guid: e3b1dfb2149960b46976baa090009d9c, type: 3}
+    - {fileID: 2800000, guid: 59e2ffe6de26aae438473c98978a2ba9, type: 3}
+    - {fileID: 2800000, guid: 4d2bef2ebf7d1ee48a5e3c243c195e0a, type: 3}
+    - {fileID: 2800000, guid: e845ee84a888a5d48977d382fd9e750f, type: 3}
+    - {fileID: 2800000, guid: 7221a31b3a9b79a43abe4c0cf65c7c8f, type: 3}
+    - {fileID: 2800000, guid: 4188cf2be9b11064984d1835f63bac2e, type: 3}
+    - {fileID: 2800000, guid: 47de8bc43d4fb4545a74f4ee6645e575, type: 3}
+    - {fileID: 2800000, guid: f7891e2aeca1b36409b0e9b8f015aa87, type: 3}
+    - {fileID: 2800000, guid: 782dabcc359b223418e422a0ad272a0c, type: 3}
+    - {fileID: 2800000, guid: a2fae47e491c2e94dab73053bd44d199, type: 3}
+    - {fileID: 2800000, guid: 9c71c2d283e7cd54b8ea2d6f728f3eb0, type: 3}
+    - {fileID: 2800000, guid: 39260fd5328e2dc4ead1a03737feef5c, type: 3}
+    - {fileID: 2800000, guid: bc111e8bc89ded3488b79980e810301d, type: 3}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: _texturesData
+      Entry: 7
+      Data: 0|System.Collections.Generic.Dictionary`2[[System.Int32, mscorlib],[Game.Utils.Checkpoint.CheckpointTexturesData,
+        Assembly-CSharp]], mscorlib
+    - Name: comparer
+      Entry: 7
+      Data: 1|System.Collections.Generic.GenericEqualityComparer`1[[System.Int32,
+        mscorlib]], mscorlib
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 12
+      Data: 50
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 200
+    - Name: $v
+      Entry: 7
+      Data: Game.Utils.Checkpoint.CheckpointTexturesData, Assembly-CSharp
+    - Name: Appear
+      Entry: 10
+      Data: 0
+    - Name: Loop
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 400
+    - Name: $v
+      Entry: 7
+      Data: Game.Utils.Checkpoint.CheckpointTexturesData, Assembly-CSharp
+    - Name: Appear
+      Entry: 10
+      Data: 2
+    - Name: Loop
+      Entry: 10
+      Data: 3
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 600
+    - Name: $v
+      Entry: 7
+      Data: Game.Utils.Checkpoint.CheckpointTexturesData, Assembly-CSharp
+    - Name: Appear
+      Entry: 10
+      Data: 4
+    - Name: Loop
+      Entry: 10
+      Data: 5
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 800
+    - Name: $v
+      Entry: 7
+      Data: Game.Utils.Checkpoint.CheckpointTexturesData, Assembly-CSharp
+    - Name: Appear
+      Entry: 10
+      Data: 6
+    - Name: Loop
+      Entry: 10
+      Data: 7
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 1000
+    - Name: $v
+      Entry: 7
+      Data: Game.Utils.Checkpoint.CheckpointTexturesData, Assembly-CSharp
+    - Name: Appear
+      Entry: 10
+      Data: 8
+    - Name: Loop
+      Entry: 10
+      Data: 9
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 1200
+    - Name: $v
+      Entry: 7
+      Data: Game.Utils.Checkpoint.CheckpointTexturesData, Assembly-CSharp
+    - Name: Appear
+      Entry: 10
+      Data: 10
+    - Name: Loop
+      Entry: 10
+      Data: 11
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 1400
+    - Name: $v
+      Entry: 7
+      Data: Game.Utils.Checkpoint.CheckpointTexturesData, Assembly-CSharp
+    - Name: Appear
+      Entry: 10
+      Data: 12
+    - Name: Loop
+      Entry: 10
+      Data: 13
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 1600
+    - Name: $v
+      Entry: 7
+      Data: Game.Utils.Checkpoint.CheckpointTexturesData, Assembly-CSharp
+    - Name: Appear
+      Entry: 10
+      Data: 14
+    - Name: Loop
+      Entry: 10
+      Data: 15
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 1800
+    - Name: $v
+      Entry: 7
+      Data: Game.Utils.Checkpoint.CheckpointTexturesData, Assembly-CSharp
+    - Name: Appear
+      Entry: 10
+      Data: 16
+    - Name: Loop
+      Entry: 10
+      Data: 17
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 2000
+    - Name: $v
+      Entry: 7
+      Data: Game.Utils.Checkpoint.CheckpointTexturesData, Assembly-CSharp
+    - Name: Appear
+      Entry: 10
+      Data: 18
+    - Name: Loop
+      Entry: 10
+      Data: 19
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 2200
+    - Name: $v
+      Entry: 7
+      Data: Game.Utils.Checkpoint.CheckpointTexturesData, Assembly-CSharp
+    - Name: Appear
+      Entry: 10
+      Data: 20
+    - Name: Loop
+      Entry: 10
+      Data: 21
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 2400
+    - Name: $v
+      Entry: 7
+      Data: Game.Utils.Checkpoint.CheckpointTexturesData, Assembly-CSharp
+    - Name: Appear
+      Entry: 10
+      Data: 22
+    - Name: Loop
+      Entry: 10
+      Data: 23
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 2600
+    - Name: $v
+      Entry: 7
+      Data: Game.Utils.Checkpoint.CheckpointTexturesData, Assembly-CSharp
+    - Name: Appear
+      Entry: 10
+      Data: 24
+    - Name: Loop
+      Entry: 10
+      Data: 25
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 2800
+    - Name: $v
+      Entry: 7
+      Data: Game.Utils.Checkpoint.CheckpointTexturesData, Assembly-CSharp
+    - Name: Appear
+      Entry: 10
+      Data: 26
+    - Name: Loop
+      Entry: 10
+      Data: 27
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 3000
+    - Name: $v
+      Entry: 7
+      Data: Game.Utils.Checkpoint.CheckpointTexturesData, Assembly-CSharp
+    - Name: Appear
+      Entry: 10
+      Data: 28
+    - Name: Loop
+      Entry: 10
+      Data: 29
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 3200
+    - Name: $v
+      Entry: 7
+      Data: Game.Utils.Checkpoint.CheckpointTexturesData, Assembly-CSharp
+    - Name: Appear
+      Entry: 10
+      Data: 30
+    - Name: Loop
+      Entry: 10
+      Data: 31
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 3400
+    - Name: $v
+      Entry: 7
+      Data: Game.Utils.Checkpoint.CheckpointTexturesData, Assembly-CSharp
+    - Name: Appear
+      Entry: 10
+      Data: 32
+    - Name: Loop
+      Entry: 10
+      Data: 33
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 3600
+    - Name: $v
+      Entry: 7
+      Data: Game.Utils.Checkpoint.CheckpointTexturesData, Assembly-CSharp
+    - Name: Appear
+      Entry: 10
+      Data: 34
+    - Name: Loop
+      Entry: 10
+      Data: 35
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 3800
+    - Name: $v
+      Entry: 7
+      Data: Game.Utils.Checkpoint.CheckpointTexturesData, Assembly-CSharp
+    - Name: Appear
+      Entry: 10
+      Data: 36
+    - Name: Loop
+      Entry: 10
+      Data: 37
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 4000
+    - Name: $v
+      Entry: 7
+      Data: Game.Utils.Checkpoint.CheckpointTexturesData, Assembly-CSharp
+    - Name: Appear
+      Entry: 10
+      Data: 38
+    - Name: Loop
+      Entry: 10
+      Data: 39
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 4200
+    - Name: $v
+      Entry: 7
+      Data: Game.Utils.Checkpoint.CheckpointTexturesData, Assembly-CSharp
+    - Name: Appear
+      Entry: 10
+      Data: 40
+    - Name: Loop
+      Entry: 10
+      Data: 41
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 4400
+    - Name: $v
+      Entry: 7
+      Data: Game.Utils.Checkpoint.CheckpointTexturesData, Assembly-CSharp
+    - Name: Appear
+      Entry: 10
+      Data: 42
+    - Name: Loop
+      Entry: 10
+      Data: 43
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 4600
+    - Name: $v
+      Entry: 7
+      Data: Game.Utils.Checkpoint.CheckpointTexturesData, Assembly-CSharp
+    - Name: Appear
+      Entry: 10
+      Data: 44
+    - Name: Loop
+      Entry: 10
+      Data: 45
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 4800
+    - Name: $v
+      Entry: 7
+      Data: Game.Utils.Checkpoint.CheckpointTexturesData, Assembly-CSharp
+    - Name: Appear
+      Entry: 10
+      Data: 46
+    - Name: Loop
+      Entry: 10
+      Data: 47
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 5000
+    - Name: $v
+      Entry: 7
+      Data: Game.Utils.Checkpoint.CheckpointTexturesData, Assembly-CSharp
+    - Name: Appear
+      Entry: 10
+      Data: 48
+    - Name: Loop
+      Entry: 10
+      Data: 49
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 5200
+    - Name: $v
+      Entry: 7
+      Data: Game.Utils.Checkpoint.CheckpointTexturesData, Assembly-CSharp
+    - Name: Appear
+      Entry: 10
+      Data: 50
+    - Name: Loop
+      Entry: 10
+      Data: 51
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 5400
+    - Name: $v
+      Entry: 7
+      Data: Game.Utils.Checkpoint.CheckpointTexturesData, Assembly-CSharp
+    - Name: Appear
+      Entry: 10
+      Data: 52
+    - Name: Loop
+      Entry: 10
+      Data: 53
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 5600
+    - Name: $v
+      Entry: 7
+      Data: Game.Utils.Checkpoint.CheckpointTexturesData, Assembly-CSharp
+    - Name: Appear
+      Entry: 10
+      Data: 54
+    - Name: Loop
+      Entry: 10
+      Data: 55
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 5800
+    - Name: $v
+      Entry: 7
+      Data: Game.Utils.Checkpoint.CheckpointTexturesData, Assembly-CSharp
+    - Name: Appear
+      Entry: 10
+      Data: 56
+    - Name: Loop
+      Entry: 10
+      Data: 57
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 6000
+    - Name: $v
+      Entry: 7
+      Data: Game.Utils.Checkpoint.CheckpointTexturesData, Assembly-CSharp
+    - Name: Appear
+      Entry: 10
+      Data: 58
+    - Name: Loop
+      Entry: 10
+      Data: 59
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 6200
+    - Name: $v
+      Entry: 7
+      Data: Game.Utils.Checkpoint.CheckpointTexturesData, Assembly-CSharp
+    - Name: Appear
+      Entry: 10
+      Data: 60
+    - Name: Loop
+      Entry: 10
+      Data: 61
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 6400
+    - Name: $v
+      Entry: 7
+      Data: Game.Utils.Checkpoint.CheckpointTexturesData, Assembly-CSharp
+    - Name: Appear
+      Entry: 10
+      Data: 62
+    - Name: Loop
+      Entry: 10
+      Data: 63
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 6600
+    - Name: $v
+      Entry: 7
+      Data: Game.Utils.Checkpoint.CheckpointTexturesData, Assembly-CSharp
+    - Name: Appear
+      Entry: 10
+      Data: 64
+    - Name: Loop
+      Entry: 10
+      Data: 65
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 6800
+    - Name: $v
+      Entry: 7
+      Data: Game.Utils.Checkpoint.CheckpointTexturesData, Assembly-CSharp
+    - Name: Appear
+      Entry: 10
+      Data: 66
+    - Name: Loop
+      Entry: 10
+      Data: 67
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 7000
+    - Name: $v
+      Entry: 7
+      Data: Game.Utils.Checkpoint.CheckpointTexturesData, Assembly-CSharp
+    - Name: Appear
+      Entry: 10
+      Data: 68
+    - Name: Loop
+      Entry: 10
+      Data: 69
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 7200
+    - Name: $v
+      Entry: 7
+      Data: Game.Utils.Checkpoint.CheckpointTexturesData, Assembly-CSharp
+    - Name: Appear
+      Entry: 10
+      Data: 70
+    - Name: Loop
+      Entry: 10
+      Data: 71
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 7400
+    - Name: $v
+      Entry: 7
+      Data: Game.Utils.Checkpoint.CheckpointTexturesData, Assembly-CSharp
+    - Name: Appear
+      Entry: 10
+      Data: 72
+    - Name: Loop
+      Entry: 10
+      Data: 73
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 7600
+    - Name: $v
+      Entry: 7
+      Data: Game.Utils.Checkpoint.CheckpointTexturesData, Assembly-CSharp
+    - Name: Appear
+      Entry: 10
+      Data: 74
+    - Name: Loop
+      Entry: 10
+      Data: 75
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 7800
+    - Name: $v
+      Entry: 7
+      Data: Game.Utils.Checkpoint.CheckpointTexturesData, Assembly-CSharp
+    - Name: Appear
+      Entry: 10
+      Data: 76
+    - Name: Loop
+      Entry: 10
+      Data: 77
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 8000
+    - Name: $v
+      Entry: 7
+      Data: Game.Utils.Checkpoint.CheckpointTexturesData, Assembly-CSharp
+    - Name: Appear
+      Entry: 10
+      Data: 78
+    - Name: Loop
+      Entry: 10
+      Data: 79
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 8200
+    - Name: $v
+      Entry: 7
+      Data: Game.Utils.Checkpoint.CheckpointTexturesData, Assembly-CSharp
+    - Name: Appear
+      Entry: 10
+      Data: 80
+    - Name: Loop
+      Entry: 10
+      Data: 81
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 8400
+    - Name: $v
+      Entry: 7
+      Data: Game.Utils.Checkpoint.CheckpointTexturesData, Assembly-CSharp
+    - Name: Appear
+      Entry: 10
+      Data: 82
+    - Name: Loop
+      Entry: 10
+      Data: 83
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 8600
+    - Name: $v
+      Entry: 7
+      Data: Game.Utils.Checkpoint.CheckpointTexturesData, Assembly-CSharp
+    - Name: Appear
+      Entry: 10
+      Data: 84
+    - Name: Loop
+      Entry: 10
+      Data: 85
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 8800
+    - Name: $v
+      Entry: 7
+      Data: Game.Utils.Checkpoint.CheckpointTexturesData, Assembly-CSharp
+    - Name: Appear
+      Entry: 10
+      Data: 86
+    - Name: Loop
+      Entry: 10
+      Data: 87
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 9000
+    - Name: $v
+      Entry: 7
+      Data: Game.Utils.Checkpoint.CheckpointTexturesData, Assembly-CSharp
+    - Name: Appear
+      Entry: 10
+      Data: 88
+    - Name: Loop
+      Entry: 10
+      Data: 89
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 9200
+    - Name: $v
+      Entry: 7
+      Data: Game.Utils.Checkpoint.CheckpointTexturesData, Assembly-CSharp
+    - Name: Appear
+      Entry: 10
+      Data: 90
+    - Name: Loop
+      Entry: 10
+      Data: 91
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 9400
+    - Name: $v
+      Entry: 7
+      Data: Game.Utils.Checkpoint.CheckpointTexturesData, Assembly-CSharp
+    - Name: Appear
+      Entry: 10
+      Data: 92
+    - Name: Loop
+      Entry: 10
+      Data: 93
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 9600
+    - Name: $v
+      Entry: 7
+      Data: Game.Utils.Checkpoint.CheckpointTexturesData, Assembly-CSharp
+    - Name: Appear
+      Entry: 10
+      Data: 94
+    - Name: Loop
+      Entry: 10
+      Data: 95
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 9800
+    - Name: $v
+      Entry: 7
+      Data: Game.Utils.Checkpoint.CheckpointTexturesData, Assembly-CSharp
+    - Name: Appear
+      Entry: 10
+      Data: 96
+    - Name: Loop
+      Entry: 10
+      Data: 97
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 10000
+    - Name: $v
+      Entry: 7
+      Data: Game.Utils.Checkpoint.CheckpointTexturesData, Assembly-CSharp
+    - Name: Appear
+      Entry: 10
+      Data: 8
+    - Name: Loop
+      Entry: 10
+      Data: 9
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  <RadiusObstacleSpawnCheckInDefault>k__BackingField: 20
+  <RadiusObstacleSpawnCheckInSequential>k__BackingField: 15
+  <FrequencyCheckpointsInMeters>k__BackingField: 200
+  <MeterToKilometerThreshold>k__BackingField: 10000
+  <ForwardAngleThreshold>k__BackingField: 90
+  <ParentDelayAfterCreation>k__BackingField: 2
+  <SpawnChunks>k__BackingField: 0100000040000000
+  <StateDistances>k__BackingField:
+  - State: 1
+    Distance: 30
+  - State: 2
+    Distance: 22
+  - State: 3
+    Distance: 13
+  <BlackScreenTexture>k__BackingField: {fileID: 2800000, guid: c6bde9061ede35d44b782fa9d6e68782, type: 3}
+  <BlackScreenTextureSize>k__BackingField: {x: 1, y: 1}
+  <NoiseTexturesData>k__BackingField:
+    Appear: {fileID: 2800000, guid: 621367c2c4aa6b2439384cfe7e42b2e5, type: 3}
+    Loop: {fileID: 2800000, guid: ce877c04b542c664386f46a00c2e23d3, type: 3}
+  <AppearNoiseTextureSize>k__BackingField: {x: 3, y: 9}
+  <LoopNoiseTextureSize>k__BackingField: {x: 6, y: 9}
+  <NewRecordTexture>k__BackingField: {fileID: 2800000, guid: ceb9a075264156d4cb21c30d37687877, type: 3}
+  <AppearNewRecordTextureSize>k__BackingField: {x: 3, y: 7}
+  <LoopNewRecordTextureSize>k__BackingField: {x: 4, y: 7}
+  <AppearDefaultTextureSize>k__BackingField: {x: 3, y: 7}
+  <LoopDefaultTextureSize>k__BackingField: {x: 4, y: 7}

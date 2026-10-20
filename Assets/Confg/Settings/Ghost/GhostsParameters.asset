@@ -1,0 +1,122 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e583d51694484e9697ccac4d7beab7b0, type: 3}
+  m_Name: GhostsParameters
+  m_EditorClassIdentifier: 
+  <GhostCount>k__BackingField: 3
+  <KillGhostDistance>k__BackingField: 125
+  <FailChancesDistance>k__BackingField: 50
+  <MaxHealth>k__BackingField: 2
+  <GhostWidth>k__BackingField: 0.6
+  <GhostHeight>k__BackingField: 2
+  <StartForwardDeltaFromPlayer>k__BackingField: 4
+  <SidesReviveDeltaRange>k__BackingField: {x: 0, y: 4}
+  <ForwardReviveDeltaRange>k__BackingField: {x: 20, y: 50}
+  <RespawnDelay>k__BackingField: 1.5
+  <StopTiltingThreshold>k__BackingField: 0.05
+  <AvoidObstacleVelocityRatioToPassedDistanceCurve>k__BackingField:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0.45
+      inSlope: 8.433836
+      outSlope: 8.433836
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.029952683
+    - serializedVersion: 3
+      time: 0.15748383
+      value: 0.9944438
+      inSlope: 0.034455784
+      outSlope: 0.034455784
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.5005396
+      value: 0.9968027
+      inSlope: 0.034963872
+      outSlope: 0.034963872
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.22227214
+      outWeight: 0.17927754
+    - serializedVersion: 3
+      time: 0.79824734
+      value: 0.9975905
+      inSlope: 0.016458794
+      outSlope: 0.016458794
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.2741134
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0.45
+      inSlope: -6.517048
+      outSlope: -6.517048
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.033019178
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  <RandomTiltPointSidesDeltaRange>k__BackingField: {x: 0, y: 5}
+  <RandomTiltPointForwardDeltaRange>k__BackingField: {x: 15, y: 18}
+  <RandomTiltMissPointSidesDeltaRange>k__BackingField: {x: 1, y: 2}
+  <RandomTiltMissPointForwardDeltaRange>k__BackingField: {x: 3, y: 10}
+  <RandomTiltVelocityRatioToPassedDistanceCurve>k__BackingField:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0.1
+      inSlope: 0.14315397
+      outSlope: 0.14315397
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.16126272
+    - serializedVersion: 3
+      time: 0.50203496
+      value: 0.35
+      inSlope: 0.034963872
+      outSlope: 0.034963872
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.22227214
+      outWeight: 0.17927754
+    - serializedVersion: 3
+      time: 1
+      value: 0.1
+      inSlope: 0.107366286
+      outSlope: 0.107366286
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.3251615
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  <RandomTiltRestrictedChunks>k__BackingField: 63326
+  <SuccessMovementDecreaseChanceDelta>k__BackingField: 0.03
+  <FailureMovementIncreaseChanceDelta>k__BackingField: 0.4
+  <ObstacleFastMoveChance>k__BackingField: {x: 0.1, y: 0.6}
+  <ObstacleFailChance>k__BackingField: {x: 0.028, y: 0.056}
+  <JumpFailChance>k__BackingField: {x: 0.056, y: 0.112}
+  <ComebackFailChance>k__BackingField: {x: 0.112, y: 0.168}
+  <TurningFailChance>k__BackingField: {x: 0.0175, y: 0.035}
+  <TurnDistanceRange>k__BackingField: {x: 0, y: 6}

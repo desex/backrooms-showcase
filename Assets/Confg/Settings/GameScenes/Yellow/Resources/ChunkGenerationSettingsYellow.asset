@@ -1,0 +1,6380 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8e2d760d5e949a3a28f98d371602882, type: 3}
+  m_Name: ChunkGenerationSettingsYellow
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 3764212698993214021, guid: fcf2db8ed13842e479fa6032ebde90da, type: 3}
+    - {fileID: 59465323910519230, guid: 4ba3b38034125f94a86cdf1013506c69, type: 3}
+    - {fileID: 2128419449421009743, guid: fa70a211c334fd940982e09eb9e4f9b2, type: 3}
+    - {fileID: 8598001237803620884, guid: e650a84fb5a4775429690edbae27eee9, type: 3}
+    - {fileID: 7293479595398879504, guid: f4ab345ba918a1b4897a25ddf10d69f7, type: 3}
+    - {fileID: 859232507125961973, guid: a5a69e2de67adf246a3a39ac6410897b, type: 3}
+    - {fileID: 8704576361498151217, guid: 08d55d5a248b9a344a56baaa793d4973, type: 3}
+    - {fileID: 3112658358399513437, guid: be766bc5153c82f469df9e9636a5fc04, type: 3}
+    - {fileID: 3112658358399513437, guid: d4a35e16be43c934cbb2d6c52b3cf710, type: 3}
+    - {fileID: 5628450257935343052, guid: a10fef9ce7948d043b98980c669c8a17, type: 3}
+    - {fileID: 59465323910519230, guid: 0f5dd6bc63f22f44aaf1cdcb39b9e9b7, type: 3}
+    - {fileID: 2128419449421009743, guid: 3c33fdfff91e4f748aae497386fb1ce5, type: 3}
+    - {fileID: 8598001237803620884, guid: 23c9c49e28cd0164f96ab1f6bb8e2282, type: 3}
+    - {fileID: 3069499490546424695, guid: 4ba3b38034125f94a86cdf1013506c69, type: 3}
+    - {fileID: 819354884410208146, guid: fa70a211c334fd940982e09eb9e4f9b2, type: 3}
+    - {fileID: 403572183969362460, guid: e650a84fb5a4775429690edbae27eee9, type: 3}
+    - {fileID: 4707206306152169457, guid: f4ab345ba918a1b4897a25ddf10d69f7, type: 3}
+    - {fileID: 7961932723343346533, guid: a5a69e2de67adf246a3a39ac6410897b, type: 3}
+    - {fileID: 3891479378521282359, guid: 08d55d5a248b9a344a56baaa793d4973, type: 3}
+    - {fileID: 817788657065586716, guid: be766bc5153c82f469df9e9636a5fc04, type: 3}
+    - {fileID: 817788657065586716, guid: d4a35e16be43c934cbb2d6c52b3cf710, type: 3}
+    - {fileID: 8983753047903295125, guid: a10fef9ce7948d043b98980c669c8a17, type: 3}
+    - {fileID: 3069499490546424695, guid: 0f5dd6bc63f22f44aaf1cdcb39b9e9b7, type: 3}
+    - {fileID: 819354884410208146, guid: 3c33fdfff91e4f748aae497386fb1ce5, type: 3}
+    - {fileID: 403572183969362460, guid: 23c9c49e28cd0164f96ab1f6bb8e2282, type: 3}
+    - {fileID: 1791700191898410801, guid: 6022a281bc3bd454799d1df98e9d2425, type: 3}
+    - {fileID: 3353195123062306411, guid: fef7b4dc692eb6846b1b0c4710b98cc8, type: 3}
+    - {fileID: 4792292341039058248, guid: 054f9d2171be41e4c8ba1a617a0d28e0, type: 3}
+    - {fileID: 9138006339382601355, guid: a7c64114990401445860bb9e64dbb293, type: 3}
+    - {fileID: 1005973019002419348, guid: bd14c8e9c7d29c1408a33f464ad7ba0c, type: 3}
+    - {fileID: 2175430114837341706, guid: ce0537260d201224588571f0ba93433e, type: 3}
+    - {fileID: 4922770815016798226, guid: 976cff71499d5a240ad92fa3e1334604, type: 3}
+    - {fileID: 8694213206970482358, guid: e566904eb787e7f41b3ed45b200111d4, type: 3}
+    - {fileID: 779305980501509810, guid: 5f6642eeb29b7994fa65e15fbfd33bd5, type: 3}
+    - {fileID: 1163492366530467015, guid: d7706ad3a4eacd648866884f6bbf1f6b, type: 3}
+    - {fileID: 289226529028403028, guid: 80bc8ce52e87a6c4ebc36f2627c2aef9, type: 3}
+    - {fileID: 6010841652099277042, guid: 53e17d50096aa2244b55638e7c4aa49b, type: 3}
+    - {fileID: 9181331014756382466, guid: 6022a281bc3bd454799d1df98e9d2425, type: 3}
+    - {fileID: 5277997829715746392, guid: fef7b4dc692eb6846b1b0c4710b98cc8, type: 3}
+    - {fileID: 2681438670174250363, guid: 054f9d2171be41e4c8ba1a617a0d28e0, type: 3}
+    - {fileID: 1830570744193797816, guid: a7c64114990401445860bb9e64dbb293, type: 3}
+    - {fileID: 7656727519580262567, guid: bd14c8e9c7d29c1408a33f464ad7ba0c, type: 3}
+    - {fileID: 8757082439670500921, guid: ce0537260d201224588571f0ba93433e, type: 3}
+    - {fileID: 2587027458271387681, guid: 976cff71499d5a240ad92fa3e1334604, type: 3}
+    - {fileID: 2242734220645635717, guid: e566904eb787e7f41b3ed45b200111d4, type: 3}
+    - {fileID: 7883375862092885633, guid: 5f6642eeb29b7994fa65e15fbfd33bd5, type: 3}
+    - {fileID: 8616028312481004788, guid: d7706ad3a4eacd648866884f6bbf1f6b, type: 3}
+    - {fileID: 1136497095602223216, guid: 80bc8ce52e87a6c4ebc36f2627c2aef9, type: 3}
+    - {fileID: 3714988882003308958, guid: 53e17d50096aa2244b55638e7c4aa49b, type: 3}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: <ObstacleDistanceGroups>k__BackingField
+      Entry: 7
+      Data: 0|System.Collections.Generic.SortedDictionary`2[[System.Int32, mscorlib],[Game.Utils.Chunks.ObstacleDistanceGroup,
+        Assembly-CSharp]], System
+    - Name: 
+      Entry: 12
+      Data: 5
+    - Name: 
+      Entry: 7
+      Data: System.Collections.Generic.KeyValuePair`2[[System.Int32, mscorlib],[Game.Utils.Chunks.ObstacleDistanceGroup,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 7
+      Data: Game.Utils.Chunks.ObstacleDistanceGroup, Assembly-CSharp
+    - Name: ObstaclesSubGroups
+      Entry: 7
+      Data: 1|Game.Utils.Obstacles.EObstacleType[], Assembly-CSharp
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 3
+      Data: 63
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: System.Collections.Generic.KeyValuePair`2[[System.Int32, mscorlib],[Game.Utils.Chunks.ObstacleDistanceGroup,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 3
+      Data: 100
+    - Name: 
+      Entry: 7
+      Data: Game.Utils.Chunks.ObstacleDistanceGroup, Assembly-CSharp
+    - Name: ObstaclesSubGroups
+      Entry: 7
+      Data: 2|Game.Utils.Obstacles.EObstacleType[], Assembly-CSharp
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 3
+      Data: 1610613119
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: System.Collections.Generic.KeyValuePair`2[[System.Int32, mscorlib],[Game.Utils.Chunks.ObstacleDistanceGroup,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 3
+      Data: 200
+    - Name: 
+      Entry: 7
+      Data: Game.Utils.Chunks.ObstacleDistanceGroup, Assembly-CSharp
+    - Name: ObstaclesSubGroups
+      Entry: 7
+      Data: 3|Game.Utils.Obstacles.EObstacleType[], Assembly-CSharp
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 3
+      Data: 1610661248
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: System.Collections.Generic.KeyValuePair`2[[System.Int32, mscorlib],[Game.Utils.Chunks.ObstacleDistanceGroup,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 3
+      Data: 400
+    - Name: 
+      Entry: 7
+      Data: Game.Utils.Chunks.ObstacleDistanceGroup, Assembly-CSharp
+    - Name: ObstaclesSubGroups
+      Entry: 7
+      Data: 4|Game.Utils.Obstacles.EObstacleType[], Assembly-CSharp
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 3
+      Data: 1610726784
+    - Name: 
+      Entry: 3
+      Data: 1743520000
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: System.Collections.Generic.KeyValuePair`2[[System.Int32, mscorlib],[Game.Utils.Chunks.ObstacleDistanceGroup,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 3
+      Data: 600
+    - Name: 
+      Entry: 7
+      Data: Game.Utils.Chunks.ObstacleDistanceGroup, Assembly-CSharp
+    - Name: ObstaclesSubGroups
+      Entry: 7
+      Data: 5|Game.Utils.Obstacles.EObstacleType[], Assembly-CSharp
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 3
+      Data: 1877851647
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _obstacleDistanceGroupsList
+      Entry: 7
+      Data: 6|System.Collections.Generic.List`1[[System.ValueTuple`2[[System.Int32,
+        mscorlib],[Game.Utils.Chunks.ObstacleDistanceGroup, Assembly-CSharp]], mscorlib]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 5
+    - Name: 
+      Entry: 7
+      Data: System.ValueTuple`2[[System.Int32, mscorlib],[Game.Utils.Chunks.ObstacleDistanceGroup,
+        Assembly-CSharp]], mscorlib
+    - Name: Item1
+      Entry: 3
+      Data: 0
+    - Name: Item2
+      Entry: 7
+      Data: Game.Utils.Chunks.ObstacleDistanceGroup, Assembly-CSharp
+    - Name: ObstaclesSubGroups
+      Entry: 9
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: System.ValueTuple`2[[System.Int32, mscorlib],[Game.Utils.Chunks.ObstacleDistanceGroup,
+        Assembly-CSharp]], mscorlib
+    - Name: Item1
+      Entry: 3
+      Data: 100
+    - Name: Item2
+      Entry: 7
+      Data: Game.Utils.Chunks.ObstacleDistanceGroup, Assembly-CSharp
+    - Name: ObstaclesSubGroups
+      Entry: 9
+      Data: 2
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: System.ValueTuple`2[[System.Int32, mscorlib],[Game.Utils.Chunks.ObstacleDistanceGroup,
+        Assembly-CSharp]], mscorlib
+    - Name: Item1
+      Entry: 3
+      Data: 200
+    - Name: Item2
+      Entry: 7
+      Data: Game.Utils.Chunks.ObstacleDistanceGroup, Assembly-CSharp
+    - Name: ObstaclesSubGroups
+      Entry: 9
+      Data: 3
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: System.ValueTuple`2[[System.Int32, mscorlib],[Game.Utils.Chunks.ObstacleDistanceGroup,
+        Assembly-CSharp]], mscorlib
+    - Name: Item1
+      Entry: 3
+      Data: 400
+    - Name: Item2
+      Entry: 7
+      Data: Game.Utils.Chunks.ObstacleDistanceGroup, Assembly-CSharp
+    - Name: ObstaclesSubGroups
+      Entry: 9
+      Data: 4
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: System.ValueTuple`2[[System.Int32, mscorlib],[Game.Utils.Chunks.ObstacleDistanceGroup,
+        Assembly-CSharp]], mscorlib
+    - Name: Item1
+      Entry: 3
+      Data: 600
+    - Name: Item2
+      Entry: 7
+      Data: Game.Utils.Chunks.ObstacleDistanceGroup, Assembly-CSharp
+    - Name: ObstaclesSubGroups
+      Entry: 9
+      Data: 5
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: <StraightChunk>k__BackingField
+      Entry: 7
+      Data: 7|Game.Utils.Chunks.SerializedGeneratedChunkTypeInfo, Assembly-CSharp
+    - Name: ChunkSequenceMaxCount
+      Entry: 3
+      Data: 1
+    - Name: EmptyChunk
+      Entry: 10
+      Data: 0
+    - Name: NextChunkTypes
+      Entry: 7
+      Data: 8|System.Collections.Generic.Dictionary`2[[Game.Utils.Chunks.EChunkType,
+        Assembly-CSharp],[System.Int32, mscorlib]], mscorlib
+    - Name: comparer
+      Entry: 7
+      Data: 9|System.Collections.Generic.EnumEqualityComparer`1[[Game.Utils.Chunks.EChunkType,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 12
+      Data: 14
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 2
+    - Name: $v
+      Entry: 3
+      Data: 40
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 4
+    - Name: $v
+      Entry: 3
+      Data: 40
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 8
+    - Name: $v
+      Entry: 3
+      Data: 40
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 16
+    - Name: $v
+      Entry: 3
+      Data: 100
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 64
+    - Name: $v
+      Entry: 3
+      Data: 100
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 128
+    - Name: $v
+      Entry: 3
+      Data: 15
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 256
+    - Name: $v
+      Entry: 3
+      Data: 5
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 512
+    - Name: $v
+      Entry: 3
+      Data: 5
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 1024
+    - Name: $v
+      Entry: 3
+      Data: 5
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 2048
+    - Name: $v
+      Entry: 3
+      Data: 15
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 1
+    - Name: $v
+      Entry: 3
+      Data: 100
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 4096
+    - Name: $v
+      Entry: 3
+      Data: 15
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 8192
+    - Name: $v
+      Entry: 3
+      Data: 15
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 16384
+    - Name: $v
+      Entry: 3
+      Data: 15
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: AvailableObstacles
+      Entry: 7
+      Data: 10|System.Collections.Generic.Dictionary`2[[Game.Utils.Obstacles.EObstacleType,
+        Assembly-CSharp],[System.Int32, mscorlib]], mscorlib
+    - Name: comparer
+      Entry: 7
+      Data: 11|System.Collections.Generic.EnumEqualityComparer`1[[Game.Utils.Obstacles.EObstacleType,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 12
+      Data: 27
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 1
+    - Name: $v
+      Entry: 3
+      Data: 100
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 2
+    - Name: $v
+      Entry: 3
+      Data: 100
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 8
+    - Name: $v
+      Entry: 3
+      Data: 50
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 64
+    - Name: $v
+      Entry: 3
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 1024
+    - Name: $v
+      Entry: 3
+      Data: 80
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 4096
+    - Name: $v
+      Entry: 3
+      Data: 70
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 8192
+    - Name: $v
+      Entry: 3
+      Data: 100
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 32768
+    - Name: $v
+      Entry: 3
+      Data: 70
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 65536
+    - Name: $v
+      Entry: 3
+      Data: 70
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 524288
+    - Name: $v
+      Entry: 3
+      Data: 60
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 262144
+    - Name: $v
+      Entry: 3
+      Data: 50
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 4
+    - Name: $v
+      Entry: 3
+      Data: 100
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 16
+    - Name: $v
+      Entry: 3
+      Data: 50
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 32
+    - Name: $v
+      Entry: 3
+      Data: 50
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 8388608
+    - Name: $v
+      Entry: 3
+      Data: 40
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 16777216
+    - Name: $v
+      Entry: 3
+      Data: 40
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 33554432
+    - Name: $v
+      Entry: 3
+      Data: 40
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 536870912
+    - Name: $v
+      Entry: 3
+      Data: 50
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 67108864
+    - Name: $v
+      Entry: 3
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 134217728
+    - Name: $v
+      Entry: 3
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 4194304
+    - Name: $v
+      Entry: 3
+      Data: 50
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 2097152
+    - Name: $v
+      Entry: 3
+      Data: 70
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 2048
+    - Name: $v
+      Entry: 3
+      Data: 80
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 128
+    - Name: $v
+      Entry: 3
+      Data: 40
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 1073741824
+    - Name: $v
+      Entry: 3
+      Data: 50
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 256
+    - Name: $v
+      Entry: 3
+      Data: 50
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 512
+    - Name: $v
+      Entry: 3
+      Data: 70
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: ObstaclesCount
+      Entry: 7
+      Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
+    - Name: 
+      Entry: 3
+      Data: 2
+    - Name: 
+      Entry: 3
+      Data: 3
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: WallZonePresetGroupsNames
+      Entry: 7
+      Data: 12|System.String[], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 6
+    - Name: 
+      Entry: 1
+      Data: DefaultZoneGroup
+    - Name: 
+      Entry: 1
+      Data: ObstacleZoneGroup
+    - Name: 
+      Entry: 1
+      Data: ScreamerZoneGroup
+    - Name: 
+      Entry: 1
+      Data: ObstacleZoneGroup
+    - Name: 
+      Entry: 1
+      Data: ScreamerZoneGroup
+    - Name: 
+      Entry: 1
+      Data: ObstacleZoneGroup
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: <TurnLeftChunk>k__BackingField
+      Entry: 7
+      Data: 13|Game.Utils.Chunks.SerializedChunkTypeInfo, Assembly-CSharp
+    - Name: ChunkSequenceMaxCount
+      Entry: 3
+      Data: 1
+    - Name: NextChunkTypes
+      Entry: 7
+      Data: 14|System.Collections.Generic.Dictionary`2[[Game.Utils.Chunks.EChunkType,
+        Assembly-CSharp],[System.Int32, mscorlib]], mscorlib
+    - Name: comparer
+      Entry: 9
+      Data: 9
+    - Name: 
+      Entry: 12
+      Data: 8
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 1
+    - Name: $v
+      Entry: 3
+      Data: 100
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 16
+    - Name: $v
+      Entry: 3
+      Data: 100
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 64
+    - Name: $v
+      Entry: 3
+      Data: 100
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 128
+    - Name: $v
+      Entry: 3
+      Data: 15
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 256
+    - Name: $v
+      Entry: 3
+      Data: 5
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 512
+    - Name: $v
+      Entry: 3
+      Data: 5
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 1024
+    - Name: $v
+      Entry: 3
+      Data: 5
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 2048
+    - Name: $v
+      Entry: 3
+      Data: 15
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: AvailableObstacles
+      Entry: 7
+      Data: 15|System.Collections.Generic.Dictionary`2[[Game.Utils.Obstacles.EObstacleType,
+        Assembly-CSharp],[System.Int32, mscorlib]], mscorlib
+    - Name: comparer
+      Entry: 9
+      Data: 11
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 0
+    - Name: $v
+      Entry: 3
+      Data: 100
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: ObstaclesCount
+      Entry: 7
+      Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
+    - Name: 
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: ChunksMatrix
+      Entry: 7
+      Data: 16|UnityEngine.GameObject[,], UnityEngine.CoreModule
+    - Name: 
+      Entry: 12
+      Data: 6
+    - Name: ranks
+      Entry: 1
+      Data: 6|1
+    - Name: 
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: <TurnRightChunk>k__BackingField
+      Entry: 7
+      Data: 17|Game.Utils.Chunks.SerializedChunkTypeInfo, Assembly-CSharp
+    - Name: ChunkSequenceMaxCount
+      Entry: 3
+      Data: 1
+    - Name: NextChunkTypes
+      Entry: 7
+      Data: 18|System.Collections.Generic.Dictionary`2[[Game.Utils.Chunks.EChunkType,
+        Assembly-CSharp],[System.Int32, mscorlib]], mscorlib
+    - Name: comparer
+      Entry: 9
+      Data: 9
+    - Name: 
+      Entry: 12
+      Data: 8
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 1
+    - Name: $v
+      Entry: 3
+      Data: 100
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 16
+    - Name: $v
+      Entry: 3
+      Data: 100
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 128
+    - Name: $v
+      Entry: 3
+      Data: 15
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 256
+    - Name: $v
+      Entry: 3
+      Data: 5
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 512
+    - Name: $v
+      Entry: 3
+      Data: 5
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 1024
+    - Name: $v
+      Entry: 3
+      Data: 5
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 2048
+    - Name: $v
+      Entry: 3
+      Data: 15
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 64
+    - Name: $v
+      Entry: 3
+      Data: 100
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: AvailableObstacles
+      Entry: 7
+      Data: 19|System.Collections.Generic.Dictionary`2[[Game.Utils.Obstacles.EObstacleType,
+        Assembly-CSharp],[System.Int32, mscorlib]], mscorlib
+    - Name: comparer
+      Entry: 9
+      Data: 11
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 0
+    - Name: $v
+      Entry: 3
+      Data: 100
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: ObstaclesCount
+      Entry: 7
+      Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
+    - Name: 
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: ChunksMatrix
+      Entry: 7
+      Data: 20|UnityEngine.GameObject[,], UnityEngine.CoreModule
+    - Name: 
+      Entry: 12
+      Data: 6
+    - Name: ranks
+      Entry: 1
+      Data: 6|1
+    - Name: 
+      Entry: 10
+      Data: 2
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: <TurnBothSidesChunk>k__BackingField
+      Entry: 7
+      Data: 21|Game.Utils.Chunks.SerializedChunkTypeInfo, Assembly-CSharp
+    - Name: ChunkSequenceMaxCount
+      Entry: 3
+      Data: 1
+    - Name: NextChunkTypes
+      Entry: 7
+      Data: 22|System.Collections.Generic.Dictionary`2[[Game.Utils.Chunks.EChunkType,
+        Assembly-CSharp],[System.Int32, mscorlib]], mscorlib
+    - Name: comparer
+      Entry: 9
+      Data: 9
+    - Name: 
+      Entry: 12
+      Data: 8
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 1
+    - Name: $v
+      Entry: 3
+      Data: 100
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 16
+    - Name: $v
+      Entry: 3
+      Data: 100
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 128
+    - Name: $v
+      Entry: 3
+      Data: 15
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 256
+    - Name: $v
+      Entry: 3
+      Data: 5
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 512
+    - Name: $v
+      Entry: 3
+      Data: 5
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 1024
+    - Name: $v
+      Entry: 3
+      Data: 5
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 2048
+    - Name: $v
+      Entry: 3
+      Data: 15
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 64
+    - Name: $v
+      Entry: 3
+      Data: 100
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: AvailableObstacles
+      Entry: 7
+      Data: 23|System.Collections.Generic.Dictionary`2[[Game.Utils.Obstacles.EObstacleType,
+        Assembly-CSharp],[System.Int32, mscorlib]], mscorlib
+    - Name: comparer
+      Entry: 9
+      Data: 11
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 0
+    - Name: $v
+      Entry: 3
+      Data: 100
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: ObstaclesCount
+      Entry: 7
+      Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
+    - Name: 
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: ChunksMatrix
+      Entry: 7
+      Data: 24|UnityEngine.GameObject[,], UnityEngine.CoreModule
+    - Name: 
+      Entry: 12
+      Data: 6
+    - Name: ranks
+      Entry: 1
+      Data: 6|1
+    - Name: 
+      Entry: 10
+      Data: 3
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: <DownChunk>k__BackingField
+      Entry: 7
+      Data: 25|Game.Utils.Chunks.SerializedChunkTypeInfo, Assembly-CSharp
+    - Name: ChunkSequenceMaxCount
+      Entry: 3
+      Data: 1
+    - Name: NextChunkTypes
+      Entry: 7
+      Data: 26|System.Collections.Generic.Dictionary`2[[Game.Utils.Chunks.EChunkType,
+        Assembly-CSharp],[System.Int32, mscorlib]], mscorlib
+    - Name: comparer
+      Entry: 9
+      Data: 9
+    - Name: 
+      Entry: 12
+      Data: 9
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 1
+    - Name: $v
+      Entry: 3
+      Data: 100
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 64
+    - Name: $v
+      Entry: 3
+      Data: 100
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 128
+    - Name: $v
+      Entry: 3
+      Data: 15
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 256
+    - Name: $v
+      Entry: 3
+      Data: 5
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 512
+    - Name: $v
+      Entry: 3
+      Data: 5
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 1024
+    - Name: $v
+      Entry: 3
+      Data: 5
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 2048
+    - Name: $v
+      Entry: 3
+      Data: 15
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 8
+    - Name: $v
+      Entry: 3
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 16
+    - Name: $v
+      Entry: 3
+      Data: 100
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: AvailableObstacles
+      Entry: 7
+      Data: 27|System.Collections.Generic.Dictionary`2[[Game.Utils.Obstacles.EObstacleType,
+        Assembly-CSharp],[System.Int32, mscorlib]], mscorlib
+    - Name: comparer
+      Entry: 9
+      Data: 11
+    - Name: 
+      Entry: 12
+      Data: 3
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 0
+    - Name: $v
+      Entry: 3
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 1
+    - Name: $v
+      Entry: 3
+      Data: 100
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 8
+    - Name: $v
+      Entry: 3
+      Data: 100
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: ObstaclesCount
+      Entry: 7
+      Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
+    - Name: 
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 3
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: ChunksMatrix
+      Entry: 7
+      Data: 28|UnityEngine.GameObject[,], UnityEngine.CoreModule
+    - Name: 
+      Entry: 12
+      Data: 6
+    - Name: ranks
+      Entry: 1
+      Data: 6|1
+    - Name: 
+      Entry: 10
+      Data: 4
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: <RightDiagonalChunk>k__BackingField
+      Entry: 7
+      Data: 29|Game.Utils.Chunks.SerializedChunkTypeInfo, Assembly-CSharp
+    - Name: ChunkSequenceMaxCount
+      Entry: 3
+      Data: 2
+    - Name: NextChunkTypes
+      Entry: 7
+      Data: 30|System.Collections.Generic.Dictionary`2[[Game.Utils.Chunks.EChunkType,
+        Assembly-CSharp],[System.Int32, mscorlib]], mscorlib
+    - Name: comparer
+      Entry: 9
+      Data: 9
+    - Name: 
+      Entry: 12
+      Data: 8
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 1
+    - Name: $v
+      Entry: 3
+      Data: 100
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 16
+    - Name: $v
+      Entry: 3
+      Data: 100
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 128
+    - Name: $v
+      Entry: 3
+      Data: 15
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 256
+    - Name: $v
+      Entry: 3
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 512
+    - Name: $v
+      Entry: 3
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 1024
+    - Name: $v
+      Entry: 3
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 2048
+    - Name: $v
+      Entry: 3
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 64
+    - Name: $v
+      Entry: 3
+      Data: 40
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: AvailableObstacles
+      Entry: 7
+      Data: 31|System.Collections.Generic.Dictionary`2[[Game.Utils.Obstacles.EObstacleType,
+        Assembly-CSharp],[System.Int32, mscorlib]], mscorlib
+    - Name: comparer
+      Entry: 9
+      Data: 11
+    - Name: 
+      Entry: 12
+      Data: 12
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 1
+    - Name: $v
+      Entry: 3
+      Data: 100
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 2
+    - Name: $v
+      Entry: 3
+      Data: 100
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 8
+    - Name: $v
+      Entry: 3
+      Data: 50
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 64
+    - Name: $v
+      Entry: 3
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 536870912
+    - Name: $v
+      Entry: 3
+      Data: 30
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 1073741824
+    - Name: $v
+      Entry: 3
+      Data: 30
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 256
+    - Name: $v
+      Entry: 3
+      Data: 30
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 512
+    - Name: $v
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 16
+    - Name: $v
+      Entry: 3
+      Data: 50
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 8192
+    - Name: $v
+      Entry: 3
+      Data: 80
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 4
+    - Name: $v
+      Entry: 3
+      Data: 100
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 32
+    - Name: $v
+      Entry: 3
+      Data: 50
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: ObstaclesCount
+      Entry: 7
+      Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
+    - Name: 
+      Entry: 3
+      Data: 1
+    - Name: 
+      Entry: 3
+      Data: 3
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: ChunksMatrix
+      Entry: 7
+      Data: 32|UnityEngine.GameObject[,], UnityEngine.CoreModule
+    - Name: 
+      Entry: 12
+      Data: 6
+    - Name: ranks
+      Entry: 1
+      Data: 6|1
+    - Name: 
+      Entry: 10
+      Data: 5
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: <DarkChunk>k__BackingField
+      Entry: 7
+      Data: 33|Game.Utils.Chunks.SerializedChunkTypeInfo, Assembly-CSharp
+    - Name: ChunkSequenceMaxCount
+      Entry: 3
+      Data: 2
+    - Name: NextChunkTypes
+      Entry: 7
+      Data: 34|System.Collections.Generic.Dictionary`2[[Game.Utils.Chunks.EChunkType,
+        Assembly-CSharp],[System.Int32, mscorlib]], mscorlib
+    - Name: comparer
+      Entry: 9
+      Data: 9
+    - Name: 
+      Entry: 12
+      Data: 10
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 2
+    - Name: $v
+      Entry: 3
+      Data: 40
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 4
+    - Name: $v
+      Entry: 3
+      Data: 40
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 8
+    - Name: $v
+      Entry: 3
+      Data: 40
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 16
+    - Name: $v
+      Entry: 3
+      Data: 100
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 64
+    - Name: $v
+      Entry: 3
+      Data: 60
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 1
+    - Name: $v
+      Entry: 3
+      Data: 100
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 128
+    - Name: $v
+      Entry: 3
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 4096
+    - Name: $v
+      Entry: 3
+      Data: 15
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 8192
+    - Name: $v
+      Entry: 3
+      Data: 15
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 16384
+    - Name: $v
+      Entry: 3
+      Data: 15
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: AvailableObstacles
+      Entry: 7
+      Data: 35|System.Collections.Generic.Dictionary`2[[Game.Utils.Obstacles.EObstacleType,
+        Assembly-CSharp],[System.Int32, mscorlib]], mscorlib
+    - Name: comparer
+      Entry: 9
+      Data: 11
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 0
+    - Name: $v
+      Entry: 3
+      Data: 100
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: ObstaclesCount
+      Entry: 7
+      Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
+    - Name: 
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: ChunksMatrix
+      Entry: 7
+      Data: 36|UnityEngine.GameObject[,], UnityEngine.CoreModule
+    - Name: 
+      Entry: 12
+      Data: 6
+    - Name: ranks
+      Entry: 1
+      Data: 6|1
+    - Name: 
+      Entry: 10
+      Data: 6
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: <StraightColumnChunk>k__BackingField
+      Entry: 7
+      Data: 37|Game.Utils.Chunks.SerializedChunkTypeInfo, Assembly-CSharp
+    - Name: ChunkSequenceMaxCount
+      Entry: 3
+      Data: 1
+    - Name: NextChunkTypes
+      Entry: 7
+      Data: 38|System.Collections.Generic.Dictionary`2[[Game.Utils.Chunks.EChunkType,
+        Assembly-CSharp],[System.Int32, mscorlib]], mscorlib
+    - Name: comparer
+      Entry: 9
+      Data: 9
+    - Name: 
+      Entry: 12
+      Data: 6
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 2
+    - Name: $v
+      Entry: 3
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 4
+    - Name: $v
+      Entry: 3
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 8
+    - Name: $v
+      Entry: 3
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 16
+    - Name: $v
+      Entry: 3
+      Data: 100
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 64
+    - Name: $v
+      Entry: 3
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 1
+    - Name: $v
+      Entry: 3
+      Data: 100
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: AvailableObstacles
+      Entry: 7
+      Data: 39|System.Collections.Generic.Dictionary`2[[Game.Utils.Obstacles.EObstacleType,
+        Assembly-CSharp],[System.Int32, mscorlib]], mscorlib
+    - Name: comparer
+      Entry: 9
+      Data: 11
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 0
+    - Name: $v
+      Entry: 3
+      Data: 100
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: ObstaclesCount
+      Entry: 7
+      Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
+    - Name: 
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: ChunksMatrix
+      Entry: 7
+      Data: 40|UnityEngine.GameObject[,], UnityEngine.CoreModule
+    - Name: 
+      Entry: 12
+      Data: 6
+    - Name: ranks
+      Entry: 1
+      Data: 6|1
+    - Name: 
+      Entry: 10
+      Data: 7
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: <CrossColumnChunk>k__BackingField
+      Entry: 7
+      Data: 41|Game.Utils.Chunks.SerializedChunkTypeInfo, Assembly-CSharp
+    - Name: ChunkSequenceMaxCount
+      Entry: 3
+      Data: 1
+    - Name: NextChunkTypes
+      Entry: 7
+      Data: 42|System.Collections.Generic.Dictionary`2[[Game.Utils.Chunks.EChunkType,
+        Assembly-CSharp],[System.Int32, mscorlib]], mscorlib
+    - Name: comparer
+      Entry: 9
+      Data: 9
+    - Name: 
+      Entry: 12
+      Data: 6
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 2
+    - Name: $v
+      Entry: 3
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 4
+    - Name: $v
+      Entry: 3
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 8
+    - Name: $v
+      Entry: 3
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 16
+    - Name: $v
+      Entry: 3
+      Data: 100
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 64
+    - Name: $v
+      Entry: 3
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 1
+    - Name: $v
+      Entry: 3
+      Data: 100
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: AvailableObstacles
+      Entry: 7
+      Data: 43|System.Collections.Generic.Dictionary`2[[Game.Utils.Obstacles.EObstacleType,
+        Assembly-CSharp],[System.Int32, mscorlib]], mscorlib
+    - Name: comparer
+      Entry: 9
+      Data: 11
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 0
+    - Name: $v
+      Entry: 3
+      Data: 100
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: ObstaclesCount
+      Entry: 7
+      Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
+    - Name: 
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: ChunksMatrix
+      Entry: 7
+      Data: 44|UnityEngine.GameObject[,], UnityEngine.CoreModule
+    - Name: 
+      Entry: 12
+      Data: 6
+    - Name: ranks
+      Entry: 1
+      Data: 6|1
+    - Name: 
+      Entry: 10
+      Data: 8
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: <CurvedChunk>k__BackingField
+      Entry: 7
+      Data: 45|Game.Utils.Chunks.SerializedChunkTypeInfo, Assembly-CSharp
+    - Name: ChunkSequenceMaxCount
+      Entry: 3
+      Data: 1
+    - Name: NextChunkTypes
+      Entry: 7
+      Data: 46|System.Collections.Generic.Dictionary`2[[Game.Utils.Chunks.EChunkType,
+        Assembly-CSharp],[System.Int32, mscorlib]], mscorlib
+    - Name: comparer
+      Entry: 9
+      Data: 9
+    - Name: 
+      Entry: 12
+      Data: 6
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 2
+    - Name: $v
+      Entry: 3
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 4
+    - Name: $v
+      Entry: 3
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 8
+    - Name: $v
+      Entry: 3
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 16
+    - Name: $v
+      Entry: 3
+      Data: 100
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 64
+    - Name: $v
+      Entry: 3
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 1
+    - Name: $v
+      Entry: 3
+      Data: 100
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: AvailableObstacles
+      Entry: 7
+      Data: 47|System.Collections.Generic.Dictionary`2[[Game.Utils.Obstacles.EObstacleType,
+        Assembly-CSharp],[System.Int32, mscorlib]], mscorlib
+    - Name: comparer
+      Entry: 9
+      Data: 11
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 0
+    - Name: $v
+      Entry: 3
+      Data: 100
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: ObstaclesCount
+      Entry: 7
+      Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
+    - Name: 
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: ChunksMatrix
+      Entry: 7
+      Data: 48|UnityEngine.GameObject[,], UnityEngine.CoreModule
+    - Name: 
+      Entry: 12
+      Data: 6
+    - Name: ranks
+      Entry: 1
+      Data: 6|1
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: <RotatedChunk>k__BackingField
+      Entry: 7
+      Data: 49|Game.Utils.Chunks.SerializedChunkTypeInfo, Assembly-CSharp
+    - Name: ChunkSequenceMaxCount
+      Entry: 3
+      Data: 1
+    - Name: NextChunkTypes
+      Entry: 7
+      Data: 50|System.Collections.Generic.Dictionary`2[[Game.Utils.Chunks.EChunkType,
+        Assembly-CSharp],[System.Int32, mscorlib]], mscorlib
+    - Name: comparer
+      Entry: 9
+      Data: 9
+    - Name: 
+      Entry: 12
+      Data: 6
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 2
+    - Name: $v
+      Entry: 3
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 4
+    - Name: $v
+      Entry: 3
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 8
+    - Name: $v
+      Entry: 3
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 16
+    - Name: $v
+      Entry: 3
+      Data: 100
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 64
+    - Name: $v
+      Entry: 3
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 1
+    - Name: $v
+      Entry: 3
+      Data: 100
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: AvailableObstacles
+      Entry: 7
+      Data: 51|System.Collections.Generic.Dictionary`2[[Game.Utils.Obstacles.EObstacleType,
+        Assembly-CSharp],[System.Int32, mscorlib]], mscorlib
+    - Name: comparer
+      Entry: 9
+      Data: 11
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 0
+    - Name: $v
+      Entry: 3
+      Data: 100
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: ObstaclesCount
+      Entry: 7
+      Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
+    - Name: 
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: ChunksMatrix
+      Entry: 7
+      Data: 52|UnityEngine.GameObject[,], UnityEngine.CoreModule
+    - Name: 
+      Entry: 12
+      Data: 6
+    - Name: ranks
+      Entry: 1
+      Data: 6|1
+    - Name: 
+      Entry: 10
+      Data: 9
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: <TurnLeftBodyChunk>k__BackingField
+      Entry: 7
+      Data: 53|Game.Utils.Chunks.SerializedChunkTypeInfo, Assembly-CSharp
+    - Name: ChunkSequenceMaxCount
+      Entry: 3
+      Data: 1
+    - Name: NextChunkTypes
+      Entry: 7
+      Data: 54|System.Collections.Generic.Dictionary`2[[Game.Utils.Chunks.EChunkType,
+        Assembly-CSharp],[System.Int32, mscorlib]], mscorlib
+    - Name: comparer
+      Entry: 9
+      Data: 9
+    - Name: 
+      Entry: 12
+      Data: 8
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 1
+    - Name: $v
+      Entry: 3
+      Data: 100
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 16
+    - Name: $v
+      Entry: 3
+      Data: 100
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 64
+    - Name: $v
+      Entry: 3
+      Data: 100
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 128
+    - Name: $v
+      Entry: 3
+      Data: 15
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 256
+    - Name: $v
+      Entry: 3
+      Data: 5
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 512
+    - Name: $v
+      Entry: 3
+      Data: 5
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 1024
+    - Name: $v
+      Entry: 3
+      Data: 5
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 2048
+    - Name: $v
+      Entry: 3
+      Data: 15
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: AvailableObstacles
+      Entry: 7
+      Data: 55|System.Collections.Generic.Dictionary`2[[Game.Utils.Obstacles.EObstacleType,
+        Assembly-CSharp],[System.Int32, mscorlib]], mscorlib
+    - Name: comparer
+      Entry: 9
+      Data: 11
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 0
+    - Name: $v
+      Entry: 3
+      Data: 10
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: ObstaclesCount
+      Entry: 7
+      Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
+    - Name: 
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: ChunksMatrix
+      Entry: 7
+      Data: 56|UnityEngine.GameObject[,], UnityEngine.CoreModule
+    - Name: 
+      Entry: 12
+      Data: 6
+    - Name: ranks
+      Entry: 1
+      Data: 6|1
+    - Name: 
+      Entry: 10
+      Data: 10
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: <TurnRightBodyChunk>k__BackingField
+      Entry: 7
+      Data: 57|Game.Utils.Chunks.SerializedChunkTypeInfo, Assembly-CSharp
+    - Name: ChunkSequenceMaxCount
+      Entry: 3
+      Data: 1
+    - Name: NextChunkTypes
+      Entry: 7
+      Data: 58|System.Collections.Generic.Dictionary`2[[Game.Utils.Chunks.EChunkType,
+        Assembly-CSharp],[System.Int32, mscorlib]], mscorlib
+    - Name: comparer
+      Entry: 9
+      Data: 9
+    - Name: 
+      Entry: 12
+      Data: 8
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 1
+    - Name: $v
+      Entry: 3
+      Data: 100
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 16
+    - Name: $v
+      Entry: 3
+      Data: 100
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 128
+    - Name: $v
+      Entry: 3
+      Data: 15
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 256
+    - Name: $v
+      Entry: 3
+      Data: 5
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 512
+    - Name: $v
+      Entry: 3
+      Data: 5
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 1024
+    - Name: $v
+      Entry: 3
+      Data: 5
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 2048
+    - Name: $v
+      Entry: 3
+      Data: 15
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 64
+    - Name: $v
+      Entry: 3
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: AvailableObstacles
+      Entry: 7
+      Data: 59|System.Collections.Generic.Dictionary`2[[Game.Utils.Obstacles.EObstacleType,
+        Assembly-CSharp],[System.Int32, mscorlib]], mscorlib
+    - Name: comparer
+      Entry: 9
+      Data: 11
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 0
+    - Name: $v
+      Entry: 3
+      Data: 10
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: ObstaclesCount
+      Entry: 7
+      Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
+    - Name: 
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: ChunksMatrix
+      Entry: 7
+      Data: 60|UnityEngine.GameObject[,], UnityEngine.CoreModule
+    - Name: 
+      Entry: 12
+      Data: 6
+    - Name: ranks
+      Entry: 1
+      Data: 6|1
+    - Name: 
+      Entry: 10
+      Data: 11
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: <TurnBothSidesBodyChunk>k__BackingField
+      Entry: 7
+      Data: 61|Game.Utils.Chunks.SerializedChunkTypeInfo, Assembly-CSharp
+    - Name: ChunkSequenceMaxCount
+      Entry: 3
+      Data: 1
+    - Name: NextChunkTypes
+      Entry: 7
+      Data: 62|System.Collections.Generic.Dictionary`2[[Game.Utils.Chunks.EChunkType,
+        Assembly-CSharp],[System.Int32, mscorlib]], mscorlib
+    - Name: comparer
+      Entry: 9
+      Data: 9
+    - Name: 
+      Entry: 12
+      Data: 8
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 1
+    - Name: $v
+      Entry: 3
+      Data: 100
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 16
+    - Name: $v
+      Entry: 3
+      Data: 100
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 128
+    - Name: $v
+      Entry: 3
+      Data: 15
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 256
+    - Name: $v
+      Entry: 3
+      Data: 5
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 512
+    - Name: $v
+      Entry: 3
+      Data: 5
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 1024
+    - Name: $v
+      Entry: 3
+      Data: 5
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 2048
+    - Name: $v
+      Entry: 3
+      Data: 15
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 64
+    - Name: $v
+      Entry: 3
+      Data: 100
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: AvailableObstacles
+      Entry: 7
+      Data: 63|System.Collections.Generic.Dictionary`2[[Game.Utils.Obstacles.EObstacleType,
+        Assembly-CSharp],[System.Int32, mscorlib]], mscorlib
+    - Name: comparer
+      Entry: 9
+      Data: 11
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 0
+    - Name: $v
+      Entry: 3
+      Data: 10
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: ObstaclesCount
+      Entry: 7
+      Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
+    - Name: 
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: ChunksMatrix
+      Entry: 7
+      Data: 64|UnityEngine.GameObject[,], UnityEngine.CoreModule
+    - Name: 
+      Entry: 12
+      Data: 6
+    - Name: ranks
+      Entry: 1
+      Data: 6|1
+    - Name: 
+      Entry: 10
+      Data: 12
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: <TransitionChunk>k__BackingField
+      Entry: 7
+      Data: 65|Game.Utils.Chunks.SerializedChunkTypeInfo, Assembly-CSharp
+    - Name: ChunkSequenceMaxCount
+      Entry: 3
+      Data: 1
+    - Name: NextChunkTypes
+      Entry: 7
+      Data: 66|System.Collections.Generic.Dictionary`2[[Game.Utils.Chunks.EChunkType,
+        Assembly-CSharp],[System.Int32, mscorlib]], mscorlib
+    - Name: comparer
+      Entry: 7
+      Data: 67|System.Collections.Generic.EnumEqualityComparer`1[[Game.Utils.Chunks.EChunkType,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: AvailableObstacles
+      Entry: 7
+      Data: 68|System.Collections.Generic.Dictionary`2[[Game.Utils.Obstacles.EObstacleType,
+        Assembly-CSharp],[System.Int32, mscorlib]], mscorlib
+    - Name: comparer
+      Entry: 7
+      Data: 69|System.Collections.Generic.EnumEqualityComparer`1[[Game.Utils.Obstacles.EObstacleType,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: ObstaclesCount
+      Entry: 7
+      Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
+    - Name: 
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: ChunksMatrix
+      Entry: 7
+      Data: 70|UnityEngine.GameObject[,], UnityEngine.CoreModule
+    - Name: 
+      Entry: 12
+      Data: 6
+    - Name: ranks
+      Entry: 1
+      Data: 6|1
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: <TutorialLeftChunks>k__BackingField
+      Entry: 7
+      Data: 71|Game.Utils.Chunks.SerializedChunkTypeInfo, Assembly-CSharp
+    - Name: ChunkSequenceMaxCount
+      Entry: 3
+      Data: 0
+    - Name: NextChunkTypes
+      Entry: 7
+      Data: 72|System.Collections.Generic.Dictionary`2[[Game.Utils.Chunks.EChunkType,
+        Assembly-CSharp],[System.Int32, mscorlib]], mscorlib
+    - Name: comparer
+      Entry: 7
+      Data: 73|System.Collections.Generic.EnumEqualityComparer`1[[Game.Utils.Chunks.EChunkType,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: AvailableObstacles
+      Entry: 7
+      Data: 74|System.Collections.Generic.Dictionary`2[[Game.Utils.Obstacles.EObstacleType,
+        Assembly-CSharp],[System.Int32, mscorlib]], mscorlib
+    - Name: comparer
+      Entry: 7
+      Data: 75|System.Collections.Generic.EnumEqualityComparer`1[[Game.Utils.Obstacles.EObstacleType,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: ObstaclesCount
+      Entry: 7
+      Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
+    - Name: 
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: ChunksMatrix
+      Entry: 7
+      Data: 76|UnityEngine.GameObject[,], UnityEngine.CoreModule
+    - Name: 
+      Entry: 12
+      Data: 6
+    - Name: ranks
+      Entry: 1
+      Data: 6|1
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: <TutorialLeftChunksV2>k__BackingField
+      Entry: 7
+      Data: 77|Game.Utils.Chunks.SerializedChunkTypeInfo, Assembly-CSharp
+    - Name: ChunkSequenceMaxCount
+      Entry: 3
+      Data: 0
+    - Name: NextChunkTypes
+      Entry: 7
+      Data: 78|System.Collections.Generic.Dictionary`2[[Game.Utils.Chunks.EChunkType,
+        Assembly-CSharp],[System.Int32, mscorlib]], mscorlib
+    - Name: comparer
+      Entry: 9
+      Data: 73
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: AvailableObstacles
+      Entry: 7
+      Data: 79|System.Collections.Generic.Dictionary`2[[Game.Utils.Obstacles.EObstacleType,
+        Assembly-CSharp],[System.Int32, mscorlib]], mscorlib
+    - Name: comparer
+      Entry: 9
+      Data: 75
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: ObstaclesCount
+      Entry: 7
+      Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
+    - Name: 
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: ChunksMatrix
+      Entry: 7
+      Data: 80|UnityEngine.GameObject[,], UnityEngine.CoreModule
+    - Name: 
+      Entry: 12
+      Data: 6
+    - Name: ranks
+      Entry: 1
+      Data: 6|1
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: <TutorialRightChunks>k__BackingField
+      Entry: 7
+      Data: 81|Game.Utils.Chunks.SerializedChunkTypeInfo, Assembly-CSharp
+    - Name: ChunkSequenceMaxCount
+      Entry: 3
+      Data: 0
+    - Name: NextChunkTypes
+      Entry: 7
+      Data: 82|System.Collections.Generic.Dictionary`2[[Game.Utils.Chunks.EChunkType,
+        Assembly-CSharp],[System.Int32, mscorlib]], mscorlib
+    - Name: comparer
+      Entry: 9
+      Data: 73
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: AvailableObstacles
+      Entry: 7
+      Data: 83|System.Collections.Generic.Dictionary`2[[Game.Utils.Obstacles.EObstacleType,
+        Assembly-CSharp],[System.Int32, mscorlib]], mscorlib
+    - Name: comparer
+      Entry: 9
+      Data: 75
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: ObstaclesCount
+      Entry: 7
+      Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
+    - Name: 
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: ChunksMatrix
+      Entry: 7
+      Data: 84|UnityEngine.GameObject[,], UnityEngine.CoreModule
+    - Name: 
+      Entry: 12
+      Data: 6
+    - Name: ranks
+      Entry: 1
+      Data: 6|1
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: <TutorialRightChunksV2>k__BackingField
+      Entry: 7
+      Data: 85|Game.Utils.Chunks.SerializedChunkTypeInfo, Assembly-CSharp
+    - Name: ChunkSequenceMaxCount
+      Entry: 3
+      Data: 0
+    - Name: NextChunkTypes
+      Entry: 7
+      Data: 86|System.Collections.Generic.Dictionary`2[[Game.Utils.Chunks.EChunkType,
+        Assembly-CSharp],[System.Int32, mscorlib]], mscorlib
+    - Name: comparer
+      Entry: 9
+      Data: 73
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: AvailableObstacles
+      Entry: 7
+      Data: 87|System.Collections.Generic.Dictionary`2[[Game.Utils.Obstacles.EObstacleType,
+        Assembly-CSharp],[System.Int32, mscorlib]], mscorlib
+    - Name: comparer
+      Entry: 9
+      Data: 75
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: ObstaclesCount
+      Entry: 7
+      Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
+    - Name: 
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: ChunksMatrix
+      Entry: 7
+      Data: 88|UnityEngine.GameObject[,], UnityEngine.CoreModule
+    - Name: 
+      Entry: 12
+      Data: 6
+    - Name: ranks
+      Entry: 1
+      Data: 6|1
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _chunksInfo
+      Entry: 7
+      Data: 89|System.Collections.Generic.Dictionary`2[[Game.Utils.Chunks.EChunkType,
+        Assembly-CSharp],[Game.Utils.Chunks.ChunkTypeInfo, Assembly-CSharp]], mscorlib
+    - Name: comparer
+      Entry: 9
+      Data: 73
+    - Name: 
+      Entry: 12
+      Data: 19
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 1
+    - Name: $v
+      Entry: 7
+      Data: 90|Game.Utils.Chunks.ChunkTypeInfo, Assembly-CSharp
+    - Name: IsGenerative
+      Entry: 5
+      Data: true
+    - Name: ChunksGenerationInfo
+      Entry: 7
+      Data: Game.Utils.Chunks.ChunkGenerationInfo, Assembly-CSharp
+    - Name: _nextChunkTypes
+      Entry: 9
+      Data: 8
+    - Name: <ChunkSequenceCount>k__BackingField
+      Entry: 3
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Chunks
+      Entry: 7
+      Data: 91|Ecs.Views.Linkable.Impl.Chunk.ChunkView[], Assembly-CSharp
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 10
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: AvailableObstacles
+      Entry: 9
+      Data: 10
+    - Name: ObstaclesCount
+      Entry: 7
+      Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
+    - Name: 
+      Entry: 3
+      Data: 2
+    - Name: 
+      Entry: 3
+      Data: 3
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: WallZonePresetGroupsNames
+      Entry: 9
+      Data: 12
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 2
+    - Name: $v
+      Entry: 7
+      Data: 92|Game.Utils.Chunks.ChunkTypeInfo, Assembly-CSharp
+    - Name: IsGenerative
+      Entry: 5
+      Data: false
+    - Name: ChunksGenerationInfo
+      Entry: 7
+      Data: Game.Utils.Chunks.ChunkGenerationInfo, Assembly-CSharp
+    - Name: _nextChunkTypes
+      Entry: 9
+      Data: 14
+    - Name: <ChunkSequenceCount>k__BackingField
+      Entry: 3
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Chunks
+      Entry: 7
+      Data: 93|Ecs.Views.Linkable.Impl.Chunk.ChunkView[], Assembly-CSharp
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 10
+      Data: 13
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: AvailableObstacles
+      Entry: 9
+      Data: 15
+    - Name: ObstaclesCount
+      Entry: 7
+      Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
+    - Name: 
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: WallZonePresetGroupsNames
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 4
+    - Name: $v
+      Entry: 7
+      Data: 94|Game.Utils.Chunks.ChunkTypeInfo, Assembly-CSharp
+    - Name: IsGenerative
+      Entry: 5
+      Data: false
+    - Name: ChunksGenerationInfo
+      Entry: 7
+      Data: Game.Utils.Chunks.ChunkGenerationInfo, Assembly-CSharp
+    - Name: _nextChunkTypes
+      Entry: 9
+      Data: 18
+    - Name: <ChunkSequenceCount>k__BackingField
+      Entry: 3
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Chunks
+      Entry: 7
+      Data: 95|Ecs.Views.Linkable.Impl.Chunk.ChunkView[], Assembly-CSharp
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 10
+      Data: 14
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: AvailableObstacles
+      Entry: 9
+      Data: 19
+    - Name: ObstaclesCount
+      Entry: 7
+      Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
+    - Name: 
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: WallZonePresetGroupsNames
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 8
+    - Name: $v
+      Entry: 7
+      Data: 96|Game.Utils.Chunks.ChunkTypeInfo, Assembly-CSharp
+    - Name: IsGenerative
+      Entry: 5
+      Data: false
+    - Name: ChunksGenerationInfo
+      Entry: 7
+      Data: Game.Utils.Chunks.ChunkGenerationInfo, Assembly-CSharp
+    - Name: _nextChunkTypes
+      Entry: 9
+      Data: 22
+    - Name: <ChunkSequenceCount>k__BackingField
+      Entry: 3
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Chunks
+      Entry: 7
+      Data: 97|Ecs.Views.Linkable.Impl.Chunk.ChunkView[], Assembly-CSharp
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 10
+      Data: 15
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: AvailableObstacles
+      Entry: 9
+      Data: 23
+    - Name: ObstaclesCount
+      Entry: 7
+      Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
+    - Name: 
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: WallZonePresetGroupsNames
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 16
+    - Name: $v
+      Entry: 7
+      Data: 98|Game.Utils.Chunks.ChunkTypeInfo, Assembly-CSharp
+    - Name: IsGenerative
+      Entry: 5
+      Data: false
+    - Name: ChunksGenerationInfo
+      Entry: 7
+      Data: Game.Utils.Chunks.ChunkGenerationInfo, Assembly-CSharp
+    - Name: _nextChunkTypes
+      Entry: 9
+      Data: 26
+    - Name: <ChunkSequenceCount>k__BackingField
+      Entry: 3
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Chunks
+      Entry: 7
+      Data: 99|Ecs.Views.Linkable.Impl.Chunk.ChunkView[], Assembly-CSharp
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 10
+      Data: 16
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: AvailableObstacles
+      Entry: 9
+      Data: 27
+    - Name: ObstaclesCount
+      Entry: 7
+      Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
+    - Name: 
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 3
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: WallZonePresetGroupsNames
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 64
+    - Name: $v
+      Entry: 7
+      Data: 100|Game.Utils.Chunks.ChunkTypeInfo, Assembly-CSharp
+    - Name: IsGenerative
+      Entry: 5
+      Data: false
+    - Name: ChunksGenerationInfo
+      Entry: 7
+      Data: Game.Utils.Chunks.ChunkGenerationInfo, Assembly-CSharp
+    - Name: _nextChunkTypes
+      Entry: 9
+      Data: 30
+    - Name: <ChunkSequenceCount>k__BackingField
+      Entry: 3
+      Data: 2
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Chunks
+      Entry: 7
+      Data: 101|Ecs.Views.Linkable.Impl.Chunk.ChunkView[], Assembly-CSharp
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 10
+      Data: 17
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: AvailableObstacles
+      Entry: 9
+      Data: 31
+    - Name: ObstaclesCount
+      Entry: 7
+      Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
+    - Name: 
+      Entry: 3
+      Data: 1
+    - Name: 
+      Entry: 3
+      Data: 3
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: WallZonePresetGroupsNames
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 128
+    - Name: $v
+      Entry: 7
+      Data: 102|Game.Utils.Chunks.ChunkTypeInfo, Assembly-CSharp
+    - Name: IsGenerative
+      Entry: 5
+      Data: false
+    - Name: ChunksGenerationInfo
+      Entry: 7
+      Data: Game.Utils.Chunks.ChunkGenerationInfo, Assembly-CSharp
+    - Name: _nextChunkTypes
+      Entry: 9
+      Data: 34
+    - Name: <ChunkSequenceCount>k__BackingField
+      Entry: 3
+      Data: 2
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Chunks
+      Entry: 7
+      Data: 103|Ecs.Views.Linkable.Impl.Chunk.ChunkView[], Assembly-CSharp
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 10
+      Data: 18
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: AvailableObstacles
+      Entry: 9
+      Data: 35
+    - Name: ObstaclesCount
+      Entry: 7
+      Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
+    - Name: 
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: WallZonePresetGroupsNames
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 256
+    - Name: $v
+      Entry: 7
+      Data: 104|Game.Utils.Chunks.ChunkTypeInfo, Assembly-CSharp
+    - Name: IsGenerative
+      Entry: 5
+      Data: false
+    - Name: ChunksGenerationInfo
+      Entry: 7
+      Data: Game.Utils.Chunks.ChunkGenerationInfo, Assembly-CSharp
+    - Name: _nextChunkTypes
+      Entry: 9
+      Data: 38
+    - Name: <ChunkSequenceCount>k__BackingField
+      Entry: 3
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Chunks
+      Entry: 7
+      Data: 105|Ecs.Views.Linkable.Impl.Chunk.ChunkView[], Assembly-CSharp
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 10
+      Data: 19
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: AvailableObstacles
+      Entry: 9
+      Data: 39
+    - Name: ObstaclesCount
+      Entry: 7
+      Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
+    - Name: 
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: WallZonePresetGroupsNames
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 512
+    - Name: $v
+      Entry: 7
+      Data: 106|Game.Utils.Chunks.ChunkTypeInfo, Assembly-CSharp
+    - Name: IsGenerative
+      Entry: 5
+      Data: false
+    - Name: ChunksGenerationInfo
+      Entry: 7
+      Data: Game.Utils.Chunks.ChunkGenerationInfo, Assembly-CSharp
+    - Name: _nextChunkTypes
+      Entry: 9
+      Data: 42
+    - Name: <ChunkSequenceCount>k__BackingField
+      Entry: 3
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Chunks
+      Entry: 7
+      Data: 107|Ecs.Views.Linkable.Impl.Chunk.ChunkView[], Assembly-CSharp
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 10
+      Data: 20
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: AvailableObstacles
+      Entry: 9
+      Data: 43
+    - Name: ObstaclesCount
+      Entry: 7
+      Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
+    - Name: 
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: WallZonePresetGroupsNames
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 1024
+    - Name: $v
+      Entry: 7
+      Data: 108|Game.Utils.Chunks.ChunkTypeInfo, Assembly-CSharp
+    - Name: IsGenerative
+      Entry: 5
+      Data: false
+    - Name: ChunksGenerationInfo
+      Entry: 7
+      Data: Game.Utils.Chunks.ChunkGenerationInfo, Assembly-CSharp
+    - Name: _nextChunkTypes
+      Entry: 9
+      Data: 46
+    - Name: <ChunkSequenceCount>k__BackingField
+      Entry: 3
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Chunks
+      Entry: 7
+      Data: 109|Ecs.Views.Linkable.Impl.Chunk.ChunkView[], Assembly-CSharp
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: AvailableObstacles
+      Entry: 9
+      Data: 47
+    - Name: ObstaclesCount
+      Entry: 7
+      Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
+    - Name: 
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: WallZonePresetGroupsNames
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 2048
+    - Name: $v
+      Entry: 7
+      Data: 110|Game.Utils.Chunks.ChunkTypeInfo, Assembly-CSharp
+    - Name: IsGenerative
+      Entry: 5
+      Data: false
+    - Name: ChunksGenerationInfo
+      Entry: 7
+      Data: Game.Utils.Chunks.ChunkGenerationInfo, Assembly-CSharp
+    - Name: _nextChunkTypes
+      Entry: 9
+      Data: 50
+    - Name: <ChunkSequenceCount>k__BackingField
+      Entry: 3
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Chunks
+      Entry: 7
+      Data: 111|Ecs.Views.Linkable.Impl.Chunk.ChunkView[], Assembly-CSharp
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 10
+      Data: 21
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: AvailableObstacles
+      Entry: 9
+      Data: 51
+    - Name: ObstaclesCount
+      Entry: 7
+      Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
+    - Name: 
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: WallZonePresetGroupsNames
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 4096
+    - Name: $v
+      Entry: 7
+      Data: 112|Game.Utils.Chunks.ChunkTypeInfo, Assembly-CSharp
+    - Name: IsGenerative
+      Entry: 5
+      Data: false
+    - Name: ChunksGenerationInfo
+      Entry: 7
+      Data: Game.Utils.Chunks.ChunkGenerationInfo, Assembly-CSharp
+    - Name: _nextChunkTypes
+      Entry: 9
+      Data: 54
+    - Name: <ChunkSequenceCount>k__BackingField
+      Entry: 3
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Chunks
+      Entry: 7
+      Data: 113|Ecs.Views.Linkable.Impl.Chunk.ChunkView[], Assembly-CSharp
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 10
+      Data: 22
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: AvailableObstacles
+      Entry: 9
+      Data: 55
+    - Name: ObstaclesCount
+      Entry: 7
+      Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
+    - Name: 
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: WallZonePresetGroupsNames
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 8192
+    - Name: $v
+      Entry: 7
+      Data: 114|Game.Utils.Chunks.ChunkTypeInfo, Assembly-CSharp
+    - Name: IsGenerative
+      Entry: 5
+      Data: false
+    - Name: ChunksGenerationInfo
+      Entry: 7
+      Data: Game.Utils.Chunks.ChunkGenerationInfo, Assembly-CSharp
+    - Name: _nextChunkTypes
+      Entry: 9
+      Data: 58
+    - Name: <ChunkSequenceCount>k__BackingField
+      Entry: 3
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Chunks
+      Entry: 7
+      Data: 115|Ecs.Views.Linkable.Impl.Chunk.ChunkView[], Assembly-CSharp
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 10
+      Data: 23
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: AvailableObstacles
+      Entry: 9
+      Data: 59
+    - Name: ObstaclesCount
+      Entry: 7
+      Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
+    - Name: 
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: WallZonePresetGroupsNames
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 16384
+    - Name: $v
+      Entry: 7
+      Data: 116|Game.Utils.Chunks.ChunkTypeInfo, Assembly-CSharp
+    - Name: IsGenerative
+      Entry: 5
+      Data: false
+    - Name: ChunksGenerationInfo
+      Entry: 7
+      Data: Game.Utils.Chunks.ChunkGenerationInfo, Assembly-CSharp
+    - Name: _nextChunkTypes
+      Entry: 9
+      Data: 62
+    - Name: <ChunkSequenceCount>k__BackingField
+      Entry: 3
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Chunks
+      Entry: 7
+      Data: 117|Ecs.Views.Linkable.Impl.Chunk.ChunkView[], Assembly-CSharp
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 10
+      Data: 24
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: AvailableObstacles
+      Entry: 9
+      Data: 63
+    - Name: ObstaclesCount
+      Entry: 7
+      Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
+    - Name: 
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: WallZonePresetGroupsNames
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 32768
+    - Name: $v
+      Entry: 7
+      Data: 118|Game.Utils.Chunks.ChunkTypeInfo, Assembly-CSharp
+    - Name: IsGenerative
+      Entry: 5
+      Data: false
+    - Name: ChunksGenerationInfo
+      Entry: 7
+      Data: Game.Utils.Chunks.ChunkGenerationInfo, Assembly-CSharp
+    - Name: _nextChunkTypes
+      Entry: 9
+      Data: 66
+    - Name: <ChunkSequenceCount>k__BackingField
+      Entry: 3
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Chunks
+      Entry: 9
+      Data: 109
+    - Name: AvailableObstacles
+      Entry: 9
+      Data: 68
+    - Name: ObstaclesCount
+      Entry: 7
+      Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
+    - Name: 
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: WallZonePresetGroupsNames
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 65536
+    - Name: $v
+      Entry: 7
+      Data: 119|Game.Utils.Chunks.ChunkTypeInfo, Assembly-CSharp
+    - Name: IsGenerative
+      Entry: 5
+      Data: false
+    - Name: ChunksGenerationInfo
+      Entry: 7
+      Data: Game.Utils.Chunks.ChunkGenerationInfo, Assembly-CSharp
+    - Name: _nextChunkTypes
+      Entry: 9
+      Data: 72
+    - Name: <ChunkSequenceCount>k__BackingField
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Chunks
+      Entry: 9
+      Data: 109
+    - Name: AvailableObstacles
+      Entry: 9
+      Data: 74
+    - Name: ObstaclesCount
+      Entry: 7
+      Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
+    - Name: 
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: WallZonePresetGroupsNames
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 131072
+    - Name: $v
+      Entry: 7
+      Data: 120|Game.Utils.Chunks.ChunkTypeInfo, Assembly-CSharp
+    - Name: IsGenerative
+      Entry: 5
+      Data: false
+    - Name: ChunksGenerationInfo
+      Entry: 7
+      Data: Game.Utils.Chunks.ChunkGenerationInfo, Assembly-CSharp
+    - Name: _nextChunkTypes
+      Entry: 9
+      Data: 82
+    - Name: <ChunkSequenceCount>k__BackingField
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Chunks
+      Entry: 9
+      Data: 109
+    - Name: AvailableObstacles
+      Entry: 9
+      Data: 83
+    - Name: ObstaclesCount
+      Entry: 7
+      Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
+    - Name: 
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: WallZonePresetGroupsNames
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 524288
+    - Name: $v
+      Entry: 7
+      Data: 121|Game.Utils.Chunks.ChunkTypeInfo, Assembly-CSharp
+    - Name: IsGenerative
+      Entry: 5
+      Data: false
+    - Name: ChunksGenerationInfo
+      Entry: 7
+      Data: Game.Utils.Chunks.ChunkGenerationInfo, Assembly-CSharp
+    - Name: _nextChunkTypes
+      Entry: 9
+      Data: 78
+    - Name: <ChunkSequenceCount>k__BackingField
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Chunks
+      Entry: 9
+      Data: 109
+    - Name: AvailableObstacles
+      Entry: 9
+      Data: 79
+    - Name: ObstaclesCount
+      Entry: 7
+      Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
+    - Name: 
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: WallZonePresetGroupsNames
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 262144
+    - Name: $v
+      Entry: 7
+      Data: 122|Game.Utils.Chunks.ChunkTypeInfo, Assembly-CSharp
+    - Name: IsGenerative
+      Entry: 5
+      Data: false
+    - Name: ChunksGenerationInfo
+      Entry: 7
+      Data: Game.Utils.Chunks.ChunkGenerationInfo, Assembly-CSharp
+    - Name: _nextChunkTypes
+      Entry: 9
+      Data: 86
+    - Name: <ChunkSequenceCount>k__BackingField
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Chunks
+      Entry: 9
+      Data: 109
+    - Name: AvailableObstacles
+      Entry: 9
+      Data: 87
+    - Name: ObstaclesCount
+      Entry: 7
+      Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
+    - Name: 
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: WallZonePresetGroupsNames
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _chunks
+      Entry: 7
+      Data: 123|System.Collections.Generic.Dictionary`2[[Game.Utils.Chunks.EChunkType,
+        Assembly-CSharp],[System.Collections.Generic.IReadOnlyList`1[[Ecs.Views.Linkable.Impl.Chunk.ChunkView,
+        Assembly-CSharp]], mscorlib]], mscorlib
+    - Name: comparer
+      Entry: 9
+      Data: 73
+    - Name: 
+      Entry: 12
+      Data: 19
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 1
+    - Name: $v
+      Entry: 9
+      Data: 90
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 2
+    - Name: $v
+      Entry: 9
+      Data: 92
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 4
+    - Name: $v
+      Entry: 9
+      Data: 94
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 8
+    - Name: $v
+      Entry: 9
+      Data: 96
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 16
+    - Name: $v
+      Entry: 9
+      Data: 98
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 64
+    - Name: $v
+      Entry: 9
+      Data: 100
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 128
+    - Name: $v
+      Entry: 9
+      Data: 102
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 256
+    - Name: $v
+      Entry: 9
+      Data: 104
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 512
+    - Name: $v
+      Entry: 9
+      Data: 106
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 1024
+    - Name: $v
+      Entry: 9
+      Data: 108
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 2048
+    - Name: $v
+      Entry: 9
+      Data: 110
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 4096
+    - Name: $v
+      Entry: 9
+      Data: 112
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 8192
+    - Name: $v
+      Entry: 9
+      Data: 114
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 16384
+    - Name: $v
+      Entry: 9
+      Data: 116
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 32768
+    - Name: $v
+      Entry: 9
+      Data: 118
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 65536
+    - Name: $v
+      Entry: 9
+      Data: 119
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 131072
+    - Name: $v
+      Entry: 9
+      Data: 120
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 524288
+    - Name: $v
+      Entry: 9
+      Data: 121
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 262144
+    - Name: $v
+      Entry: 9
+      Data: 122
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: <WallPresetGroupsDictionary>k__BackingField
+      Entry: 7
+      Data: 124|System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[Game.Utils.Chunks.WallPresetGroup,
+        Assembly-CSharp]], mscorlib
+    - Name: comparer
+      Entry: 7
+      Data: 125|System.Collections.Generic.GenericEqualityComparer`1[[System.String,
+        mscorlib]], mscorlib
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 12
+      Data: 3
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: DefaultZoneGroup
+    - Name: $v
+      Entry: 7
+      Data: 126|Game.Utils.Chunks.WallPresetGroup, Assembly-CSharp
+    - Name: _presets
+      Entry: 7
+      Data: 127|System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.Int32,
+        mscorlib]], mscorlib
+    - Name: comparer
+      Entry: 9
+      Data: 125
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: DefaultZone
+    - Name: $v
+      Entry: 3
+      Data: 100
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: ObstacleZoneGroup
+    - Name: $v
+      Entry: 7
+      Data: 128|Game.Utils.Chunks.WallPresetGroup, Assembly-CSharp
+    - Name: _presets
+      Entry: 7
+      Data: 129|System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.Int32,
+        mscorlib]], mscorlib
+    - Name: comparer
+      Entry: 9
+      Data: 125
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: ObstacleZone
+    - Name: $v
+      Entry: 3
+      Data: 100
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: ScreamerZoneGroup
+    - Name: $v
+      Entry: 7
+      Data: 130|Game.Utils.Chunks.WallPresetGroup, Assembly-CSharp
+    - Name: _presets
+      Entry: 7
+      Data: 131|System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.Int32,
+        mscorlib]], mscorlib
+    - Name: comparer
+      Entry: 9
+      Data: 125
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: DefaultZone
+    - Name: $v
+      Entry: 3
+      Data: 120
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: ScreamerZone
+    - Name: $v
+      Entry: 3
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: <WallPresetsDictionary>k__BackingField
+      Entry: 7
+      Data: 132|System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[Game.Utils.Chunks.PresetRules,
+        Assembly-CSharp]], mscorlib
+    - Name: comparer
+      Entry: 9
+      Data: 125
+    - Name: 
+      Entry: 12
+      Data: 3
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: DefaultZone
+    - Name: $v
+      Entry: 7
+      Data: Game.Utils.Chunks.PresetRules, Assembly-CSharp
+    - Name: CanSpawnObstacles
+      Entry: 5
+      Data: true
+    - Name: WallTypeRules
+      Entry: 7
+      Data: 133|Game.Utils.Chunks.WallTypeRules[], Assembly-CSharp
+    - Name: 
+      Entry: 12
+      Data: 3
+    - Name: 
+      Entry: 7
+      Data: Game.Utils.Chunks.WallTypeRules, Assembly-CSharp
+    - Name: WallType
+      Entry: 3
+      Data: 1
+    - Name: Restrictions
+      Entry: 7
+      Data: 134|Game.Utils.Chunks.Restriction[], Assembly-CSharp
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: Game.Utils.Chunks.Restriction, Assembly-CSharp
+    - Name: RestrictionType
+      Entry: 3
+      Data: 2
+    - Name: RestrictionArgument
+      Entry: 3
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: Game.Utils.Chunks.WallTypeRules, Assembly-CSharp
+    - Name: WallType
+      Entry: 3
+      Data: 2
+    - Name: Restrictions
+      Entry: 7
+      Data: 135|Game.Utils.Chunks.Restriction[], Assembly-CSharp
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: Game.Utils.Chunks.WallTypeRules, Assembly-CSharp
+    - Name: WallType
+      Entry: 3
+      Data: 3
+    - Name: Restrictions
+      Entry: 7
+      Data: 136|Game.Utils.Chunks.Restriction[], Assembly-CSharp
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: ObstacleZone
+    - Name: $v
+      Entry: 7
+      Data: Game.Utils.Chunks.PresetRules, Assembly-CSharp
+    - Name: CanSpawnObstacles
+      Entry: 5
+      Data: true
+    - Name: WallTypeRules
+      Entry: 7
+      Data: 137|Game.Utils.Chunks.WallTypeRules[], Assembly-CSharp
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: Game.Utils.Chunks.WallTypeRules, Assembly-CSharp
+    - Name: WallType
+      Entry: 3
+      Data: 2
+    - Name: Restrictions
+      Entry: 7
+      Data: 138|Game.Utils.Chunks.Restriction[], Assembly-CSharp
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: Game.Utils.Chunks.WallTypeRules, Assembly-CSharp
+    - Name: WallType
+      Entry: 3
+      Data: 1
+    - Name: Restrictions
+      Entry: 7
+      Data: 139|Game.Utils.Chunks.Restriction[], Assembly-CSharp
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: ScreamerZone
+    - Name: $v
+      Entry: 7
+      Data: Game.Utils.Chunks.PresetRules, Assembly-CSharp
+    - Name: CanSpawnObstacles
+      Entry: 5
+      Data: false
+    - Name: WallTypeRules
+      Entry: 7
+      Data: 140|Game.Utils.Chunks.WallTypeRules[], Assembly-CSharp
+    - Name: 
+      Entry: 12
+      Data: 3
+    - Name: 
+      Entry: 7
+      Data: Game.Utils.Chunks.WallTypeRules, Assembly-CSharp
+    - Name: WallType
+      Entry: 3
+      Data: 4
+    - Name: Restrictions
+      Entry: 7
+      Data: 141|Game.Utils.Chunks.Restriction[], Assembly-CSharp
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: Game.Utils.Chunks.Restriction, Assembly-CSharp
+    - Name: RestrictionType
+      Entry: 3
+      Data: 1
+    - Name: RestrictionArgument
+      Entry: 3
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: Game.Utils.Chunks.WallTypeRules, Assembly-CSharp
+    - Name: WallType
+      Entry: 3
+      Data: 5
+    - Name: Restrictions
+      Entry: 7
+      Data: 142|Game.Utils.Chunks.Restriction[], Assembly-CSharp
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: Game.Utils.Chunks.Restriction, Assembly-CSharp
+    - Name: RestrictionType
+      Entry: 3
+      Data: 1
+    - Name: RestrictionArgument
+      Entry: 3
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: Game.Utils.Chunks.WallTypeRules, Assembly-CSharp
+    - Name: WallType
+      Entry: 3
+      Data: 1
+    - Name: Restrictions
+      Entry: 7
+      Data: 143|Game.Utils.Chunks.Restriction[], Assembly-CSharp
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: Game.Utils.Chunks.Restriction, Assembly-CSharp
+    - Name: RestrictionType
+      Entry: 3
+      Data: 2
+    - Name: RestrictionArgument
+      Entry: 3
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _wallsMatrices
+      Entry: 7
+      Data: 144|System.Collections.Generic.Dictionary`2[[Game.Utils.Chunks.EChunkWallType,
+        Assembly-CSharp],[Game.Utils.Chunks.WallViewMatrix, Assembly-CSharp]], mscorlib
+    - Name: comparer
+      Entry: 7
+      Data: 145|System.Collections.Generic.EnumEqualityComparer`1[[Game.Utils.Chunks.EChunkWallType,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 12
+      Data: 5
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 1
+    - Name: $v
+      Entry: 7
+      Data: 146|Game.Utils.Chunks.WallViewMatrix, Assembly-CSharp
+    - Name: _prefabMatrix
+      Entry: 7
+      Data: 147|UnityEngine.GameObject[,], UnityEngine.CoreModule
+    - Name: 
+      Entry: 12
+      Data: 6
+    - Name: ranks
+      Entry: 1
+      Data: 6|1
+    - Name: 
+      Entry: 10
+      Data: 25
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 2
+    - Name: $v
+      Entry: 7
+      Data: 148|Game.Utils.Chunks.WallViewMatrix, Assembly-CSharp
+    - Name: _prefabMatrix
+      Entry: 7
+      Data: 149|UnityEngine.GameObject[,], UnityEngine.CoreModule
+    - Name: 
+      Entry: 12
+      Data: 6
+    - Name: ranks
+      Entry: 1
+      Data: 6|1
+    - Name: 
+      Entry: 10
+      Data: 26
+    - Name: 
+      Entry: 10
+      Data: 27
+    - Name: 
+      Entry: 10
+      Data: 28
+    - Name: 
+      Entry: 10
+      Data: 29
+    - Name: 
+      Entry: 10
+      Data: 30
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 3
+    - Name: $v
+      Entry: 7
+      Data: 150|Game.Utils.Chunks.WallViewMatrix, Assembly-CSharp
+    - Name: _prefabMatrix
+      Entry: 7
+      Data: 151|UnityEngine.GameObject[,], UnityEngine.CoreModule
+    - Name: 
+      Entry: 12
+      Data: 6
+    - Name: ranks
+      Entry: 1
+      Data: 6|1
+    - Name: 
+      Entry: 10
+      Data: 31
+    - Name: 
+      Entry: 10
+      Data: 32
+    - Name: 
+      Entry: 10
+      Data: 33
+    - Name: 
+      Entry: 10
+      Data: 34
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 4
+    - Name: $v
+      Entry: 7
+      Data: 152|Game.Utils.Chunks.WallViewMatrix, Assembly-CSharp
+    - Name: _prefabMatrix
+      Entry: 7
+      Data: 153|UnityEngine.GameObject[,], UnityEngine.CoreModule
+    - Name: 
+      Entry: 12
+      Data: 6
+    - Name: ranks
+      Entry: 1
+      Data: 6|1
+    - Name: 
+      Entry: 10
+      Data: 35
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 5
+    - Name: $v
+      Entry: 7
+      Data: 154|Game.Utils.Chunks.WallViewMatrix, Assembly-CSharp
+    - Name: _prefabMatrix
+      Entry: 7
+      Data: 155|UnityEngine.GameObject[,], UnityEngine.CoreModule
+    - Name: 
+      Entry: 12
+      Data: 6
+    - Name: ranks
+      Entry: 1
+      Data: 6|1
+    - Name: 
+      Entry: 10
+      Data: 36
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _wallParts
+      Entry: 7
+      Data: 156|System.Collections.Generic.Dictionary`2[[Game.Utils.Chunks.EChunkWallType,
+        Assembly-CSharp],[System.Collections.Generic.IReadOnlyList`1[[Ecs.Views.Linkable.Impl.Chunk.ChunkWallView,
+        Assembly-CSharp]], mscorlib]], mscorlib
+    - Name: comparer
+      Entry: 7
+      Data: 157|System.Collections.Generic.EnumEqualityComparer`1[[Game.Utils.Chunks.EChunkWallType,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 12
+      Data: 5
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 1
+    - Name: $v
+      Entry: 7
+      Data: 158|Ecs.Views.Linkable.Impl.Chunk.ChunkWallView[], Assembly-CSharp
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 10
+      Data: 37
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 2
+    - Name: $v
+      Entry: 7
+      Data: 159|Ecs.Views.Linkable.Impl.Chunk.ChunkWallView[], Assembly-CSharp
+    - Name: 
+      Entry: 12
+      Data: 5
+    - Name: 
+      Entry: 10
+      Data: 38
+    - Name: 
+      Entry: 10
+      Data: 39
+    - Name: 
+      Entry: 10
+      Data: 40
+    - Name: 
+      Entry: 10
+      Data: 41
+    - Name: 
+      Entry: 10
+      Data: 42
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 3
+    - Name: $v
+      Entry: 7
+      Data: 160|Ecs.Views.Linkable.Impl.Chunk.ChunkWallView[], Assembly-CSharp
+    - Name: 
+      Entry: 12
+      Data: 4
+    - Name: 
+      Entry: 10
+      Data: 43
+    - Name: 
+      Entry: 10
+      Data: 44
+    - Name: 
+      Entry: 10
+      Data: 45
+    - Name: 
+      Entry: 10
+      Data: 46
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 4
+    - Name: $v
+      Entry: 7
+      Data: 161|Ecs.Views.Linkable.Impl.Chunk.ChunkWallView[], Assembly-CSharp
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 10
+      Data: 47
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 5
+    - Name: $v
+      Entry: 7
+      Data: 162|Ecs.Views.Linkable.Impl.Chunk.ChunkWallView[], Assembly-CSharp
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 10
+      Data: 48
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  <UseGeneration>k__BackingField: 1
+  <InitialChunkOffset>k__BackingField: {x: 0, y: 0, z: -50}
+  <LevelStartChunkType>k__BackingField: 1
+  <ChunkSequenceLength>k__BackingField: 190
+  <DistanceGroupsList>k__BackingField:
+  - GroupLength: 1000
+    GroupFilter: 16
+  - GroupLength: 300
+    GroupFilter: 223
+  - GroupLength: 200
+    GroupFilter: 30943
+  - GroupLength: 100
+    GroupFilter: 32665
+  - GroupLength: 300
+    GroupFilter: 32671
+  - GroupLength: 1000
+    GroupFilter: 32735
+  <ObstaclesRules>k__BackingField:
+    DistanceFor4Obstacles: 500
+    DistanceFor5Obstacles: 1000
+  _lampsPrefabs:
+  - {fileID: 7755183963629464747, guid: b79887b8671d2ef48a3b1d52299dde73, type: 3}
+  - {fileID: 3228912886576035789, guid: 97588a3662ff33b488450a4865de488c, type: 3}
+  - {fileID: 4079852563164646092, guid: 88facd004e86c0e4396f0897c82d6fea, type: 3}
+  - {fileID: 2972913158895069873, guid: f4092a324a2145a428bac4361965e1b4, type: 3}
+  - {fileID: 7438252532023812867, guid: ab42f60914fb39542be4ad1d7087ebde, type: 3}
+  - {fileID: 8322018131874394463, guid: ae71ec97580479f4cabe17cfe8fd5e8b, type: 3}
+  - {fileID: 5437257101624434974, guid: 6546ac99e2d62e141ac8d7e6cb361638, type: 3}
+  - {fileID: 2670675953033032574, guid: dd50b4035ae5c054ea6f755bf8a4b3ad, type: 3}
+  _documentId: 

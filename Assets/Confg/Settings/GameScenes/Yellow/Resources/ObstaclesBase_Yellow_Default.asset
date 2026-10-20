@@ -1,0 +1,3664 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47576cf4ee09480696dcb8b3751e4d78, type: 3}
+  m_Name: ObstaclesBase_Yellow_Default
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 6538308558186470971, guid: 1069c2a8b0b743142a6e8544d89c5758, type: 3}
+    - {fileID: 1080326860188445646, guid: da4e29c3c4bd50e4fae2fabc36d4e554, type: 3}
+    - {fileID: 3319223699423252845, guid: 2d462d15ac4e71b46815d2c6c99acaea, type: 3}
+    - {fileID: 7122503640427510769, guid: cdc3ef1a7b5519545ae0415558e5d8b0, type: 3}
+    - {fileID: 1127768357866832368, guid: 7d571acb99bef1947bce06491ad2579d, type: 3}
+    - {fileID: 2389337937214086535, guid: eff2364ae5038d043b43bf765e0f05eb, type: 3}
+    - {fileID: 3524458047209438822, guid: 8f043ae6ee1ce1546be92ed368689bce, type: 3}
+    - {fileID: 9081809762992923834, guid: a1a5879bfcbc1034296d41576dcd94ca, type: 3}
+    - {fileID: 3319223699423252845, guid: b04c47c77fe92814bb9ee311e88aeb8d, type: 3}
+    - {fileID: 1127768357866832368, guid: b9514e2fb28826e4eb799e7f7b689f18, type: 3}
+    - {fileID: 8177560335072321203, guid: 30c06549d06d25244b4974e4ea2385ca, type: 3}
+    - {fileID: 1664212693684066024, guid: 3fbb94d8e871f3541a8f56e96f97fb78, type: 3}
+    - {fileID: 8783968990751550412, guid: 18cd324b2886a384b890c8169d4b3eb2, type: 3}
+    - {fileID: 2048680316615459214, guid: 190712f62706be6418da38d6b4f7bee5, type: 3}
+    - {fileID: 2166452091416548201, guid: 5cfaeafae549e4a4eac8d46865e779b4, type: 3}
+    - {fileID: 2308081527207004472, guid: 63744957097024e43a978933d13f0808, type: 3}
+    - {fileID: 8783968990751550412, guid: c5514968dafc96047a494f4b9b925689, type: 3}
+    - {fileID: 293777614596500625, guid: 2708a30ae0cd1584794657a1c651553d, type: 3}
+    - {fileID: 3000209527841644662, guid: cf7b01240b96ae24b9f9f3e963bd4222, type: 3}
+    - {fileID: 8471900255604147575, guid: 3d59fabdc7101dc48abd8675449f61a6, type: 3}
+    - {fileID: 4696204098111624469, guid: 8d76c1539e1a7244a9d9eee38b6874bf, type: 3}
+    - {fileID: 3858416620169353846, guid: 4eb7eb655b89be84e9a78c1cf1fff0ba, type: 3}
+    - {fileID: 4459451789794658954, guid: 0ef7c5c4bed57c142a9ebd38f4c22f73, type: 3}
+    - {fileID: 4435427368841950217, guid: 11cbe414ae3db4f48b20a3dfee77c54e, type: 3}
+    - {fileID: 5899740940912406885, guid: fd7be9314d796e648927396b6dc53b14, type: 3}
+    - {fileID: 4447323616001227498, guid: c61be72d6a888384ab9b2e6be35f321e, type: 3}
+    - {fileID: 9081809762992923834, guid: 21bbad1572290f14f80e8da3a88acfbc, type: 3}
+    - {fileID: 2389337937214086535, guid: 9cc016437679d604c971a4ee82dbdc47, type: 3}
+    - {fileID: 2389337937214086535, guid: 2befd3a6f4959c54fb4b630e4fe835e6, type: 3}
+    - {fileID: 9081809762992923834, guid: 57ae48fd043b9014c93aeb146b15202d, type: 3}
+    - {fileID: 3084498418279444357, guid: 7324bc76a7630054a9f96909e20728d6, type: 3}
+    - {fileID: 4437543983809171380, guid: bae2c3689a9d1d54eb75b9deb750edb1, type: 3}
+    - {fileID: 6792864156248059887, guid: 2aa819f0a227c3b43b45e33a451a4fb6, type: 3}
+    - {fileID: 7787035335507344372, guid: 17cfa655540bf264d8eea3ad80749c10, type: 3}
+    - {fileID: 6663835184954035300, guid: 406ef2b0b33101f4da364e4dd0f02b5b, type: 3}
+    - {fileID: 5399233601724634952, guid: f18873ba7570e6a4ebfc9a8aeed2e719, type: 3}
+    - {fileID: 8351922741961590411, guid: 47c23647d3482344e90dbb028139a232, type: 3}
+    - {fileID: 6663835184954035300, guid: ff1c23bffc98a4d41a8a1cb6e4aa695e, type: 3}
+    - {fileID: 3996033198134446463, guid: 81bd8cbc5a64a1c42abfec03bfcfa869, type: 3}
+    - {fileID: 3202446023967545088, guid: 7a5217350b1d6e14db42ce0de296e093, type: 3}
+    - {fileID: 1889615456978258473, guid: 15597bd54da72f24e9fe4626045e45bd, type: 3}
+    - {fileID: 7117133439225407027, guid: 4db169abfb568ae4ca97fc28cb62ac03, type: 3}
+    - {fileID: 1354897166039709369, guid: 9694b8a8758b6854595f46f3a4dff61c, type: 3}
+    - {fileID: 150791960254104080, guid: e434c8ec3fc55094b99890c55551221b, type: 3}
+    - {fileID: 6941612721070152912, guid: fb20d468b56aac64bb0166f163fa2b93, type: 3}
+    - {fileID: 6665573788692969818, guid: 18c4d411d4d5c33469c2b0fdfc27b98a, type: 3}
+    - {fileID: 117513900076950646, guid: 5ad79ad6b58a6ef419c90848597e2251, type: 3}
+    - {fileID: 2606745383936569943, guid: 9c93787e347cb8e489ebe3dd4801f395, type: 3}
+    - {fileID: 6095148260817527218, guid: e44f69868e597a544a10500589a199e2, type: 3}
+    - {fileID: 1126581901215155004, guid: ed811a179a20fb246af74bd908e9d6bd, type: 3}
+    - {fileID: 2242864058497129383, guid: 192a0d2563ec54f4ea1ae78f881b79eb, type: 3}
+    - {fileID: 6809320534573736319, guid: 660016fad2ceaeb46bba30db1a7136c8, type: 3}
+    - {fileID: 7525959698253501620, guid: a88ea7b73ddef3246a80445e085dc4a6, type: 3}
+    - {fileID: 8370840470108055357, guid: e49b2de18c8477a4893eb7d4aa2c0fba, type: 3}
+    - {fileID: 6705686193715694165, guid: 0a6cef02c5e321e49b2b5676434186b4, type: 3}
+    - {fileID: 6365905442639965001, guid: 29305451a1bd39c4198b67b45ee54e4f, type: 3}
+    - {fileID: 3499721821721779390, guid: 705e394ba10263f48bb0349d73d0230f, type: 3}
+    - {fileID: 1827817852846519256, guid: b4ababde0c76d3d47b84e605f733ac73, type: 3}
+    - {fileID: 6538308558186470971, guid: ece1767830d85da4ca777d067183113f, type: 3}
+    - {fileID: 8488874085438607502, guid: 1ca98aaad3fcaaa43944fd525154a2ec, type: 3}
+    - {fileID: 9040918660917466674, guid: 40442a2ac6733c74bb256aaf68c7c3d7, type: 3}
+    - {fileID: 1027868733625591135, guid: 78642af4f0cb0bf4c819397c2004e963, type: 3}
+    - {fileID: 7827022602779981213, guid: b7a6c59da9e715147b7ff44ba48eabe1, type: 3}
+    - {fileID: 217192113301968937, guid: f846fc9b57aaee941ac716b911a656d3, type: 3}
+    - {fileID: 818816567848295278, guid: 4d0b886575af50f4e8d97a713aa09a16, type: 3}
+    - {fileID: 2242864058497129383, guid: 469fd99939be8e34683ebd4656a21d97, type: 3}
+    - {fileID: 8100704647330514691, guid: 7d9e399ce8ae0934fae8c2583d430f62, type: 3}
+    - {fileID: 4143348566298636638, guid: ce4e4f8d9d72e464a98c9400aa33b28c, type: 3}
+    - {fileID: 8328258586216796092, guid: f98d52a1f0caa5e428a384448d9b6bd2, type: 3}
+    - {fileID: 8471900255604147575, guid: 2871dd0dd9bb24047be0ded1ffb723c9, type: 3}
+    - {fileID: 5600710555099904082, guid: b83025f4e7d20fa4d9c17c0492f3123d, type: 3}
+    - {fileID: 2174739298500975177, guid: 7bc5e9775f725ac47a13cf594d864615, type: 3}
+    - {fileID: 1579466843197888995, guid: 397ed9a62483f2742b5fea6ace3237f9, type: 3}
+    - {fileID: 3130076441827611874, guid: 7f8fee45655c3d443945505d8d44c46a, type: 3}
+    - {fileID: 9011046773210723908, guid: 9433da037c573c047ae7a52a6fd276f6, type: 3}
+    - {fileID: 3983718850714365066, guid: 1069c2a8b0b743142a6e8544d89c5758, type: 3}
+    - {fileID: 7753640683390048189, guid: da4e29c3c4bd50e4fae2fabc36d4e554, type: 3}
+    - {fileID: 5335543493970186643, guid: 2d462d15ac4e71b46815d2c6c99acaea, type: 3}
+    - {fileID: 487478945542355727, guid: cdc3ef1a7b5519545ae0415558e5d8b0, type: 3}
+    - {fileID: 7763444410343686414, guid: 7d571acb99bef1947bce06491ad2579d, type: 3}
+    - {fileID: 4986411566205345145, guid: eff2364ae5038d043b43bf765e0f05eb, type: 3}
+    - {fileID: 6121107933468851864, guid: 8f043ae6ee1ce1546be92ed368689bce, type: 3}
+    - {fileID: 8623363159891832126, guid: a1a5879bfcbc1034296d41576dcd94ca, type: 3}
+    - {fileID: 5335543493970186643, guid: b04c47c77fe92814bb9ee311e88aeb8d, type: 3}
+    - {fileID: 7763444410343686414, guid: b9514e2fb28826e4eb799e7f7b689f18, type: 3}
+    - {fileID: 4813419325137748431, guid: 30c06549d06d25244b4974e4ea2385ca, type: 3}
+    - {fileID: 9018136575196450675, guid: 3fbb94d8e871f3541a8f56e96f97fb78, type: 3}
+    - {fileID: 7762588444189238508, guid: 18cd324b2886a384b890c8169d4b3eb2, type: 3}
+    - {fileID: 8613083279114609523, guid: 190712f62706be6418da38d6b4f7bee5, type: 3}
+    - {fileID: 886194264230353993, guid: 5cfaeafae549e4a4eac8d46865e779b4, type: 3}
+    - {fileID: 3459603355116231159, guid: 63744957097024e43a978933d13f0808, type: 3}
+    - {fileID: 7762588444189238508, guid: c5514968dafc96047a494f4b9b925689, type: 3}
+    - {fileID: 3705992983469853561, guid: 2708a30ae0cd1584794657a1c651553d, type: 3}
+    - {fileID: 5832501836847430726, guid: cf7b01240b96ae24b9f9f3e963bd4222, type: 3}
+    - {fileID: 7415249165955312659, guid: 3d59fabdc7101dc48abd8675449f61a6, type: 3}
+    - {fileID: 8484664346314482402, guid: 8d76c1539e1a7244a9d9eee38b6874bf, type: 3}
+    - {fileID: 6804948779317754981, guid: 4eb7eb655b89be84e9a78c1cf1fff0ba, type: 3}
+    - {fileID: 6199954453189650551, guid: 0ef7c5c4bed57c142a9ebd38f4c22f73, type: 3}
+    - {fileID: 5756152659974579404, guid: 11cbe414ae3db4f48b20a3dfee77c54e, type: 3}
+    - {fileID: 4748234508296970666, guid: fd7be9314d796e648927396b6dc53b14, type: 3}
+    - {fileID: 2010126105861285723, guid: c61be72d6a888384ab9b2e6be35f321e, type: 3}
+    - {fileID: 533875859785203361, guid: 21bbad1572290f14f80e8da3a88acfbc, type: 3}
+    - {fileID: 4986411566205345145, guid: 9cc016437679d604c971a4ee82dbdc47, type: 3}
+    - {fileID: 4986411566205345145, guid: 2befd3a6f4959c54fb4b630e4fe835e6, type: 3}
+    - {fileID: 8858697669124239238, guid: 57ae48fd043b9014c93aeb146b15202d, type: 3}
+    - {fileID: 5680655617230892923, guid: 7324bc76a7630054a9f96909e20728d6, type: 3}
+    - {fileID: 4143040042978942291, guid: bae2c3689a9d1d54eb75b9deb750edb1, type: 3}
+    - {fileID: 353842200778684705, guid: 2aa819f0a227c3b43b45e33a451a4fb6, type: 3}
+    - {fileID: 1320752109171540558, guid: 17cfa655540bf264d8eea3ad80749c10, type: 3}
+    - {fileID: 3831923595106800967, guid: 406ef2b0b33101f4da364e4dd0f02b5b, type: 3}
+    - {fileID: 4345388045269409943, guid: f18873ba7570e6a4ebfc9a8aeed2e719, type: 3}
+    - {fileID: 4930210183808958420, guid: 47c23647d3482344e90dbb028139a232, type: 3}
+    - {fileID: 3831923595106800967, guid: ff1c23bffc98a4d41a8a1cb6e4aa695e, type: 3}
+    - {fileID: 1513986544747460718, guid: 81bd8cbc5a64a1c42abfec03bfcfa869, type: 3}
+    - {fileID: 1724589219690947767, guid: 7a5217350b1d6e14db42ce0de296e093, type: 3}
+    - {fileID: 8201280597831608532, guid: 15597bd54da72f24e9fe4626045e45bd, type: 3}
+    - {fileID: 7112739598879138356, guid: 4db169abfb568ae4ca97fc28cb62ac03, type: 3}
+    - {fileID: 40852927140837785, guid: 9694b8a8758b6854595f46f3a4dff61c, type: 3}
+    - {fileID: 3168019644993252819, guid: e434c8ec3fc55094b99890c55551221b, type: 3}
+    - {fileID: 8300119048741238196, guid: fb20d468b56aac64bb0166f163fa2b93, type: 3}
+    - {fileID: 6944351195116831848, guid: 18c4d411d4d5c33469c2b0fdfc27b98a, type: 3}
+    - {fileID: 8344402294425203891, guid: 5ad79ad6b58a6ef419c90848597e2251, type: 3}
+    - {fileID: 8153681818072782768, guid: 9c93787e347cb8e489ebe3dd4801f395, type: 3}
+    - {fileID: 4941390028409221501, guid: e44f69868e597a544a10500589a199e2, type: 3}
+    - {fileID: 8566151272831244583, guid: ed811a179a20fb246af74bd908e9d6bd, type: 3}
+    - {fileID: 8420483766168354228, guid: 192a0d2563ec54f4ea1ae78f881b79eb, type: 3}
+    - {fileID: 7419587305068238619, guid: 660016fad2ceaeb46bba30db1a7136c8, type: 3}
+    - {fileID: 8803754654295333780, guid: a88ea7b73ddef3246a80445e085dc4a6, type: 3}
+    - {fileID: 6435249683004086713, guid: e49b2de18c8477a4893eb7d4aa2c0fba, type: 3}
+    - {fileID: 2615495616325210190, guid: 0a6cef02c5e321e49b2b5676434186b4, type: 3}
+    - {fileID: 4101329316449819711, guid: 29305451a1bd39c4198b67b45ee54e4f, type: 3}
+    - {fileID: 102654308547237106, guid: 705e394ba10263f48bb0349d73d0230f, type: 3}
+    - {fileID: 824595781531299094, guid: b4ababde0c76d3d47b84e605f733ac73, type: 3}
+    - {fileID: 3983718850714365066, guid: ece1767830d85da4ca777d067183113f, type: 3}
+    - {fileID: 7934894012583153045, guid: 1ca98aaad3fcaaa43944fd525154a2ec, type: 3}
+    - {fileID: 4782831907244224597, guid: 40442a2ac6733c74bb256aaf68c7c3d7, type: 3}
+    - {fileID: 3033330924587016793, guid: 78642af4f0cb0bf4c819397c2004e963, type: 3}
+    - {fileID: 9134293832850881213, guid: b7a6c59da9e715147b7ff44ba48eabe1, type: 3}
+    - {fileID: 2002023439252253712, guid: f846fc9b57aaee941ac716b911a656d3, type: 3}
+    - {fileID: 1192863763976390261, guid: 4d0b886575af50f4e8d97a713aa09a16, type: 3}
+    - {fileID: 8420483766168354228, guid: 469fd99939be8e34683ebd4656a21d97, type: 3}
+    - {fileID: 8395028284812383716, guid: 7d9e399ce8ae0934fae8c2583d430f62, type: 3}
+    - {fileID: 7159746570893717642, guid: ce4e4f8d9d72e464a98c9400aa33b28c, type: 3}
+    - {fileID: 1102038607308054363, guid: f98d52a1f0caa5e428a384448d9b6bd2, type: 3}
+    - {fileID: 7415249165955312659, guid: 2871dd0dd9bb24047be0ded1ffb723c9, type: 3}
+    - {fileID: 5620426312406411103, guid: b83025f4e7d20fa4d9c17c0492f3123d, type: 3}
+    - {fileID: 2191074603559224644, guid: 7bc5e9775f725ac47a13cf594d864615, type: 3}
+    - {fileID: 4519288427926987518, guid: 397ed9a62483f2742b5fea6ace3237f9, type: 3}
+    - {fileID: 9166299710668153912, guid: 7f8fee45655c3d443945505d8d44c46a, type: 3}
+    - {fileID: 2974862544935028382, guid: 9433da037c573c047ae7a52a6fd276f6, type: 3}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: _obstaclesMatrices
+      Entry: 7
+      Data: 0|System.Collections.Generic.Dictionary`2[[Game.Utils.Obstacles.EObstacleType,
+        Assembly-CSharp],[Game.Utils.Obstacles.SerializedObstacleTypeInfo, Assembly-CSharp]],
+        mscorlib
+    - Name: comparer
+      Entry: 7
+      Data: 1|System.Collections.Generic.EnumEqualityComparer`1[[Game.Utils.Obstacles.EObstacleType,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 12
+      Data: 31
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 1
+    - Name: $v
+      Entry: 7
+      Data: 2|Game.Utils.Obstacles.SerializedObstacleTypeInfo, Assembly-CSharp
+    - Name: IsObstacleWithWalls
+      Entry: 5
+      Data: false
+    - Name: Obstacles
+      Entry: 7
+      Data: 3|Game.Utils.Obstacles.ObstaclesMatrix, Assembly-CSharp
+    - Name: _prefabMatrix
+      Entry: 7
+      Data: 4|UnityEngine.GameObject[,], UnityEngine.CoreModule
+    - Name: 
+      Entry: 12
+      Data: 12
+    - Name: ranks
+      Entry: 1
+      Data: 6|2
+    - Name: 
+      Entry: 10
+      Data: 0
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 2
+    - Name: $v
+      Entry: 7
+      Data: 5|Game.Utils.Obstacles.SerializedObstacleTypeInfo, Assembly-CSharp
+    - Name: IsObstacleWithWalls
+      Entry: 5
+      Data: false
+    - Name: Obstacles
+      Entry: 7
+      Data: 6|Game.Utils.Obstacles.ObstaclesMatrix, Assembly-CSharp
+    - Name: _prefabMatrix
+      Entry: 7
+      Data: 7|UnityEngine.GameObject[,], UnityEngine.CoreModule
+    - Name: 
+      Entry: 12
+      Data: 6
+    - Name: ranks
+      Entry: 1
+      Data: 6|1
+    - Name: 
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 8
+    - Name: $v
+      Entry: 7
+      Data: 8|Game.Utils.Obstacles.SerializedObstacleTypeInfo, Assembly-CSharp
+    - Name: IsObstacleWithWalls
+      Entry: 5
+      Data: false
+    - Name: Obstacles
+      Entry: 7
+      Data: 9|Game.Utils.Obstacles.ObstaclesMatrix, Assembly-CSharp
+    - Name: _prefabMatrix
+      Entry: 7
+      Data: 10|UnityEngine.GameObject[,], UnityEngine.CoreModule
+    - Name: 
+      Entry: 12
+      Data: 12
+    - Name: ranks
+      Entry: 1
+      Data: 6|2
+    - Name: 
+      Entry: 10
+      Data: 2
+    - Name: 
+      Entry: 10
+      Data: 3
+    - Name: 
+      Entry: 10
+      Data: 4
+    - Name: 
+      Entry: 10
+      Data: 5
+    - Name: 
+      Entry: 10
+      Data: 6
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 10
+      Data: 7
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 10
+      Data: 8
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 10
+      Data: 9
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 64
+    - Name: $v
+      Entry: 7
+      Data: 11|Game.Utils.Obstacles.SerializedObstacleTypeInfo, Assembly-CSharp
+    - Name: IsObstacleWithWalls
+      Entry: 5
+      Data: false
+    - Name: Obstacles
+      Entry: 7
+      Data: 12|Game.Utils.Obstacles.ObstaclesMatrix, Assembly-CSharp
+    - Name: _prefabMatrix
+      Entry: 7
+      Data: 13|UnityEngine.GameObject[,], UnityEngine.CoreModule
+    - Name: 
+      Entry: 12
+      Data: 6
+    - Name: ranks
+      Entry: 1
+      Data: 6|1
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 8192
+    - Name: $v
+      Entry: 7
+      Data: 14|Game.Utils.Obstacles.SerializedObstacleTypeInfo, Assembly-CSharp
+    - Name: IsObstacleWithWalls
+      Entry: 5
+      Data: false
+    - Name: Obstacles
+      Entry: 7
+      Data: 15|Game.Utils.Obstacles.ObstaclesMatrix, Assembly-CSharp
+    - Name: _prefabMatrix
+      Entry: 7
+      Data: 16|UnityEngine.GameObject[,], UnityEngine.CoreModule
+    - Name: 
+      Entry: 12
+      Data: 6
+    - Name: ranks
+      Entry: 1
+      Data: 6|1
+    - Name: 
+      Entry: 10
+      Data: 10
+    - Name: 
+      Entry: 10
+      Data: 11
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 65536
+    - Name: $v
+      Entry: 7
+      Data: 17|Game.Utils.Obstacles.SerializedObstacleTypeInfo, Assembly-CSharp
+    - Name: IsObstacleWithWalls
+      Entry: 5
+      Data: false
+    - Name: Obstacles
+      Entry: 7
+      Data: 18|Game.Utils.Obstacles.ObstaclesMatrix, Assembly-CSharp
+    - Name: _prefabMatrix
+      Entry: 7
+      Data: 19|UnityEngine.GameObject[,], UnityEngine.CoreModule
+    - Name: 
+      Entry: 12
+      Data: 6
+    - Name: ranks
+      Entry: 1
+      Data: 6|1
+    - Name: 
+      Entry: 10
+      Data: 12
+    - Name: 
+      Entry: 10
+      Data: 13
+    - Name: 
+      Entry: 10
+      Data: 14
+    - Name: 
+      Entry: 10
+      Data: 15
+    - Name: 
+      Entry: 10
+      Data: 16
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 1024
+    - Name: $v
+      Entry: 7
+      Data: 20|Game.Utils.Obstacles.SerializedObstacleTypeInfo, Assembly-CSharp
+    - Name: IsObstacleWithWalls
+      Entry: 5
+      Data: true
+    - Name: Obstacles
+      Entry: 7
+      Data: 21|Game.Utils.Obstacles.ObstaclesMatrix, Assembly-CSharp
+    - Name: _prefabMatrix
+      Entry: 7
+      Data: 22|UnityEngine.GameObject[,], UnityEngine.CoreModule
+    - Name: 
+      Entry: 12
+      Data: 12
+    - Name: ranks
+      Entry: 1
+      Data: 6|2
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 32768
+    - Name: $v
+      Entry: 7
+      Data: 23|Game.Utils.Obstacles.SerializedObstacleTypeInfo, Assembly-CSharp
+    - Name: IsObstacleWithWalls
+      Entry: 5
+      Data: true
+    - Name: Obstacles
+      Entry: 7
+      Data: 24|Game.Utils.Obstacles.ObstaclesMatrix, Assembly-CSharp
+    - Name: _prefabMatrix
+      Entry: 7
+      Data: 25|UnityEngine.GameObject[,], UnityEngine.CoreModule
+    - Name: 
+      Entry: 12
+      Data: 12
+    - Name: ranks
+      Entry: 1
+      Data: 6|2
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 10
+      Data: 17
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 10
+      Data: 18
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 4096
+    - Name: $v
+      Entry: 7
+      Data: 26|Game.Utils.Obstacles.SerializedObstacleTypeInfo, Assembly-CSharp
+    - Name: IsObstacleWithWalls
+      Entry: 5
+      Data: false
+    - Name: Obstacles
+      Entry: 7
+      Data: 27|Game.Utils.Obstacles.ObstaclesMatrix, Assembly-CSharp
+    - Name: _prefabMatrix
+      Entry: 7
+      Data: 28|UnityEngine.GameObject[,], UnityEngine.CoreModule
+    - Name: 
+      Entry: 12
+      Data: 6
+    - Name: ranks
+      Entry: 1
+      Data: 6|1
+    - Name: 
+      Entry: 10
+      Data: 19
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 2048
+    - Name: $v
+      Entry: 7
+      Data: 29|Game.Utils.Obstacles.SerializedObstacleTypeInfo, Assembly-CSharp
+    - Name: IsObstacleWithWalls
+      Entry: 5
+      Data: true
+    - Name: Obstacles
+      Entry: 7
+      Data: 30|Game.Utils.Obstacles.ObstaclesMatrix, Assembly-CSharp
+    - Name: _prefabMatrix
+      Entry: 7
+      Data: 31|UnityEngine.GameObject[,], UnityEngine.CoreModule
+    - Name: 
+      Entry: 12
+      Data: 6
+    - Name: ranks
+      Entry: 1
+      Data: 6|1
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 10
+      Data: 20
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 262144
+    - Name: $v
+      Entry: 7
+      Data: 32|Game.Utils.Obstacles.SerializedObstacleTypeInfo, Assembly-CSharp
+    - Name: IsObstacleWithWalls
+      Entry: 5
+      Data: true
+    - Name: Obstacles
+      Entry: 7
+      Data: 33|Game.Utils.Obstacles.ObstaclesMatrix, Assembly-CSharp
+    - Name: _prefabMatrix
+      Entry: 7
+      Data: 34|UnityEngine.GameObject[,], UnityEngine.CoreModule
+    - Name: 
+      Entry: 12
+      Data: 6
+    - Name: ranks
+      Entry: 1
+      Data: 6|1
+    - Name: 
+      Entry: 10
+      Data: 21
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 524288
+    - Name: $v
+      Entry: 7
+      Data: 35|Game.Utils.Obstacles.SerializedObstacleTypeInfo, Assembly-CSharp
+    - Name: IsObstacleWithWalls
+      Entry: 5
+      Data: true
+    - Name: Obstacles
+      Entry: 7
+      Data: 36|Game.Utils.Obstacles.ObstaclesMatrix, Assembly-CSharp
+    - Name: _prefabMatrix
+      Entry: 7
+      Data: 37|UnityEngine.GameObject[,], UnityEngine.CoreModule
+    - Name: 
+      Entry: 12
+      Data: 6
+    - Name: ranks
+      Entry: 1
+      Data: 6|1
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 2097152
+    - Name: $v
+      Entry: 7
+      Data: 38|Game.Utils.Obstacles.SerializedObstacleTypeInfo, Assembly-CSharp
+    - Name: IsObstacleWithWalls
+      Entry: 5
+      Data: false
+    - Name: Obstacles
+      Entry: 7
+      Data: 39|Game.Utils.Obstacles.ObstaclesMatrix, Assembly-CSharp
+    - Name: _prefabMatrix
+      Entry: 7
+      Data: 40|UnityEngine.GameObject[,], UnityEngine.CoreModule
+    - Name: 
+      Entry: 12
+      Data: 6
+    - Name: ranks
+      Entry: 1
+      Data: 6|1
+    - Name: 
+      Entry: 10
+      Data: 22
+    - Name: 
+      Entry: 10
+      Data: 23
+    - Name: 
+      Entry: 10
+      Data: 24
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 4
+    - Name: $v
+      Entry: 7
+      Data: 41|Game.Utils.Obstacles.SerializedObstacleTypeInfo, Assembly-CSharp
+    - Name: IsObstacleWithWalls
+      Entry: 5
+      Data: false
+    - Name: Obstacles
+      Entry: 7
+      Data: 42|Game.Utils.Obstacles.ObstaclesMatrix, Assembly-CSharp
+    - Name: _prefabMatrix
+      Entry: 7
+      Data: 43|UnityEngine.GameObject[,], UnityEngine.CoreModule
+    - Name: 
+      Entry: 12
+      Data: 6
+    - Name: ranks
+      Entry: 1
+      Data: 6|1
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 10
+      Data: 25
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 4194304
+    - Name: $v
+      Entry: 7
+      Data: 44|Game.Utils.Obstacles.SerializedObstacleTypeInfo, Assembly-CSharp
+    - Name: IsObstacleWithWalls
+      Entry: 5
+      Data: true
+    - Name: Obstacles
+      Entry: 7
+      Data: 45|Game.Utils.Obstacles.ObstaclesMatrix, Assembly-CSharp
+    - Name: _prefabMatrix
+      Entry: 7
+      Data: 46|UnityEngine.GameObject[,], UnityEngine.CoreModule
+    - Name: 
+      Entry: 12
+      Data: 6
+    - Name: ranks
+      Entry: 1
+      Data: 6|1
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 16
+    - Name: $v
+      Entry: 7
+      Data: 47|Game.Utils.Obstacles.SerializedObstacleTypeInfo, Assembly-CSharp
+    - Name: IsObstacleWithWalls
+      Entry: 5
+      Data: false
+    - Name: Obstacles
+      Entry: 7
+      Data: 48|Game.Utils.Obstacles.ObstaclesMatrix, Assembly-CSharp
+    - Name: _prefabMatrix
+      Entry: 7
+      Data: 49|UnityEngine.GameObject[,], UnityEngine.CoreModule
+    - Name: 
+      Entry: 12
+      Data: 6
+    - Name: ranks
+      Entry: 1
+      Data: 6|1
+    - Name: 
+      Entry: 10
+      Data: 26
+    - Name: 
+      Entry: 10
+      Data: 27
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 32
+    - Name: $v
+      Entry: 7
+      Data: 50|Game.Utils.Obstacles.SerializedObstacleTypeInfo, Assembly-CSharp
+    - Name: IsObstacleWithWalls
+      Entry: 5
+      Data: false
+    - Name: Obstacles
+      Entry: 7
+      Data: 51|Game.Utils.Obstacles.ObstaclesMatrix, Assembly-CSharp
+    - Name: _prefabMatrix
+      Entry: 7
+      Data: 52|UnityEngine.GameObject[,], UnityEngine.CoreModule
+    - Name: 
+      Entry: 12
+      Data: 6
+    - Name: ranks
+      Entry: 1
+      Data: 6|1
+    - Name: 
+      Entry: 10
+      Data: 28
+    - Name: 
+      Entry: 10
+      Data: 29
+    - Name: 
+      Entry: 10
+      Data: 30
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 8388608
+    - Name: $v
+      Entry: 7
+      Data: 53|Game.Utils.Obstacles.SerializedObstacleTypeInfo, Assembly-CSharp
+    - Name: IsObstacleWithWalls
+      Entry: 5
+      Data: true
+    - Name: Obstacles
+      Entry: 7
+      Data: 54|Game.Utils.Obstacles.ObstaclesMatrix, Assembly-CSharp
+    - Name: _prefabMatrix
+      Entry: 7
+      Data: 55|UnityEngine.GameObject[,], UnityEngine.CoreModule
+    - Name: 
+      Entry: 12
+      Data: 6
+    - Name: ranks
+      Entry: 1
+      Data: 6|1
+    - Name: 
+      Entry: 10
+      Data: 31
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 16777216
+    - Name: $v
+      Entry: 7
+      Data: 56|Game.Utils.Obstacles.SerializedObstacleTypeInfo, Assembly-CSharp
+    - Name: IsObstacleWithWalls
+      Entry: 5
+      Data: true
+    - Name: Obstacles
+      Entry: 7
+      Data: 57|Game.Utils.Obstacles.ObstaclesMatrix, Assembly-CSharp
+    - Name: _prefabMatrix
+      Entry: 7
+      Data: 58|UnityEngine.GameObject[,], UnityEngine.CoreModule
+    - Name: 
+      Entry: 12
+      Data: 6
+    - Name: ranks
+      Entry: 1
+      Data: 6|1
+    - Name: 
+      Entry: 10
+      Data: 32
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 33554432
+    - Name: $v
+      Entry: 7
+      Data: 59|Game.Utils.Obstacles.SerializedObstacleTypeInfo, Assembly-CSharp
+    - Name: IsObstacleWithWalls
+      Entry: 5
+      Data: true
+    - Name: Obstacles
+      Entry: 7
+      Data: 60|Game.Utils.Obstacles.ObstaclesMatrix, Assembly-CSharp
+    - Name: _prefabMatrix
+      Entry: 7
+      Data: 61|UnityEngine.GameObject[,], UnityEngine.CoreModule
+    - Name: 
+      Entry: 12
+      Data: 6
+    - Name: ranks
+      Entry: 1
+      Data: 6|1
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 67108864
+    - Name: $v
+      Entry: 7
+      Data: 62|Game.Utils.Obstacles.SerializedObstacleTypeInfo, Assembly-CSharp
+    - Name: IsObstacleWithWalls
+      Entry: 5
+      Data: true
+    - Name: Obstacles
+      Entry: 7
+      Data: 63|Game.Utils.Obstacles.ObstaclesMatrix, Assembly-CSharp
+    - Name: _prefabMatrix
+      Entry: 7
+      Data: 64|UnityEngine.GameObject[,], UnityEngine.CoreModule
+    - Name: 
+      Entry: 12
+      Data: 12
+    - Name: ranks
+      Entry: 1
+      Data: 6|2
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 10
+      Data: 33
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 10
+      Data: 34
+    - Name: 
+      Entry: 10
+      Data: 35
+    - Name: 
+      Entry: 10
+      Data: 36
+    - Name: 
+      Entry: 10
+      Data: 37
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 10
+      Data: 38
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 134217728
+    - Name: $v
+      Entry: 7
+      Data: 65|Game.Utils.Obstacles.SerializedObstacleTypeInfo, Assembly-CSharp
+    - Name: IsObstacleWithWalls
+      Entry: 5
+      Data: true
+    - Name: Obstacles
+      Entry: 7
+      Data: 66|Game.Utils.Obstacles.ObstaclesMatrix, Assembly-CSharp
+    - Name: _prefabMatrix
+      Entry: 7
+      Data: 67|UnityEngine.GameObject[,], UnityEngine.CoreModule
+    - Name: 
+      Entry: 12
+      Data: 6
+    - Name: ranks
+      Entry: 1
+      Data: 6|1
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 128
+    - Name: $v
+      Entry: 7
+      Data: 68|Game.Utils.Obstacles.SerializedObstacleTypeInfo, Assembly-CSharp
+    - Name: IsObstacleWithWalls
+      Entry: 5
+      Data: true
+    - Name: Obstacles
+      Entry: 7
+      Data: 69|Game.Utils.Obstacles.ObstaclesMatrix, Assembly-CSharp
+    - Name: _prefabMatrix
+      Entry: 7
+      Data: 70|UnityEngine.GameObject[,], UnityEngine.CoreModule
+    - Name: 
+      Entry: 12
+      Data: 6
+    - Name: ranks
+      Entry: 1
+      Data: 6|1
+    - Name: 
+      Entry: 10
+      Data: 39
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 268435456
+    - Name: $v
+      Entry: 7
+      Data: 71|Game.Utils.Obstacles.SerializedObstacleTypeInfo, Assembly-CSharp
+    - Name: IsObstacleWithWalls
+      Entry: 5
+      Data: false
+    - Name: Obstacles
+      Entry: 7
+      Data: 72|Game.Utils.Obstacles.ObstaclesMatrix, Assembly-CSharp
+    - Name: _prefabMatrix
+      Entry: 7
+      Data: 73|UnityEngine.GameObject[,], UnityEngine.CoreModule
+    - Name: 
+      Entry: 12
+      Data: 36
+    - Name: ranks
+      Entry: 1
+      Data: 6|6
+    - Name: 
+      Entry: 10
+      Data: 40
+    - Name: 
+      Entry: 10
+      Data: 41
+    - Name: 
+      Entry: 10
+      Data: 42
+    - Name: 
+      Entry: 10
+      Data: 43
+    - Name: 
+      Entry: 10
+      Data: 44
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 10
+      Data: 45
+    - Name: 
+      Entry: 10
+      Data: 46
+    - Name: 
+      Entry: 10
+      Data: 47
+    - Name: 
+      Entry: 10
+      Data: 48
+    - Name: 
+      Entry: 10
+      Data: 49
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 10
+      Data: 50
+    - Name: 
+      Entry: 10
+      Data: 51
+    - Name: 
+      Entry: 10
+      Data: 52
+    - Name: 
+      Entry: 10
+      Data: 53
+    - Name: 
+      Entry: 10
+      Data: 54
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 10
+      Data: 55
+    - Name: 
+      Entry: 10
+      Data: 56
+    - Name: 
+      Entry: 10
+      Data: 57
+    - Name: 
+      Entry: 10
+      Data: 58
+    - Name: 
+      Entry: 10
+      Data: 59
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 10
+      Data: 60
+    - Name: 
+      Entry: 10
+      Data: 61
+    - Name: 
+      Entry: 10
+      Data: 62
+    - Name: 
+      Entry: 10
+      Data: 63
+    - Name: 
+      Entry: 10
+      Data: 64
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 10
+      Data: 65
+    - Name: 
+      Entry: 10
+      Data: 66
+    - Name: 
+      Entry: 10
+      Data: 67
+    - Name: 
+      Entry: 10
+      Data: 68
+    - Name: 
+      Entry: 10
+      Data: 69
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 536870912
+    - Name: $v
+      Entry: 7
+      Data: 74|Game.Utils.Obstacles.SerializedObstacleTypeInfo, Assembly-CSharp
+    - Name: IsObstacleWithWalls
+      Entry: 5
+      Data: false
+    - Name: Obstacles
+      Entry: 7
+      Data: 75|Game.Utils.Obstacles.ObstaclesMatrix, Assembly-CSharp
+    - Name: _prefabMatrix
+      Entry: 7
+      Data: 76|UnityEngine.GameObject[,], UnityEngine.CoreModule
+    - Name: 
+      Entry: 12
+      Data: 6
+    - Name: ranks
+      Entry: 1
+      Data: 6|1
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 10
+      Data: 70
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 256
+    - Name: $v
+      Entry: 7
+      Data: 77|Game.Utils.Obstacles.SerializedObstacleTypeInfo, Assembly-CSharp
+    - Name: IsObstacleWithWalls
+      Entry: 5
+      Data: false
+    - Name: Obstacles
+      Entry: 7
+      Data: 78|Game.Utils.Obstacles.ObstaclesMatrix, Assembly-CSharp
+    - Name: _prefabMatrix
+      Entry: 7
+      Data: 79|UnityEngine.GameObject[,], UnityEngine.CoreModule
+    - Name: 
+      Entry: 12
+      Data: 6
+    - Name: ranks
+      Entry: 1
+      Data: 6|1
+    - Name: 
+      Entry: 10
+      Data: 71
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 1073741824
+    - Name: $v
+      Entry: 7
+      Data: 80|Game.Utils.Obstacles.SerializedObstacleTypeInfo, Assembly-CSharp
+    - Name: IsObstacleWithWalls
+      Entry: 5
+      Data: false
+    - Name: Obstacles
+      Entry: 7
+      Data: 81|Game.Utils.Obstacles.ObstaclesMatrix, Assembly-CSharp
+    - Name: _prefabMatrix
+      Entry: 7
+      Data: 82|UnityEngine.GameObject[,], UnityEngine.CoreModule
+    - Name: 
+      Entry: 12
+      Data: 6
+    - Name: ranks
+      Entry: 1
+      Data: 6|1
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 512
+    - Name: $v
+      Entry: 7
+      Data: 83|Game.Utils.Obstacles.SerializedObstacleTypeInfo, Assembly-CSharp
+    - Name: IsObstacleWithWalls
+      Entry: 5
+      Data: false
+    - Name: Obstacles
+      Entry: 7
+      Data: 84|Game.Utils.Obstacles.ObstaclesMatrix, Assembly-CSharp
+    - Name: _prefabMatrix
+      Entry: 7
+      Data: 85|UnityEngine.GameObject[,], UnityEngine.CoreModule
+    - Name: 
+      Entry: 12
+      Data: 6
+    - Name: ranks
+      Entry: 1
+      Data: 6|1
+    - Name: 
+      Entry: 10
+      Data: 72
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 18446744071562067968
+    - Name: $v
+      Entry: 7
+      Data: 86|Game.Utils.Obstacles.SerializedObstacleTypeInfo, Assembly-CSharp
+    - Name: IsObstacleWithWalls
+      Entry: 5
+      Data: true
+    - Name: Obstacles
+      Entry: 7
+      Data: 87|Game.Utils.Obstacles.ObstaclesMatrix, Assembly-CSharp
+    - Name: _prefabMatrix
+      Entry: 7
+      Data: 88|UnityEngine.GameObject[,], UnityEngine.CoreModule
+    - Name: 
+      Entry: 12
+      Data: 12
+    - Name: ranks
+      Entry: 1
+      Data: 6|2
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 131072
+    - Name: $v
+      Entry: 7
+      Data: 89|Game.Utils.Obstacles.SerializedObstacleTypeInfo, Assembly-CSharp
+    - Name: IsObstacleWithWalls
+      Entry: 5
+      Data: false
+    - Name: Obstacles
+      Entry: 7
+      Data: 90|Game.Utils.Obstacles.ObstaclesMatrix, Assembly-CSharp
+    - Name: _prefabMatrix
+      Entry: 7
+      Data: 91|UnityEngine.GameObject[,], UnityEngine.CoreModule
+    - Name: 
+      Entry: 12
+      Data: 6
+    - Name: ranks
+      Entry: 1
+      Data: 6|1
+    - Name: 
+      Entry: 10
+      Data: 73
+    - Name: 
+      Entry: 10
+      Data: 74
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 16384
+    - Name: $v
+      Entry: 7
+      Data: 92|Game.Utils.Obstacles.SerializedObstacleTypeInfo, Assembly-CSharp
+    - Name: IsObstacleWithWalls
+      Entry: 5
+      Data: false
+    - Name: Obstacles
+      Entry: 7
+      Data: 93|Game.Utils.Obstacles.ObstaclesMatrix, Assembly-CSharp
+    - Name: _prefabMatrix
+      Entry: 7
+      Data: 94|UnityEngine.GameObject[,], UnityEngine.CoreModule
+    - Name: 
+      Entry: 12
+      Data: 6
+    - Name: ranks
+      Entry: 1
+      Data: 6|1
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _obstacles
+      Entry: 7
+      Data: 95|System.Collections.Generic.Dictionary`2[[Game.Utils.Obstacles.EObstacleType,
+        Assembly-CSharp],[System.Collections.Generic.IReadOnlyList`1[[Ecs.Views.Linkable.Impl.Obstacles.ObstacleGroupView,
+        Assembly-CSharp]], mscorlib]], mscorlib
+    - Name: comparer
+      Entry: 7
+      Data: 96|System.Collections.Generic.EnumEqualityComparer`1[[Game.Utils.Obstacles.EObstacleType,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 12
+      Data: 31
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 1
+    - Name: $v
+      Entry: 7
+      Data: 97|Game.Utils.Obstacles.ObstacleTypeInfo, Assembly-CSharp
+    - Name: IsObstacleWithWalls
+      Entry: 5
+      Data: false
+    - Name: Obstacles
+      Entry: 7
+      Data: 98|Ecs.Views.Linkable.Impl.Obstacles.ObstacleGroupView[], Assembly-CSharp
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 10
+      Data: 75
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 2
+    - Name: $v
+      Entry: 7
+      Data: 99|Game.Utils.Obstacles.ObstacleTypeInfo, Assembly-CSharp
+    - Name: IsObstacleWithWalls
+      Entry: 5
+      Data: false
+    - Name: Obstacles
+      Entry: 7
+      Data: 100|Ecs.Views.Linkable.Impl.Obstacles.ObstacleGroupView[], Assembly-CSharp
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 10
+      Data: 76
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 8
+    - Name: $v
+      Entry: 7
+      Data: 101|Game.Utils.Obstacles.ObstacleTypeInfo, Assembly-CSharp
+    - Name: IsObstacleWithWalls
+      Entry: 5
+      Data: false
+    - Name: Obstacles
+      Entry: 7
+      Data: 102|Ecs.Views.Linkable.Impl.Obstacles.ObstacleGroupView[], Assembly-CSharp
+    - Name: 
+      Entry: 12
+      Data: 8
+    - Name: 
+      Entry: 10
+      Data: 77
+    - Name: 
+      Entry: 10
+      Data: 78
+    - Name: 
+      Entry: 10
+      Data: 79
+    - Name: 
+      Entry: 10
+      Data: 80
+    - Name: 
+      Entry: 10
+      Data: 81
+    - Name: 
+      Entry: 10
+      Data: 82
+    - Name: 
+      Entry: 10
+      Data: 83
+    - Name: 
+      Entry: 10
+      Data: 84
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 64
+    - Name: $v
+      Entry: 7
+      Data: 103|Game.Utils.Obstacles.ObstacleTypeInfo, Assembly-CSharp
+    - Name: IsObstacleWithWalls
+      Entry: 5
+      Data: false
+    - Name: Obstacles
+      Entry: 7
+      Data: 104|Ecs.Views.Linkable.Impl.Obstacles.ObstacleGroupView[], Assembly-CSharp
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 8192
+    - Name: $v
+      Entry: 7
+      Data: 105|Game.Utils.Obstacles.ObstacleTypeInfo, Assembly-CSharp
+    - Name: IsObstacleWithWalls
+      Entry: 5
+      Data: false
+    - Name: Obstacles
+      Entry: 7
+      Data: 106|Ecs.Views.Linkable.Impl.Obstacles.ObstacleGroupView[], Assembly-CSharp
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 10
+      Data: 85
+    - Name: 
+      Entry: 10
+      Data: 86
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 65536
+    - Name: $v
+      Entry: 7
+      Data: 107|Game.Utils.Obstacles.ObstacleTypeInfo, Assembly-CSharp
+    - Name: IsObstacleWithWalls
+      Entry: 5
+      Data: false
+    - Name: Obstacles
+      Entry: 7
+      Data: 108|Ecs.Views.Linkable.Impl.Obstacles.ObstacleGroupView[], Assembly-CSharp
+    - Name: 
+      Entry: 12
+      Data: 5
+    - Name: 
+      Entry: 10
+      Data: 87
+    - Name: 
+      Entry: 10
+      Data: 88
+    - Name: 
+      Entry: 10
+      Data: 89
+    - Name: 
+      Entry: 10
+      Data: 90
+    - Name: 
+      Entry: 10
+      Data: 91
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 1024
+    - Name: $v
+      Entry: 7
+      Data: 109|Game.Utils.Obstacles.ObstacleTypeInfo, Assembly-CSharp
+    - Name: IsObstacleWithWalls
+      Entry: 5
+      Data: true
+    - Name: Obstacles
+      Entry: 9
+      Data: 104
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 32768
+    - Name: $v
+      Entry: 7
+      Data: 110|Game.Utils.Obstacles.ObstacleTypeInfo, Assembly-CSharp
+    - Name: IsObstacleWithWalls
+      Entry: 5
+      Data: true
+    - Name: Obstacles
+      Entry: 7
+      Data: 111|Ecs.Views.Linkable.Impl.Obstacles.ObstacleGroupView[], Assembly-CSharp
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 10
+      Data: 92
+    - Name: 
+      Entry: 10
+      Data: 93
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 4096
+    - Name: $v
+      Entry: 7
+      Data: 112|Game.Utils.Obstacles.ObstacleTypeInfo, Assembly-CSharp
+    - Name: IsObstacleWithWalls
+      Entry: 5
+      Data: false
+    - Name: Obstacles
+      Entry: 7
+      Data: 113|Ecs.Views.Linkable.Impl.Obstacles.ObstacleGroupView[], Assembly-CSharp
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 10
+      Data: 94
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 2048
+    - Name: $v
+      Entry: 7
+      Data: 114|Game.Utils.Obstacles.ObstacleTypeInfo, Assembly-CSharp
+    - Name: IsObstacleWithWalls
+      Entry: 5
+      Data: true
+    - Name: Obstacles
+      Entry: 7
+      Data: 115|Ecs.Views.Linkable.Impl.Obstacles.ObstacleGroupView[], Assembly-CSharp
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 10
+      Data: 95
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 262144
+    - Name: $v
+      Entry: 7
+      Data: 116|Game.Utils.Obstacles.ObstacleTypeInfo, Assembly-CSharp
+    - Name: IsObstacleWithWalls
+      Entry: 5
+      Data: true
+    - Name: Obstacles
+      Entry: 7
+      Data: 117|Ecs.Views.Linkable.Impl.Obstacles.ObstacleGroupView[], Assembly-CSharp
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 10
+      Data: 96
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 524288
+    - Name: $v
+      Entry: 7
+      Data: 118|Game.Utils.Obstacles.ObstacleTypeInfo, Assembly-CSharp
+    - Name: IsObstacleWithWalls
+      Entry: 5
+      Data: true
+    - Name: Obstacles
+      Entry: 9
+      Data: 104
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 2097152
+    - Name: $v
+      Entry: 7
+      Data: 119|Game.Utils.Obstacles.ObstacleTypeInfo, Assembly-CSharp
+    - Name: IsObstacleWithWalls
+      Entry: 5
+      Data: false
+    - Name: Obstacles
+      Entry: 7
+      Data: 120|Ecs.Views.Linkable.Impl.Obstacles.ObstacleGroupView[], Assembly-CSharp
+    - Name: 
+      Entry: 12
+      Data: 3
+    - Name: 
+      Entry: 10
+      Data: 97
+    - Name: 
+      Entry: 10
+      Data: 98
+    - Name: 
+      Entry: 10
+      Data: 99
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 4
+    - Name: $v
+      Entry: 7
+      Data: 121|Game.Utils.Obstacles.ObstacleTypeInfo, Assembly-CSharp
+    - Name: IsObstacleWithWalls
+      Entry: 5
+      Data: false
+    - Name: Obstacles
+      Entry: 7
+      Data: 122|Ecs.Views.Linkable.Impl.Obstacles.ObstacleGroupView[], Assembly-CSharp
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 10
+      Data: 100
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 4194304
+    - Name: $v
+      Entry: 7
+      Data: 123|Game.Utils.Obstacles.ObstacleTypeInfo, Assembly-CSharp
+    - Name: IsObstacleWithWalls
+      Entry: 5
+      Data: true
+    - Name: Obstacles
+      Entry: 9
+      Data: 104
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 16
+    - Name: $v
+      Entry: 7
+      Data: 124|Game.Utils.Obstacles.ObstacleTypeInfo, Assembly-CSharp
+    - Name: IsObstacleWithWalls
+      Entry: 5
+      Data: false
+    - Name: Obstacles
+      Entry: 7
+      Data: 125|Ecs.Views.Linkable.Impl.Obstacles.ObstacleGroupView[], Assembly-CSharp
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 10
+      Data: 101
+    - Name: 
+      Entry: 10
+      Data: 102
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 32
+    - Name: $v
+      Entry: 7
+      Data: 126|Game.Utils.Obstacles.ObstacleTypeInfo, Assembly-CSharp
+    - Name: IsObstacleWithWalls
+      Entry: 5
+      Data: false
+    - Name: Obstacles
+      Entry: 7
+      Data: 127|Ecs.Views.Linkable.Impl.Obstacles.ObstacleGroupView[], Assembly-CSharp
+    - Name: 
+      Entry: 12
+      Data: 3
+    - Name: 
+      Entry: 10
+      Data: 103
+    - Name: 
+      Entry: 10
+      Data: 104
+    - Name: 
+      Entry: 10
+      Data: 105
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 8388608
+    - Name: $v
+      Entry: 7
+      Data: 128|Game.Utils.Obstacles.ObstacleTypeInfo, Assembly-CSharp
+    - Name: IsObstacleWithWalls
+      Entry: 5
+      Data: true
+    - Name: Obstacles
+      Entry: 7
+      Data: 129|Ecs.Views.Linkable.Impl.Obstacles.ObstacleGroupView[], Assembly-CSharp
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 10
+      Data: 106
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 16777216
+    - Name: $v
+      Entry: 7
+      Data: 130|Game.Utils.Obstacles.ObstacleTypeInfo, Assembly-CSharp
+    - Name: IsObstacleWithWalls
+      Entry: 5
+      Data: true
+    - Name: Obstacles
+      Entry: 7
+      Data: 131|Ecs.Views.Linkable.Impl.Obstacles.ObstacleGroupView[], Assembly-CSharp
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 10
+      Data: 107
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 33554432
+    - Name: $v
+      Entry: 7
+      Data: 132|Game.Utils.Obstacles.ObstacleTypeInfo, Assembly-CSharp
+    - Name: IsObstacleWithWalls
+      Entry: 5
+      Data: true
+    - Name: Obstacles
+      Entry: 9
+      Data: 104
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 67108864
+    - Name: $v
+      Entry: 7
+      Data: 133|Game.Utils.Obstacles.ObstacleTypeInfo, Assembly-CSharp
+    - Name: IsObstacleWithWalls
+      Entry: 5
+      Data: true
+    - Name: Obstacles
+      Entry: 7
+      Data: 134|Ecs.Views.Linkable.Impl.Obstacles.ObstacleGroupView[], Assembly-CSharp
+    - Name: 
+      Entry: 12
+      Data: 6
+    - Name: 
+      Entry: 10
+      Data: 108
+    - Name: 
+      Entry: 10
+      Data: 109
+    - Name: 
+      Entry: 10
+      Data: 110
+    - Name: 
+      Entry: 10
+      Data: 111
+    - Name: 
+      Entry: 10
+      Data: 112
+    - Name: 
+      Entry: 10
+      Data: 113
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 134217728
+    - Name: $v
+      Entry: 7
+      Data: 135|Game.Utils.Obstacles.ObstacleTypeInfo, Assembly-CSharp
+    - Name: IsObstacleWithWalls
+      Entry: 5
+      Data: true
+    - Name: Obstacles
+      Entry: 9
+      Data: 104
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 128
+    - Name: $v
+      Entry: 7
+      Data: 136|Game.Utils.Obstacles.ObstacleTypeInfo, Assembly-CSharp
+    - Name: IsObstacleWithWalls
+      Entry: 5
+      Data: true
+    - Name: Obstacles
+      Entry: 7
+      Data: 137|Ecs.Views.Linkable.Impl.Obstacles.ObstacleGroupView[], Assembly-CSharp
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 10
+      Data: 114
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 268435456
+    - Name: $v
+      Entry: 7
+      Data: 138|Game.Utils.Obstacles.ObstacleTypeInfo, Assembly-CSharp
+    - Name: IsObstacleWithWalls
+      Entry: 5
+      Data: false
+    - Name: Obstacles
+      Entry: 7
+      Data: 139|Ecs.Views.Linkable.Impl.Obstacles.ObstacleGroupView[], Assembly-CSharp
+    - Name: 
+      Entry: 12
+      Data: 30
+    - Name: 
+      Entry: 10
+      Data: 115
+    - Name: 
+      Entry: 10
+      Data: 116
+    - Name: 
+      Entry: 10
+      Data: 117
+    - Name: 
+      Entry: 10
+      Data: 118
+    - Name: 
+      Entry: 10
+      Data: 119
+    - Name: 
+      Entry: 10
+      Data: 120
+    - Name: 
+      Entry: 10
+      Data: 121
+    - Name: 
+      Entry: 10
+      Data: 122
+    - Name: 
+      Entry: 10
+      Data: 123
+    - Name: 
+      Entry: 10
+      Data: 124
+    - Name: 
+      Entry: 10
+      Data: 125
+    - Name: 
+      Entry: 10
+      Data: 126
+    - Name: 
+      Entry: 10
+      Data: 127
+    - Name: 
+      Entry: 10
+      Data: 128
+    - Name: 
+      Entry: 10
+      Data: 129
+    - Name: 
+      Entry: 10
+      Data: 130
+    - Name: 
+      Entry: 10
+      Data: 131
+    - Name: 
+      Entry: 10
+      Data: 132
+    - Name: 
+      Entry: 10
+      Data: 133
+    - Name: 
+      Entry: 10
+      Data: 134
+    - Name: 
+      Entry: 10
+      Data: 135
+    - Name: 
+      Entry: 10
+      Data: 136
+    - Name: 
+      Entry: 10
+      Data: 137
+    - Name: 
+      Entry: 10
+      Data: 138
+    - Name: 
+      Entry: 10
+      Data: 139
+    - Name: 
+      Entry: 10
+      Data: 140
+    - Name: 
+      Entry: 10
+      Data: 141
+    - Name: 
+      Entry: 10
+      Data: 142
+    - Name: 
+      Entry: 10
+      Data: 143
+    - Name: 
+      Entry: 10
+      Data: 144
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 536870912
+    - Name: $v
+      Entry: 7
+      Data: 140|Game.Utils.Obstacles.ObstacleTypeInfo, Assembly-CSharp
+    - Name: IsObstacleWithWalls
+      Entry: 5
+      Data: false
+    - Name: Obstacles
+      Entry: 7
+      Data: 141|Ecs.Views.Linkable.Impl.Obstacles.ObstacleGroupView[], Assembly-CSharp
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 10
+      Data: 145
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 256
+    - Name: $v
+      Entry: 7
+      Data: 142|Game.Utils.Obstacles.ObstacleTypeInfo, Assembly-CSharp
+    - Name: IsObstacleWithWalls
+      Entry: 5
+      Data: false
+    - Name: Obstacles
+      Entry: 7
+      Data: 143|Ecs.Views.Linkable.Impl.Obstacles.ObstacleGroupView[], Assembly-CSharp
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 10
+      Data: 146
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 1073741824
+    - Name: $v
+      Entry: 7
+      Data: 144|Game.Utils.Obstacles.ObstacleTypeInfo, Assembly-CSharp
+    - Name: IsObstacleWithWalls
+      Entry: 5
+      Data: false
+    - Name: Obstacles
+      Entry: 9
+      Data: 104
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 512
+    - Name: $v
+      Entry: 7
+      Data: 145|Game.Utils.Obstacles.ObstacleTypeInfo, Assembly-CSharp
+    - Name: IsObstacleWithWalls
+      Entry: 5
+      Data: false
+    - Name: Obstacles
+      Entry: 7
+      Data: 146|Ecs.Views.Linkable.Impl.Obstacles.ObstacleGroupView[], Assembly-CSharp
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 10
+      Data: 147
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 18446744071562067968
+    - Name: $v
+      Entry: 7
+      Data: 147|Game.Utils.Obstacles.ObstacleTypeInfo, Assembly-CSharp
+    - Name: IsObstacleWithWalls
+      Entry: 5
+      Data: true
+    - Name: Obstacles
+      Entry: 9
+      Data: 104
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 131072
+    - Name: $v
+      Entry: 7
+      Data: 148|Game.Utils.Obstacles.ObstacleTypeInfo, Assembly-CSharp
+    - Name: IsObstacleWithWalls
+      Entry: 5
+      Data: false
+    - Name: Obstacles
+      Entry: 7
+      Data: 149|Ecs.Views.Linkable.Impl.Obstacles.ObstacleGroupView[], Assembly-CSharp
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 10
+      Data: 148
+    - Name: 
+      Entry: 10
+      Data: 149
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 16384
+    - Name: $v
+      Entry: 7
+      Data: 150|Game.Utils.Obstacles.ObstacleTypeInfo, Assembly-CSharp
+    - Name: IsObstacleWithWalls
+      Entry: 5
+      Data: false
+    - Name: Obstacles
+      Entry: 9
+      Data: 104
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _obstacleInfos
+      Entry: 7
+      Data: 151|System.Collections.Generic.Dictionary`2[[Game.Utils.Obstacles.EObstacleType,
+        Assembly-CSharp],[Game.Utils.Obstacles.ObstacleTypeInfo, Assembly-CSharp]],
+        mscorlib
+    - Name: comparer
+      Entry: 9
+      Data: 96
+    - Name: 
+      Entry: 12
+      Data: 31
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 1
+    - Name: $v
+      Entry: 9
+      Data: 97
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 2
+    - Name: $v
+      Entry: 9
+      Data: 99
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 8
+    - Name: $v
+      Entry: 9
+      Data: 101
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 64
+    - Name: $v
+      Entry: 9
+      Data: 103
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 8192
+    - Name: $v
+      Entry: 9
+      Data: 105
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 65536
+    - Name: $v
+      Entry: 9
+      Data: 107
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 1024
+    - Name: $v
+      Entry: 9
+      Data: 109
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 32768
+    - Name: $v
+      Entry: 9
+      Data: 110
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 4096
+    - Name: $v
+      Entry: 9
+      Data: 112
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 2048
+    - Name: $v
+      Entry: 9
+      Data: 114
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 262144
+    - Name: $v
+      Entry: 9
+      Data: 116
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 524288
+    - Name: $v
+      Entry: 9
+      Data: 118
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 2097152
+    - Name: $v
+      Entry: 9
+      Data: 119
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 4
+    - Name: $v
+      Entry: 9
+      Data: 121
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 4194304
+    - Name: $v
+      Entry: 9
+      Data: 123
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 16
+    - Name: $v
+      Entry: 9
+      Data: 124
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 32
+    - Name: $v
+      Entry: 9
+      Data: 126
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 8388608
+    - Name: $v
+      Entry: 9
+      Data: 128
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 16777216
+    - Name: $v
+      Entry: 9
+      Data: 130
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 33554432
+    - Name: $v
+      Entry: 9
+      Data: 132
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 67108864
+    - Name: $v
+      Entry: 9
+      Data: 133
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 134217728
+    - Name: $v
+      Entry: 9
+      Data: 135
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 128
+    - Name: $v
+      Entry: 9
+      Data: 136
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 268435456
+    - Name: $v
+      Entry: 9
+      Data: 138
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 536870912
+    - Name: $v
+      Entry: 9
+      Data: 140
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 256
+    - Name: $v
+      Entry: 9
+      Data: 142
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 1073741824
+    - Name: $v
+      Entry: 9
+      Data: 144
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 512
+    - Name: $v
+      Entry: 9
+      Data: 145
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 18446744071562067968
+    - Name: $v
+      Entry: 9
+      Data: 147
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 131072
+    - Name: $v
+      Entry: 9
+      Data: 148
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 16384
+    - Name: $v
+      Entry: 9
+      Data: 150
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 

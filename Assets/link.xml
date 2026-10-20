@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<linker>
+	<assembly fullname="pdutils" preserve="all"/>
+	<assembly fullname="Zenject" preserve="all"/>
+	<assembly fullname="Zenject-usage" preserve="all"/>
+	<assembly fullname="Entitas" preserve="all"/>
+	<assembly fullname="DOTween" preserve="all"/>
+	<assembly fullname="UniRx" preserve="all"/>
+	<assembly fullname="Newtonsoft.Json" preserve="all"/>
+	<assembly fullname="Assembly-CSharp" preserve="all"/>
+	<assembly fullname="Assembly-CSharp-firstpass" preserve="all"/>
+	<assembly fullname="System.Runtime" preserve="all"/>
+
+	<assembly fullname="UnityEngine">
+		<type fullname="UnityEngine.NoAllocHelpers" preserve="all"/>
+	</assembly>
+	<assembly fullname="Facebook.Unity.Android" ignoreIfMissing="1">
+		<type fullname="Facebook.Unity.Android.*" preserve="all"/>
+	</assembly>
+	<assembly fullname="Facebook.Unity.IOS" ignoreIfMissing="1">
+		<type fullname="Facebook.Unity.IOS.*" preserve="all"/>
+	</assembly>
+	<assembly fullname="Facebook.Unity.Canvas" ignoreIfMissing="1">
+		<type fullname="Facebook.Unity.Canvas.*" preserve="all"/>
+	</assembly>
+
+	<assembly fullname="System">
+		<namespace fullname="System.Net" preserve="all"/>
+		<namespace fullname="System.Net.Configuration" preserve="all"/>
+		<namespace fullname="System.ComponentModel" preserve="all"/>
+		<namespace fullname="System.Runtime.ConstrainedExecution" preserve="all"/>
+		<namespace fullname="System.Runtime.InteropServices" preserve="all"/>
+		<namespace fullname="System.Runtime.Serialization" preserve="all"/>
+		<namespace fullname="System.Configuration" preserve="all"/>
+	</assembly>
+	<assembly fullname="mscorlib">
+		<namespace fullname="System.Security.Cryptography" preserve="all"/>
+	</assembly>
+	<assembly fullname="Mono.Security">
+		<namespace fullname="Mono.Security.Protocol.Tls" preserve="all"/>
+		<namespace fullname="Mono.Security.X509" preserve="all"/>
+	</assembly>
+</linker>

@@ -1,0 +1,10 @@
+﻿namespace Ecs.Utils
+{
+    public enum EHitDirection
+    {
+        None = 0,
+        Left = 1,
+        Right = 2,
+        Forward = 3,
+    }
+}

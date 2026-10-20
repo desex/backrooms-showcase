@@ -1,0 +1,130 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &9040918660917466674
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7708193284102845689}
+  - component: {fileID: 5310369993723831720}
+  - component: {fileID: 4782831907244224597}
+  m_Layer: 0
+  m_Name: InflatSmile_FaceTwo_Bend
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7708193284102845689
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9040918660917466674}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1923686115173202331}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5310369993723831720
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9040918660917466674}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 836b0ce8296f78249a110685b1eeaa37, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &4782831907244224597
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9040918660917466674}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ea476d0d0bb41b8b4fee66025fca2ed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  entityLink: {fileID: 5310369993723831720}
+  modules: []
+  ObstacleType: 0
+  <IsOffsettable>k__BackingField: 0
+  <ChildrenObstacles>k__BackingField: []
+  <ChildrenObstacleGroups>k__BackingField: []
+  <IsKillingInstantly>k__BackingField: 0
+  <EndPoint>k__BackingField: {fileID: 0}
+--- !u!1001 &5348625727351862114
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 7708193284102845689}
+    m_Modifications:
+    - target: {fileID: 5803007514076072697, guid: c6b1b4feb8f0bdd4b8b56c2a907ad41e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.5471764
+      objectReference: {fileID: 0}
+    - target: {fileID: 5803007514076072697, guid: c6b1b4feb8f0bdd4b8b56c2a907ad41e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.074862644
+      objectReference: {fileID: 0}
+    - target: {fileID: 5803007514076072697, guid: c6b1b4feb8f0bdd4b8b56c2a907ad41e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.24523534
+      objectReference: {fileID: 0}
+    - target: {fileID: 5803007514076072697, guid: c6b1b4feb8f0bdd4b8b56c2a907ad41e, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5803007514076072697, guid: c6b1b4feb8f0bdd4b8b56c2a907ad41e, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5803007514076072697, guid: c6b1b4feb8f0bdd4b8b56c2a907ad41e, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5803007514076072697, guid: c6b1b4feb8f0bdd4b8b56c2a907ad41e, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5803007514076072697, guid: c6b1b4feb8f0bdd4b8b56c2a907ad41e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5803007514076072697, guid: c6b1b4feb8f0bdd4b8b56c2a907ad41e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5803007514076072697, guid: c6b1b4feb8f0bdd4b8b56c2a907ad41e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7725744958260130456, guid: c6b1b4feb8f0bdd4b8b56c2a907ad41e, type: 3}
+      propertyPath: m_Name
+      value: P_InflatSmile_FaceTwo_Bend
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c6b1b4feb8f0bdd4b8b56c2a907ad41e, type: 3}
+--- !u!4 &1923686115173202331 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5803007514076072697, guid: c6b1b4feb8f0bdd4b8b56c2a907ad41e, type: 3}
+  m_PrefabInstance: {fileID: 5348625727351862114}
+  m_PrefabAsset: {fileID: 0}
